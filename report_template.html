@@ -1,0 +1,1206 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orcina Licence Capacity</title>
+<style>
+/* ---------------------------------------------------------------- tokens */
+:root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;
+  --page: #f9f9f7;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --good: #0ca30c;
+  --warning: #fab219;
+  --critical: #d03b3b;
+  --good-text: #006300;
+  --ghost: rgba(11,11,11,0.045);
+  --heat-0:#cde2fb; --heat-1:#b7d3f6; --heat-2:#9ec5f4; --heat-3:#86b6ef;
+  --heat-4:#6da7ec; --heat-5:#5598e7; --heat-6:#3987e5; --heat-7:#2a78d6;
+  --heat-8:#256abf; --heat-9:#1c5cab; --heat-10:#184f95; --heat-11:#104281;
+  --heat-12:#0d366b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --good-text: #0ca30c;
+    --ghost: rgba(255,255,255,0.06);
+    --heat-0:#0d366b; --heat-1:#104281; --heat-2:#184f95; --heat-3:#1c5cab;
+    --heat-4:#256abf; --heat-5:#2a78d6; --heat-6:#3987e5; --heat-7:#5598e7;
+    --heat-8:#6da7ec; --heat-9:#86b6ef; --heat-10:#9ec5f4; --heat-11:#b7d3f6;
+    --heat-12:#cde2fb;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --page: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --border: rgba(255,255,255,0.10);
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --good-text: #0ca30c;
+  --ghost: rgba(255,255,255,0.06);
+  --heat-0:#0d366b; --heat-1:#104281; --heat-2:#184f95; --heat-3:#1c5cab;
+  --heat-4:#256abf; --heat-5:#2a78d6; --heat-6:#3987e5; --heat-7:#5598e7;
+  --heat-8:#6da7ec; --heat-9:#86b6ef; --heat-10:#9ec5f4; --heat-11:#b7d3f6;
+  --heat-12:#cde2fb;
+}
+
+/* ----------------------------------------------------------------- base */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--page);
+  color: var(--text-primary);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1180px; margin: 0 auto; padding: 32px 24px 72px; }
+h1 { font-size: 26px; font-weight: 650; letter-spacing: -0.01em; margin: 0 0 6px; }
+h2 { font-size: 17px; font-weight: 620; margin: 0 0 4px; letter-spacing: -0.005em; }
+h3 { font-size: 14px; font-weight: 620; margin: 0 0 10px; color: var(--text-secondary); }
+p  { margin: 0 0 10px; }
+a { color: var(--series-1); }
+.sub { color: var(--text-secondary); font-size: 13.5px; }
+.muted { color: var(--text-muted); }
+code, .mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 0.92em; }
+
+header.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+button.theme {
+  background: var(--surface-1); color: var(--text-secondary);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 7px 12px; font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+button.theme:hover { background: var(--ghost); }
+
+/* --------------------------------------------------------------- filters */
+.filters {
+  display: flex; flex-wrap: wrap; gap: 20px 28px; align-items: flex-end;
+  padding: 14px 18px; margin-bottom: 22px;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+}
+.fgroup { display: flex; flex-direction: column; gap: 6px; }
+.fgroup > .flabel { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-weight: 600; }
+.seg { display: flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button {
+  background: transparent; color: var(--text-secondary); border: 0;
+  border-right: 1px solid var(--border);
+  padding: 7px 13px; font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+.seg button:last-child { border-right: 0; }
+.seg button:hover { background: var(--ghost); }
+.seg button[aria-pressed="true"] { background: var(--series-1); color: #fff; font-weight: 600; }
+.seg button .dg { font-size: 11px; opacity: 0.72; margin-left: 5px; }
+
+/* ----------------------------------------------------------------- cards */
+.card {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 10px; padding: 20px 22px; margin-bottom: 20px;
+}
+.card > .cap { color: var(--text-secondary); font-size: 13px; margin: 2px 0 16px; max-width: 76ch; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .grid2 { grid-template-columns: 1fr; } }
+
+/* ------------------------------------------------------------- callout */
+.callout { display: flex; gap: 14px; align-items: flex-start; border-left: 3px solid var(--good); }
+.callout.warn { border-left-color: var(--warning); }
+.callout .ic { font-size: 18px; line-height: 1.3; }
+.callout p:last-child { margin-bottom: 0; }
+
+/* ----------------------------------------------------------- hero + kpi */
+.herorow { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-end; }
+.hero .val { font-size: 56px; font-weight: 660; line-height: 1; letter-spacing: -0.02em; }
+.hero .lab { color: var(--text-secondary); font-size: 13px; margin-top: 8px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(132px, 1fr)); gap: 18px 26px; flex: 1 1 460px; }
+.kpi .v { font-size: 24px; font-weight: 620; line-height: 1.1; }
+.kpi .l { color: var(--text-secondary); font-size: 12.5px; margin-top: 3px; }
+.kpi .d { font-size: 12px; margin-top: 2px; color: var(--text-muted); }
+
+/* ---------------------------------------------------------------- charts */
+.chartbox { position: relative; }
+svg.chart { width: 100%; height: auto; display: block; overflow: visible; }
+svg.chart text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+.tick { font-size: 11px; fill: var(--text-muted); font-variant-numeric: tabular-nums; }
+.axtitle { font-size: 11.5px; fill: var(--text-secondary); }
+.dlabel { font-size: 11.5px; fill: var(--text-secondary); font-weight: 600; }
+.gl { stroke: var(--grid); stroke-width: 1; }
+.ax { stroke: var(--axis); stroke-width: 1; }
+.refline { stroke: var(--axis); stroke-width: 1; }
+.hair { stroke: var(--axis); stroke-width: 1; pointer-events: none; }
+.focusring:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+
+.tip {
+  position: absolute; pointer-events: none; z-index: 20; opacity: 0;
+  transition: opacity .08s linear;
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 8px; padding: 9px 11px; min-width: 130px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.14); font-size: 12.5px;
+}
+.tip.on { opacity: 1; }
+.tip .th { font-weight: 620; margin-bottom: 6px; color: var(--text-primary); }
+.tip .tr { display: flex; align-items: baseline; gap: 8px; margin-top: 3px; }
+.tip .tk { width: 12px; height: 2px; border-radius: 1px; flex: 0 0 12px; margin-top: 6px; }
+.tip .tv { font-weight: 620; font-variant-numeric: tabular-nums; }
+.tip .tn { color: var(--text-secondary); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 14px; }
+.legend .li { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--text-secondary); }
+.legend .lk { width: 14px; height: 2px; border-radius: 1px; }
+.legend .lr { width: 11px; height: 11px; border-radius: 2px; }
+
+.scale { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-secondary); margin-bottom: 12px; }
+.scale .ramp { display: flex; height: 10px; border-radius: 2px; overflow: hidden; width: 160px; }
+.scale .ramp i { flex: 1; }
+
+/* ---------------------------------------------------------------- tables */
+.tblbtn {
+  background: transparent; border: 1px solid var(--border); border-radius: 7px;
+  color: var(--text-secondary); font: inherit; font-size: 12.5px;
+  padding: 5px 11px; cursor: pointer; margin-top: 14px;
+}
+.tblbtn:hover { background: var(--ghost); }
+.tblwrap { overflow-x: auto; margin-top: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: right; padding: 7px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+thead th { color: var(--text-secondary); font-weight: 620; font-size: 12px;
+  text-transform: uppercase; letter-spacing: 0.04em; border-bottom: 1px solid var(--axis); }
+tbody td { font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--ghost); }
+td .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 7px; vertical-align: baseline; }
+.wrapnotes td:last-child { white-space: normal; min-width: 34ch; }
+.hidden { display: none; }
+.pill { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text-secondary); }
+.pill.auth { border-color: var(--good); color: var(--good-text); }
+
+h3.denh3 { margin: 24px 0 10px; }
+#denNote { margin-top: 16px; margin-bottom: 0; }
+dl.meth { margin: 0; }
+dl.meth dt { font-weight: 620; font-size: 13.5px; margin-top: 14px; }
+dl.meth dt:first-child { margin-top: 0; }
+dl.meth dd { margin: 4px 0 0; color: var(--text-secondary); font-size: 13px; max-width: 88ch; }
+ul.tight { margin: 6px 0 0; padding-left: 20px; color: var(--text-secondary); font-size: 13px; }
+ul.tight li { margin-bottom: 3px; }
+footer.foot { color: var(--text-muted); font-size: 12px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div>
+    <h1><span id="hdrTitle"></span> <span class="mono" id="vendorTag"></span></h1>
+    <div class="sub" id="hdrSub"></div>
+  </div>
+  <button class="theme" id="themeBtn" type="button">Theme</button>
+</header>
+
+<!-- ------------------------------------------------------------ filters -->
+<div class="filters" role="group" aria-label="Report filters">
+  <div class="fgroup">
+    <span class="flabel" id="lbl-range">Period</span>
+    <div class="seg" id="segRange" role="group" aria-labelledby="lbl-range"></div>
+  </div>
+  <div class="fgroup">
+    <span class="flabel" id="lbl-scope">Hours</span>
+    <div class="seg" id="segScope" role="group" aria-labelledby="lbl-scope"></div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------------ verdict -->
+<div class="card callout" id="verdict"></div>
+
+<!-- --------------------------------------------------------- hero + kpi -->
+<div class="card">
+  <div class="herorow">
+    <div class="hero">
+      <div class="val" id="heroVal">&mdash;</div>
+      <div class="lab" id="heroLab"></div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------- sizing curve -->
+<div class="card">
+  <h2>Sizing curve &mdash; how often an entitlement would fall short</h2>
+  <p class="cap" id="capSizing"></p>
+  <div class="legend" id="legSizing"></div>
+  <div class="chartbox">
+    <svg class="chart" id="svgSizing" viewBox="0 0 900 340" role="img" aria-label="Sizing curve"></svg>
+    <div class="tip" id="tipSizing"></div>
+  </div>
+  <button class="tblbtn" data-tbl="tblSizing" type="button">Show table</button>
+  <div class="tblwrap hidden" id="tblSizing"></div>
+</div>
+
+<!-- --------------------------------------------------------- daily peak -->
+<div class="card">
+  <h2>Daily peak concurrency</h2>
+  <p class="cap" id="capDaily"></p>
+  <div class="legend" id="legDaily"></div>
+  <div class="chartbox">
+    <svg class="chart" id="svgDaily" viewBox="0 0 900 330" role="img" aria-label="Daily peak concurrency" tabindex="0"></svg>
+    <div class="tip" id="tipDaily"></div>
+  </div>
+  <button class="tblbtn" data-tbl="tblDaily" type="button">Show table</button>
+  <div class="tblwrap hidden" id="tblDaily"></div>
+</div>
+
+<!-- ------------------------------------------------------------ heatmap -->
+<div class="card">
+  <h2>Weekly rhythm <span class="muted" id="heatFeat"></span></h2>
+  <p class="cap" id="capHeat"></p>
+  <div class="scale" id="scaleHeat"></div>
+  <div class="chartbox">
+    <svg class="chart" id="svgHeat" viewBox="0 0 900 280" role="img" aria-label="Concurrency by weekday and hour"></svg>
+    <div class="tip" id="tipHeat"></div>
+  </div>
+  <button class="tblbtn" data-tbl="tblHeat" type="button">Show table</button>
+  <div class="tblwrap hidden" id="tblHeat"></div>
+</div>
+
+<!-- ---------------------------------------------------------- durations -->
+<div class="card">
+  <h2>How long licences are held</h2>
+  <p class="cap" id="capDur"></p>
+  <div class="legend" id="legDur"></div>
+  <div class="chartbox">
+    <svg class="chart" id="svgDur" viewBox="0 0 900 320" role="img" aria-label="Session duration distribution"></svg>
+    <div class="tip" id="tipDur"></div>
+  </div>
+  <button class="tblbtn" data-tbl="tblDur" type="button">Show table</button>
+  <div class="tblwrap hidden" id="tblDur"></div>
+</div>
+
+<!-- ------------------------------------------------------ feature table -->
+<div class="card">
+  <h2>Per-feature summary</h2>
+  <p class="cap" id="capFeat"></p>
+  <div class="tblwrap" id="tblFeatures"></div>
+</div>
+
+<!-- ------------------------------------------------------- users + long -->
+<div class="grid2">
+  <div class="card">
+    <h2>Heaviest consumers</h2>
+    <p class="cap">Ranked by handle-hours &mdash; the sum of every checkout's duration.
+      Under <span class="mono">DUP_GROUP=HD</span> overlapping handles from one machine collapse to a single
+      licence, so this measures activity, not licences consumed. The last column is what exposes
+      duplicate-heavy automation.</p>
+    <div class="tblwrap" id="tblUsers"></div>
+  </div>
+  <div class="card">
+    <h2>Longest single holds</h2>
+    <p class="cap">Whole period, all hours, regardless of the filters above. Long holds are where
+      reclaimable capacity hides &mdash; a licence held for days is usually an idle session, not work.</p>
+    <div class="tblwrap" id="tblLongest"></div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------------ denials -->
+<div class="card">
+  <h2>Denials</h2>
+  <p class="cap" id="capDen"></p>
+  <div class="tblwrap wrapnotes" id="tblDenials"></div>
+  <h3 id="denSeatHdr" class="denh3"></h3>
+  <div class="tblwrap" id="tblDenialSeats"></div>
+  <p class="cap" id="denNote"></p>
+</div>
+
+<!-- -------------------------------------------------------- methodology -->
+<div class="card">
+  <h2>Method, assumptions and data-quality notes</h2>
+  <p class="cap">Every number above comes from pairing <span class="mono">OUT:</span> and
+    <span class="mono">IN:</span> lines in the vendor daemon log. These are the judgement calls that
+    pairing requires; they are listed so the figures can be challenged.</p>
+  <dl class="meth" id="methList"></dl>
+</div>
+
+<footer class="foot" id="foot"></footer>
+</div>
+
+<script id="payload" type="application/json">/*__DATA__*/</script>
+<script>
+(function () {
+"use strict";
+
+const D = JSON.parse(document.getElementById("payload").textContent);
+const M = D.meta;
+
+/* ------------------------------------------------------------- helpers */
+const $ = (id) => document.getElementById(id);
+const SVGNS = "http://www.w3.org/2000/svg";
+
+function el(tag, attrs, parent) {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const k in attrs) if (attrs[k] !== null && attrs[k] !== undefined) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function htm(tag, cls, parent, text) {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text !== undefined && text !== null) n.textContent = text;   // never innerHTML: log-derived
+  if (parent) parent.appendChild(n);
+  return n;
+}
+const fmt = (n, dp) => (n === null || n === undefined || Number.isNaN(n))
+  ? "—" : Number(n).toLocaleString("en-GB", { minimumFractionDigits: dp || 0, maximumFractionDigits: dp || 0 });
+function pctStr(p) {
+  if (p === null || p === undefined) return "—";
+  if (p === 0) return "0%";
+  if (p < 0.01) return "<0.01%";
+  return p.toFixed(p < 1 ? 2 : 1) + "%";
+}
+const cssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+function niceTicks(max, want, minStep) {
+  if (max <= 0) return [0, minStep || 1];
+  const raw = max / (want || 5);
+  const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+  let step = [1, 2, 5, 10].map(m => m * mag).find(s => s >= raw) || 10 * mag;
+  // A count axis must not carry fractional gridlines: a line at 2.5 printed as
+  // "3" misstates its own value, and at max=1 every label collapses to 0 or 1.
+  if (minStep) step = Math.max(step, minStep);
+  // Round the axis top UP to a whole step. Stopping at the last step below max
+  // leaves the tallest mark drawn above the plot area.
+  const top = Math.ceil(max / step) * step;
+  const out = [];
+  for (let v = 0; v <= top + step * 1e-6; v += step) out.push(Math.round(v * 1e6) / 1e6);
+  return out;
+}
+const DOW = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+// Charted features come from the parser, ordered by checkout count over the
+// WHOLE log, so slots are assigned once. Colour therefore follows the entity and
+// a filter that changes which series have data never repaints the survivors.
+const CHARTED = M.charted_features || [];
+const PRIMARY_FEATURE = CHARTED[0] || null;
+const SECOND_FEATURE = CHARTED[1] || null;
+// Where the log holds only one feature, the aggregate is that feature by
+// construction, and plotting both would lay two identical lines on top of each
+// other.
+const SHOW_ANY = (M.features || []).length > 1;
+const FEATS = SHOW_ANY ? CHARTED.concat([M.any_feature_label]) : CHARTED.slice();
+const COLOUR = {};
+CHARTED.forEach((f, i) => { COLOUR[f] = "--series-" + (i + 1); });
+// The aggregate takes the slot after the features, so a two-feature licence
+// keeps the aqua it has always had rather than shifting to yellow.
+COLOUR[M.any_feature_label] = "--series-" + Math.min(4, CHARTED.length + 1);
+const colOf = (f) => cssVar(COLOUR[f] || "--series-1");
+
+const RANGES = [["all", "Whole period"], ["d30", "Last 30 days"], ["d7", "Last 7 days"]];
+const SCOPES = [["all", "All hours"], ["biz", "Business hours"]];
+
+const state = { range: "all", scope: "all", mode: M.primary_mode || "hosts" };
+
+const slice = () => D.slices[state.range + "|" + state.scope];
+const fstat = (f) => { const e = slice().features[f]; return e ? e[state.mode] : null; };
+const modeLabel = () => (M.mode_meta[state.mode] || {}).label || state.mode;
+const modeNoun = () => modeLabel().replace(/^(Distinct|Raw)\s+/i, "");
+const plural = (n, noun) => (n === 1 ? noun.replace(/s$/, "") : noun);
+const rangeLabel = () => (RANGES.find(r => r[0] === state.range) || [])[1];
+const scopeLabel = () => (SCOPES.find(s => s[0] === state.scope) || [])[1];
+
+/* ------------------------------------------------------------ tooltips */
+function showTip(tipEl, box, evt, title, rows) {
+  tipEl.textContent = "";
+  htm("div", "th", tipEl, title);
+  rows.forEach(r => {
+    const tr = htm("div", "tr", tipEl);
+    if (r.colour) htm("span", "tk", tr).style.background = r.colour;
+    htm("span", "tv", tr, r.value);
+    if (r.name) htm("span", "tn", tr, r.name);
+  });
+  tipEl.classList.add("on");
+  const br = box.getBoundingClientRect();
+  const tw = tipEl.offsetWidth, th = tipEl.offsetHeight;
+  let x = evt.clientX - br.left + 14, y = evt.clientY - br.top - th - 10;
+  if (x + tw > br.width) x = evt.clientX - br.left - tw - 14;
+  if (y < 0) y = evt.clientY - br.top + 16;
+  tipEl.style.left = Math.max(0, x) + "px";
+  tipEl.style.top = Math.max(0, y) + "px";
+}
+const hideTip = (tipEl) => tipEl.classList.remove("on");
+
+/* An empty period is ordinary on a quiet server. Collapse the plot to a single
+   line of explanation rather than leaving a tall blank card. */
+function emptyNote(svg, msg) {
+  svg.textContent = "";
+  svg.setAttribute("viewBox", "0 0 900 70");
+  el("text", { x: 450, y: 42, class: "axtitle", "text-anchor": "middle" }, svg)
+    .textContent = msg;
+}
+
+/* -------------------------------------------------------------- legend */
+function legend(host, items, shape) {
+  host.textContent = "";
+  // A single series needs no legend box: the title already names what is
+  // plotted, so a lone swatch is pure restatement.
+  if (items.length < 2) return;
+  items.forEach(it => {
+    const li = htm("div", "li", host);
+    htm("span", shape === "rect" ? "lr" : "lk", li).style.background = it.colour;
+    htm("span", null, li, it.label);
+  });
+}
+
+/* ---------------------------------------------------------- table twin */
+function buildTable(host, cols, rows) {
+  host.textContent = "";
+  const t = htm("table", null, host);
+  const hr = htm("tr", null, htm("thead", null, t));
+  cols.forEach(c => htm("th", null, hr, c));
+  const tb = htm("tbody", null, t);
+  rows.forEach(r => {
+    const tr = htm("tr", null, tb);
+    r.forEach((cell, i) => {
+      const td = htm("td", null, tr);
+      if (cell && typeof cell === "object" && cell.swatch) {
+        htm("span", "swatch", td).style.background = cell.swatch;
+        td.appendChild(document.createTextNode(cell.text));
+      } else {
+        td.textContent = cell === null || cell === undefined ? "—" : String(cell);
+      }
+    });
+  });
+}
+document.querySelectorAll(".tblbtn").forEach(b => {
+  b.addEventListener("click", () => {
+    const t = $(b.dataset.tbl);
+    const open = t.classList.toggle("hidden");
+    b.textContent = open ? "Show table" : "Hide table";
+  });
+});
+
+/* =======================================================================
+   Sizing curve.  y(N) = share of observed time demand EXCEEDED N, i.e. the
+   share of time an entitlement of N would have refused a request. Derived
+   from the exceedance array as pct(demand >= N+1) so the reader never has to
+   do the off-by-one themselves.
+   ===================================================================== */
+function shortfallSeries(f) {
+  const st = fstat(f);
+  if (!st || !st.exceedance.length) return null;
+  const ex = st.exceedance;
+  const pctAtOrAbove = (n) => (n < ex.length ? ex[n].pct : 0);
+  const maxN = ex.length - 1;
+  const pts = [];
+  for (let n = 0; n <= maxN; n++) pts.push({ n: n, pct: pctAtOrAbove(n + 1) });
+  return { feature: f, pts: pts, peak: st.peak };
+}
+
+function drawSizing() {
+  const svg = $("svgSizing"), tip = $("tipSizing"), box = svg.parentNode;
+  svg.textContent = "";
+  const series = FEATS.map(shortfallSeries).filter(Boolean);
+  legend($("legSizing"), series.map(s => ({ label: s.feature, colour: colOf(s.feature) })));
+  $("capSizing").textContent =
+    "For each candidate entitlement N, the share of " + scopeLabel().toLowerCase() +
+    " over the " + rangeLabel().toLowerCase() + " when demand exceeded N — that is, when a " +
+    "request would have been refused. Counting rule: " + modeLabel().toLowerCase() +
+    ". Read down to whatever shortfall you are willing to tolerate; the table gives exact figures.";
+
+  if (!series.length) {
+    emptyNote(svg, "No licence activity in this period, so there is nothing to size.");
+    buildTable($("tblSizing"), ["Licences owned (N)"], []);
+    return;
+  }
+  const W = 900, H = 340, L = 58, R = 118, T = 32, B = 46;
+  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+  const maxN = Math.max(...series.map(s => s.pts.length - 1), 1);
+  const x = (n) => L + (n / maxN) * (W - L - R);
+  const y = (p) => T + (1 - p / 100) * (H - T - B);
+
+  niceTicks(100, 5).forEach(v => {
+    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "gl" }, svg);
+    el("text", { x: L - 9, y: y(v) + 4, class: "tick", "text-anchor": "end" }, svg).textContent = v + "%";
+  });
+  // Service-level references. Solid hairlines, per the no-dashed-grid rule.
+  [[5, "5% of time"], [1, "1% of time"]].forEach(([v, lab]) => {
+    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "refline" }, svg);
+    el("text", { x: W - R + 8, y: y(v) + 4, class: "tick" }, svg).textContent = lab;
+  });
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), class: "ax" }, svg);
+  for (let n = 0; n <= maxN; n++) {
+    el("text", { x: x(n), y: H - B + 18, class: "tick", "text-anchor": "middle" }, svg).textContent = n;
+  }
+  el("text", { x: (L + W - R) / 2, y: H - 8, class: "axtitle", "text-anchor": "middle" }, svg)
+    .textContent = "Licences owned (N)";
+  el("text", { x: 13, y: 14, class: "axtitle" }, svg).textContent = "% of time short";
+
+  series.forEach(s => {
+    const c = colOf(s.feature);
+    el("path", {
+      d: s.pts.map((p, i) => (i ? "L" : "M") + x(p.n) + " " + y(p.pct)).join(" "),
+      fill: "none", stroke: c, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round"
+    }, svg);
+    s.pts.forEach(p => {
+      el("circle", { cx: x(p.n), cy: y(p.pct), r: 4, fill: c,
+                     stroke: cssVar("--surface-1"), "stroke-width": 2 }, svg);
+    });
+  });
+
+  // Direct-label the smallest entitlement that holds shortfall under 1%, once
+  // per distinct N - several features often cross at the same count, and
+  // stacking identical labels reads as noise.
+  const labelled = new Set();
+  series.forEach(s => {
+    const k = s.pts.find(p => p.pct < 1);
+    if (!k || labelled.has(k.n)) return;
+    labelled.add(k.n);
+    // At the right edge, centring would run the label into the reference-line
+    // captions sitting in the margin.
+    const edge = k.n >= maxN;
+    el("text", { x: x(k.n) - (edge ? 5 : 0), y: y(k.pct) - 14, class: "dlabel",
+                 "text-anchor": edge ? "end" : "middle" }, svg)
+      .textContent = "N=" + k.n;
+  });
+
+  // Nearest-N crosshair: the reader aims at a licence count, not at a line.
+  const hair = el("line", { y1: T, y2: y(0), class: "hair", opacity: 0 }, svg);
+  const ov = el("rect", { x: L, y: T, width: W - L - R, height: H - T - B,
+                          fill: "transparent", style: "cursor:crosshair" }, svg);
+  function at(evt) {
+    const br = svg.getBoundingClientRect();
+    const px = (evt.clientX - br.left) * (W / br.width);
+    const n = Math.max(0, Math.min(maxN, Math.round(((px - L) / (W - L - R)) * maxN)));
+    hair.setAttribute("x1", x(n)); hair.setAttribute("x2", x(n)); hair.setAttribute("opacity", 1);
+    showTip(tip, box, evt, "Entitlement of " + n,
+      series.map(s => {
+        const p = s.pts[n];
+        return { colour: colOf(s.feature), value: p ? pctStr(p.pct) : "0%", name: s.feature };
+      }));
+  }
+  ov.addEventListener("pointermove", at);
+  ov.addEventListener("pointerleave", () => { hair.setAttribute("opacity", 0); hideTip(tip); });
+
+  buildTable($("tblSizing"),
+    ["Licences owned (N)"].concat(series.map(s => "% of time " + s.feature + " short")),
+    Array.from({ length: maxN + 1 }, (_, n) =>
+      [n].concat(series.map(s => (s.pts[n] ? pctStr(s.pts[n].pct) : "0%")))));
+}
+
+/* ======================================================= daily peak line */
+function drawDaily() {
+  const svg = $("svgDaily"), tip = $("tipDaily"), box = svg.parentNode;
+  svg.textContent = "";
+  const dd = D.daily[state.range];
+  const days = dd.days;
+  const series = FEATS.filter(f => dd.series[f]).map(f => ({
+    feature: f, values: dd.series[f][state.mode].peak
+  }));
+  legend($("legDaily"), series.map(s => ({ label: s.feature, colour: colOf(s.feature) })));
+  $("capDaily").textContent =
+    "Highest simultaneous " + modeLabel().toLowerCase() + " reached on each calendar day. " +
+    "Daily peaks always cover all 24 hours" +
+    (state.scope === "biz" ? " — the business-hours filter does not apply to this chart." : ".");
+
+  const vals = series.flatMap(s => s.values).filter(v => v !== null);
+  if (!vals.length) {
+    emptyNote(svg, "No licence activity in this period.");
+    buildTable($("tblDaily"), ["Day"], []);
+    return;
+  }
+  const W = 900, H = 330, L = 46, R = 16, T = 32, B = 52;
+  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+  const maxY = Math.max(1, ...vals);
+  const ticks = niceTicks(maxY, 6, 1);
+
+  const top = ticks[ticks.length - 1];
+  const x = (i) => L + (days.length === 1 ? 0.5 : i / (days.length - 1)) * (W - L - R);
+  const y = (v) => T + (1 - v / top) * (H - T - B);
+
+  ticks.forEach(v => {
+    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "gl" }, svg);
+    el("text", { x: L - 9, y: y(v) + 4, class: "tick", "text-anchor": "end" }, svg).textContent = fmt(v);
+  });
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), class: "ax" }, svg);
+
+  const step = Math.max(1, Math.ceil(days.length / 9));
+  days.forEach((d, i) => {
+    if (i % step && i !== days.length - 1) return;
+    const dt = new Date(d + "T00:00:00");
+    el("text", { x: x(i), y: H - B + 18, class: "tick", "text-anchor": "middle" }, svg)
+      .textContent = dt.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  });
+  el("text", { x: 13, y: 14, class: "axtitle" }, svg).textContent = "Peak";
+
+  series.forEach(s => {
+    const c = colOf(s.feature);
+    let d = "", pen = false;
+    s.values.forEach((v, i) => {
+      if (v === null) { pen = false; return; }
+      d += (pen ? "L" : "M") + x(i) + " " + y(v) + " ";
+      pen = true;
+    });
+    el("path", { d: d, fill: "none", stroke: c, "stroke-width": 2,
+                 "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+    // Mark the extreme only - a dot on all 72 points would be noise.
+    let bi = -1, bv = -1;
+    s.values.forEach((v, i) => { if (v !== null && v > bv) { bv = v; bi = i; } });
+    if (bi >= 0) {
+      el("circle", { cx: x(bi), cy: y(bv), r: 4.5, fill: c,
+                     stroke: cssVar("--surface-1"), "stroke-width": 2 }, svg);
+    }
+  });
+
+  const hair = el("line", { y1: T, y2: y(0), class: "hair", opacity: 0 }, svg);
+  const ov = el("rect", { x: L, y: T, width: W - L - R, height: H - T - B,
+                          fill: "transparent", style: "cursor:crosshair" }, svg);
+  let idx = 0;
+  function show(i, evt) {
+    idx = Math.max(0, Math.min(days.length - 1, i));
+    hair.setAttribute("x1", x(idx)); hair.setAttribute("x2", x(idx)); hair.setAttribute("opacity", 1);
+    const dt = new Date(days[idx] + "T00:00:00");
+    showTip(tip, box, evt, dt.toLocaleDateString("en-GB",
+      { weekday: "short", day: "numeric", month: "short", year: "numeric" }),
+      series.map(s => ({ colour: colOf(s.feature),
+                         value: s.values[idx] === null ? "—" : fmt(s.values[idx]),
+                         name: s.feature })));
+  }
+  ov.addEventListener("pointermove", (e) => {
+    const br = svg.getBoundingClientRect();
+    const px = (e.clientX - br.left) * (W / br.width);
+    show(Math.round(((px - L) / (W - L - R)) * (days.length - 1)), e);
+  });
+  ov.addEventListener("pointerleave", () => { hair.setAttribute("opacity", 0); hideTip(tip); });
+  svg.addEventListener("keydown", (e) => {                      // parity with hover
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    const br = svg.getBoundingClientRect();
+    show(idx + (e.key === "ArrowRight" ? 1 : -1),
+         { clientX: br.left + br.width / 2, clientY: br.top + 40 });
+  });
+
+  buildTable($("tblDaily"),
+    ["Day"].concat(series.map(s => s.feature + " peak")),
+    days.map((d, i) => [d].concat(series.map(s => s.values[i] === null ? null : fmt(s.values[i])))));
+}
+
+/* ============================================================== heatmap */
+function drawHeat() {
+  const svg = $("svgHeat"), tip = $("tipHeat"), box = svg.parentNode;
+  svg.textContent = "";
+  const cells = D.heatmap[state.range][state.mode];
+  $("heatFeat").textContent = "· " + M.heat_feature;
+  $("capHeat").textContent =
+    "Mean simultaneous " + modeLabel().toLowerCase() + " for " + M.heat_feature +
+    ", by weekday and hour of day, averaged across the " + rangeLabel().toLowerCase() +
+    ". Server local time." +
+    (state.scope === "biz" ? " The outlined block is the business-hours window." : "");
+
+  const vals = cells.map(c => c.mean).filter(v => v !== null);
+  if (!vals.length || Math.max(0, ...vals) <= 0) {
+    $("scaleHeat").textContent = "";
+    emptyNote(svg, "No licence activity in this period.");
+    buildTable($("tblHeat"), ["Hour"], []);
+    return;
+  }
+  const maxV = Math.max(0.0001, ...vals);
+  const W = 900, H = 280, L = 48, R = 14, T = 26, B = 34;
+  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+  const cw = (W - L - R) / 24, ch = (H - T - B) / 7;
+  const ramp = Array.from({ length: 13 }, (_, i) => cssVar("--heat-" + i));
+
+  const sc = $("scaleHeat");
+  sc.textContent = "";
+  htm("span", null, sc, "0");
+  const rw = htm("span", "ramp", sc);
+  ramp.forEach(c => { htm("i", null, rw).style.background = c; });
+  htm("span", null, sc, maxV.toFixed(1) + " concurrent (mean)");
+
+  for (let h = 0; h < 24; h += 2) {
+    el("text", { x: L + h * cw + cw / 2, y: T - 9, class: "tick", "text-anchor": "middle" }, svg)
+      .textContent = String(h).padStart(2, "0");
+  }
+  DOW.forEach((d, i) => {
+    el("text", { x: L - 10, y: T + i * ch + ch / 2 + 4, class: "tick", "text-anchor": "end" }, svg)
+      .textContent = d;
+  });
+  el("text", { x: (L + W - R) / 2, y: H - 6, class: "axtitle", "text-anchor": "middle" }, svg)
+    .textContent = "Hour of day";
+
+  cells.forEach(c => {
+    const cx = L + c.hour * cw, cy = T + c.dow * ch;
+    const empty = c.mean === null;
+    const idx = empty ? 0 : Math.round((c.mean / maxV) * (ramp.length - 1));
+    // 2px surface gap does the separating - no strokes around cells.
+    const r = el("rect", {
+      x: cx + 1, y: cy + 1, width: Math.max(1, cw - 2), height: Math.max(1, ch - 2),
+      rx: 2, fill: empty ? cssVar("--surface-1") : ramp[idx],
+      stroke: empty ? cssVar("--grid") : "none", "stroke-width": empty ? 1 : 0,
+      tabindex: 0, class: "focusring", style: "cursor:default"
+    }, svg);
+    const label = DOW[c.dow] + " " + String(c.hour).padStart(2, "0") + ":00";
+    const rows = empty ? [{ value: "no data", name: "" }] : [
+      { colour: ramp[idx], value: c.mean.toFixed(2), name: "mean concurrent" },
+      { value: fmt(c.peak), name: "peak in this hour" }];
+    r.addEventListener("pointerenter", (e) => showTip(tip, box, e, label, rows));
+    r.addEventListener("pointermove", (e) => showTip(tip, box, e, label, rows));
+    r.addEventListener("pointerleave", () => hideTip(tip));
+    r.addEventListener("focus", () => {
+      const br = r.getBoundingClientRect();
+      showTip(tip, box, { clientX: br.left + br.width / 2, clientY: br.top }, label, rows);
+    });
+    r.addEventListener("blur", () => hideTip(tip));
+  });
+
+  if (state.scope === "biz") {
+    el("rect", { x: L + 8 * cw, y: T, width: 10 * cw, height: 5 * ch, rx: 3,
+                 fill: "none", stroke: cssVar("--text-secondary"), "stroke-width": 1.5 }, svg);
+  }
+
+  buildTable($("tblHeat"),
+    ["Hour"].concat(DOW),
+    Array.from({ length: 24 }, (_, h) => [String(h).padStart(2, "0") + ":00"].concat(
+      DOW.map((_, d) => {
+        const c = cells.find(k => k.dow === d && k.hour === h);
+        return c && c.mean !== null ? c.mean.toFixed(2) : null;
+      }))));
+}
+
+/* ==================================================== duration histogram */
+function drawDur() {
+  const svg = $("svgDur"), tip = $("tipDur"), box = svg.parentNode;
+  svg.textContent = "";
+  const per = D.durations[state.range];
+  const feats = CHARTED.filter(f => per[f]);
+  const anyHeld = feats.some(f => per[f].some(b => b.count > 0));
+  if (!feats.length || !anyHeld) {
+    legend($("legDur"), []);
+    $("capDur").textContent = "No checkouts in this period.";
+    emptyNote(svg, "No licence activity in this period.");
+    buildTable($("tblDur"), ["Held for"], []);
+    return;
+  }
+
+  // The sub-minute bin holds ~98% of checkouts and would flatten every other
+  // bar, so it is excluded from the plot and reported as a figure instead.
+  const bins = M.duration_bins.slice(1);
+  const excluded = feats.map(f => ({ f: f, n: per[f][0].count }));
+  const totals = feats.map(f => ({ f: f, n: per[f].reduce((a, b) => a + b.count, 0) }));
+  const series = feats.map(f => ({ feature: f, values: per[f].slice(1).map(b => b.count) }));
+
+  legend($("legDur"), series.map(s => ({ label: s.feature, colour: colOf(s.feature) })), "rect");
+  $("capDur").textContent =
+    "Held duration per checkout over the " + rangeLabel().toLowerCase() + ". " +
+    excluded.map(e => pctStr(100 * e.n / (totals.find(t => t.f === e.f).n || 1)) +
+      " of " + e.f + " checkouts").join(" and ") +
+    " lasted under a minute; those are excluded here so the remaining bins stay readable. " +
+    "The long tail on the right is idle-holding, and it is the only part of this chart with " +
+    "capacity to reclaim.";
+
+  const W = 900, H = 320, L = 62, R = 16, T = 32, B = 62;
+  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+  const maxY = Math.max(1, ...series.flatMap(s => s.values));
+  const ticks = niceTicks(maxY, 5, 1);
+  const top = ticks[ticks.length - 1];
+  const bandW = (W - L - R) / bins.length;
+  const y = (v) => T + (1 - v / top) * (H - T - B);
+  const GAP = 2;                                   // the surface gap, in units
+  const barW = Math.min(24, (bandW - 14 - GAP * (series.length - 1)) / series.length);
+
+  ticks.forEach(v => {
+    el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "gl" }, svg);
+    el("text", { x: L - 9, y: y(v) + 4, class: "tick", "text-anchor": "end" }, svg).textContent = fmt(v);
+  });
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), class: "ax" }, svg);
+  el("text", { x: 13, y: 14, class: "axtitle" }, svg).textContent = "Checkouts";
+  el("text", { x: (L + W - R) / 2, y: H - 8, class: "axtitle", "text-anchor": "middle" }, svg)
+    .textContent = "Held for";
+
+  bins.forEach((b, i) => {
+    el("text", { x: L + i * bandW + bandW / 2, y: H - B + 18, class: "tick", "text-anchor": "middle" }, svg)
+      .textContent = b;
+    const groupW = series.length * barW + (series.length - 1) * GAP;
+    series.forEach((s, si) => {
+      const v = s.values[i];
+      const bx = L + i * bandW + (bandW - groupW) / 2 + si * (barW + GAP);
+      const bh = Math.max(0, y(0) - y(v));
+      const c = colOf(s.feature);
+      // 4px rounded data-end, square at the baseline.
+      const r = 4;
+      const path = bh <= r
+        ? "M" + bx + " " + y(0) + " h" + barW + " v" + (-bh) + " h" + (-barW) + " Z"
+        : "M" + bx + " " + y(0) + " V" + (y(v) + r) + " a" + r + " " + r + " 0 0 1 " + r + " " + (-r) +
+          " h" + (barW - 2 * r) + " a" + r + " " + r + " 0 0 1 " + r + " " + r +
+          " V" + y(0) + " Z";
+      const p = el("path", { d: path, fill: c, tabindex: 0, class: "focusring" }, svg);
+      // Hit target spans the whole band height, not just the painted bar.
+      const hit = el("rect", { x: bx - GAP, y: T, width: barW + GAP * 2, height: y(0) - T,
+                               fill: "transparent" }, svg);
+      const rows = [{ colour: c, value: fmt(v), name: s.feature + " checkouts" }];
+      const title = "Held " + b;
+      [p, hit].forEach(n => {
+        n.addEventListener("pointerenter", (e) => { p.setAttribute("opacity", 0.8); showTip(tip, box, e, title, rows); });
+        n.addEventListener("pointermove", (e) => showTip(tip, box, e, title, rows));
+        n.addEventListener("pointerleave", () => { p.removeAttribute("opacity"); hideTip(tip); });
+      });
+      p.addEventListener("focus", () => {
+        const br = p.getBoundingClientRect();
+        showTip(tip, box, { clientX: br.left + br.width / 2, clientY: br.top }, title, rows);
+      });
+      p.addEventListener("blur", () => hideTip(tip));
+    });
+  });
+
+  buildTable($("tblDur"),
+    ["Held for"].concat(feats),
+    M.duration_bins.map((b, i) => [b].concat(feats.map(f => fmt(per[f][i].count)))));
+}
+
+/* ============================================================ hero + kpi */
+function drawHero() {
+  const main = PRIMARY_FEATURE ? fstat(PRIMARY_FEATURE) : null;
+  const any = fstat(M.any_feature_label);
+  const second = SECOND_FEATURE ? fstat(SECOND_FEATURE) : null;
+  // A period with no data means nothing was in use, which is 0 -- not unknown.
+  // An em-dash at hero size reads as a black bar, which is worse than useless.
+  $("heroVal").textContent = main ? fmt(main.peak) : "0";
+  $("heroLab").textContent = "Peak concurrent " + modeNoun().toLowerCase() +
+    (PRIMARY_FEATURE ? " · " + PRIMARY_FEATURE : "") + " · " +
+    rangeLabel().toLowerCase() + ", " + scopeLabel().toLowerCase();
+
+  const k = $("kpis");
+  k.textContent = "";
+  const add = (v, l, d) => {
+    const c = htm("div", "kpi", k);
+    htm("div", "v", c, v);
+    htm("div", "l", c, l);
+    if (d) htm("div", "d", c, d);
+  };
+  if (main) {
+    add(fmt(main.p99), PRIMARY_FEATURE + " p99", "exceeded 1% of the time");
+    add(fmt(main.p95), PRIMARY_FEATURE + " p95", "exceeded 5% of the time");
+    add(main.mean.toFixed(2), PRIMARY_FEATURE + " mean", "time-weighted average");
+  }
+  if (second) add(fmt(second.peak), SECOND_FEATURE + " peak", "p99 " + fmt(second.p99));
+  if (any && SHOW_ANY) add(fmt(any.peak), "Any feature peak",
+                           modeNoun().toLowerCase() + " holding anything");
+  if (main) add(pctStr(main.pct_time_idle), PRIMARY_FEATURE + " fully idle", "no licence held");
+}
+
+/* ============================================================== verdict */
+function drawVerdict() {
+  const v = $("verdict");
+  v.textContent = "";
+  v.className = "card callout" + (D.denials.capacity > 0 ? " warn" : "");
+  htm("div", "ic", v, D.denials.capacity > 0 ? "⚠" : "✓");
+  const b = htm("div", null, v);
+  const pf = PRIMARY_FEATURE;
+  const mainAll = pf ? D.slices["all|all"].features[pf][M.primary_mode] : null;
+  const mainBiz = pf ? D.slices["all|biz"].features[pf][M.primary_mode] : null;
+  const mainDup = pf ? (D.slices["all|all"].features[pf].duplicate || {}) : {};
+  const anyBiz = D.slices["all|biz"].features[M.any_feature_label][M.primary_mode];
+  const cap = D.denials.capacity, total = D.denials.total;
+  const topReason = (D.denials.by_reason[0] || {}).reason || "";
+
+  const p = htm("p", null, b);
+  htm("strong", null, p, cap > 0
+    ? fmt(cap) + " refusals were caused by licences running out."
+    : total === 0
+      ? "No client was ever refused a licence."
+      : "No client was ever refused a licence for capacity reasons.");
+  const preamble = " Across " + M.span_days + " days and " +
+    fmt(M.line_stats.checkout_lines) + " checkouts, ";
+  p.appendChild(document.createTextNode(cap > 0
+    ? " Out of " + fmt(total) + " refusals in total. Those are genuine shortages: read the " +
+      "sizing curve below against the counts in your licence file."
+    : total === 0
+      ? preamble + "the daemon never refused a request at all. Whatever the current " +
+        "entitlement is, it was never the binding constraint here."
+      : preamble + "none of the " + fmt(total) + " refusals in this log were a shortage" +
+        (topReason ? " — the dominant reason is “" + topReason + "”, which is a client " +
+          "naming a feature or licence key the licence file does not define" : "") +
+        ". Whatever the current entitlement is, it was never the binding constraint here."));
+
+  if (mainAll) {
+    const p2 = htm("p", null, b);
+    p2.appendChild(document.createTextNode(
+      "Peak demand under the " + (M.mode_meta[M.primary_mode] || {}).dup_group + " rule was " +
+      fmt(mainAll.peak) + " concurrent " +
+      plural(mainAll.peak, modeNoun().toLowerCase()) + " for " + pf +
+      " (" + fmt(mainBiz.p99) + " at the 99th percentile of business hours)" +
+      (SHOW_ANY ? ", and " + fmt(anyBiz.peak) + " holding any feature at once" : "") +
+      ". " + (mainDup.peak_handles > 1
+        ? "Note that raw checkout counts are far larger — " + mainDup.host + " held " +
+          fmt(mainDup.peak_handles) + " handles at once — but under DUP_GROUP=HD every one of " +
+          "those cost a single licence, which is why they are counted per host throughout."
+        : "Counted per host throughout, as DUP_GROUP=HD requires.")));
+  }
+}
+
+/* ======================================================== static tables */
+function drawFeatureTable() {
+  $("capFeat").textContent =
+    "Every feature seen in the log, under the " + modeLabel().toLowerCase() + " rule, for the " +
+    rangeLabel().toLowerCase() + " (" + scopeLabel().toLowerCase() + "). " +
+    "“Max handles on one host” is what separates real demand from duplicate checkouts." +
+    ((M.omitted_features || []).length
+      ? " Charts show only " + CHARTED.join(", ") + "; " +
+        (M.omitted_features || []).join(", ") + " " +
+        ((M.omitted_features || []).length > 1 ? "are" : "is") +
+        " listed here but not plotted (below " + M.min_sessions +
+        " checkouts, or beyond the palette's series limit)."
+      : "");
+  const S = slice().features;
+  const order = M.features.map(f => f.feature)
+                          .concat(SHOW_ANY ? [M.any_feature_label] : []);
+  const rows = order.filter(f => S[f]).map(f => {
+    const st = S[f][state.mode];
+    const dup = S[f].duplicate;
+    const sess = (M.features.find(x => x.feature === f) || {}).sessions;
+    return [
+      COLOUR[f] ? { swatch: colOf(f), text: f } : f,
+      sess === undefined ? "—" : fmt(sess),
+      fmt(st.peak), fmt(st.p999), fmt(st.p99), fmt(st.p95), fmt(st.p50),
+      st.mean.toFixed(2), fmt(st.licence_hours, 0), pctStr(st.pct_time_idle),
+      dup ? fmt(dup.peak_handles) + (dup.host ? " (" + dup.host + ")" : "") : "—",
+      st.peak_at || "—"
+    ];
+  });
+  buildTable($("tblFeatures"),
+    ["Feature", "Checkouts", "Peak", "p99.9", "p99", "p95", "Median", "Mean",
+     "Licence-hours", "Fully idle", "Max handles on one host", "Peak occurred"],
+    rows);
+}
+
+function drawUsers() {
+  const rows = D.users[state.range].slice(0, 14).map(u => [
+    u.user, fmt(u.sessions), fmt(u.handle_hours, 0), fmt(u.hosts),
+    u.longest_session_h.toFixed(1) + " h", fmt(u.peak_concurrent_handles),
+    Object.keys(u.features).join(", ")
+  ]);
+  buildTable($("tblUsers"),
+    ["User", "Checkouts", "Handle-hours", "Hosts", "Longest hold", "Peak handles", "Features"],
+    rows);
+}
+
+function drawLongest() {
+  const HOW = { closed: "checkin", truncated: "restart", open: "still open" };
+  const rows = D.longest_sessions.slice(0, 12).map(s => [
+    s.user + "@" + s.host, s.feature, s.hours.toFixed(1) + " h",
+    s.start.slice(0, 10), HOW[s.flag] || s.flag
+  ]);
+  buildTable($("tblLongest"), ["Held by", "Feature", "Held", "Started", "Ended"], rows);
+}
+
+function drawDenials() {
+  const den = D.denials;
+  const win = den.follow_window_secs;
+  $("capDen").textContent =
+    "All " + den.total + " refusals in the log, of which " + den.capacity +
+    " were capacity-related. Every one carries error −5,346, “no such feature exists” — what a " +
+    "client gets for naming a feature, or presenting a licence key, that the licence file does " +
+    "not define. “What happened next” is measured, not assumed: it reports what the daemon " +
+    "granted that same user within " + win + " seconds, which is what separates a harmless " +
+    "probe from somebody actually being blocked.";
+
+  buildTable($("tblDenials"),
+    ["Feature requested", "Denials", "Expected?", "Otherwise",
+     "What happened next (within " + win + "s)"],
+    den.by_feature.map(r => [
+      r.feature, fmt(r.count),
+      (den.expected_features || []).indexOf(r.feature) >= 0 ? "expected" : "unexpected",
+      den.denial_only_features.indexOf(r.feature) >= 0 ? "never served" : "served normally",
+      den.aftermath.filter(a => a.feature === r.feature)
+        .map(a => fmt(a.count) + " × " + a.outcome).join("; ") || "—"
+    ]));
+
+  $("denSeatHdr").textContent = "Where the refused requests came from";
+  buildTable($("tblDenialSeats"), ["Requesting user@host", "Denials"],
+    den.by_seat.map(r => [r.seat, fmt(r.count)]));
+
+  const expected = den.expected_features || [];
+  const expRows = den.by_feature.filter(r => expected.indexOf(r.feature) >= 0);
+  const expN = expRows.reduce((a, b) => a + b.count, 0);
+  const sameFeat = den.aftermath.filter(a => a.outcome === "same feature granted")
+                                .reduce((a, b) => a + b.count, 0);
+  const bits = ["Reading:"];
+  if (expN) {
+    bits.push("the " + fmt(expN) + " " + expRows.map(r => r.feature).join(" and ") +
+      " refusals are expected — OrcaWave can in principle be licensed against a Wave feature, " +
+      "but in practice it is taken through Flex, which encompasses Wave, so clients probe for " +
+      "it, are refused, and carry on regardless.");
+  }
+  if (sameFeat) {
+    bits.push((expN ? "A further " : "") + fmt(sameFeat) + " refusal" +
+      (sameFeat > 1 ? "s name" : " names") + " a feature together with a specific licence key " +
+      "and " + (sameFeat > 1 ? "are" : "is") + " followed within the same second by that user " +
+      "being granted that very feature — a client retrying, not a shortage.");
+  }
+  bits.push(den.capacity === 0
+    ? "No refusal in this log has capacity as its cause, and none of it calls for action."
+    : fmt(den.capacity) + " refusals were caused by licences running out and do need attention.");
+  $("denNote").textContent = bits.join(" ");
+}
+
+/* ========================================================== methodology */
+function drawMethod() {
+  const dl = $("methList");
+  dl.textContent = "";
+  const add = (t, d) => { htm("dt", null, dl, t); htm("dd", null, dl, d); };
+  const dd = M.date_diagnostics, sd = M.session_diagnostics;
+  const mm = M.mode_meta;
+
+  const shared = M.shared_hosts || [];
+  const pfa = PRIMARY_FEATURE ? D.slices["all|all"].features[PRIMARY_FEATURE] : null;
+  const pfDup = pfa ? (pfa.duplicate || {}) : {};
+  add("What counts as one licence",
+    "Orcina licences carry DUP_GROUP=HD, so concurrent checkouts from one host and display " +
+    "consume a single licence. Every figure here counts distinct hosts on that basis. " +
+    (mm[M.primary_mode] || {}).note + " " +
+    (shared.length
+      ? "In this log " + fmt(shared.length) + (shared.length > 1 ? " hosts are" : " host is") +
+        " used by more than one user (" + shared.slice(0, 6).join(", ") +
+        (shared.length > 6 ? ", …" : "") + "), which is precisely where that assumption is " +
+        "worth checking."
+      : "No host in this log is shared between users, which keeps the per-host reading clean.") +
+    (pfDup.peak_handles > 1
+      ? " The scale of the difference this makes is worth seeing: " + pfDup.host + " held as " +
+        "many as " + fmt(pfDup.peak_handles) + " " + PRIMARY_FEATURE + " handles at the same " +
+        "moment, all of which cost one licence. Counting checkouts rather than hosts would " +
+        "overstate demand by that much."
+      : ""));
+
+  add("Dating events that carry no date",
+    "Vendor daemon lines carry only HH:MM:SS. The date comes from the " + M.line_stats.timestamp_lines +
+    " periodic TIMESTAMP lines, carried forward as parser state, with midnight inferred when the " +
+    "clock steps backwards by more than " + M.rollover_threshold_hours + " hours. A smaller " +
+    "threshold is wrong here: the daemon writes from several threads, and " +
+    fmt(dd.out_of_order_lines || 0) + " lines in this log sit slightly out of order (a 16:22:25 " +
+    "line following a 16:26:24 one). Treating those as midnight would invent extra days. " +
+    fmt(dd.rollovers_forward || 0) + " midnight crossings were detected across " + M.span_days +
+    " days, and every TIMESTAMP line is used as a hard re-anchor: " +
+    fmt(dd.anchor_corrections || 0) + " anchors disagreed with the walked date.");
+
+  add("Pairing checkouts with checkins",
+    "An IN: line does not say which OUT: it closes, so pairing is by necessity a heuristic: " +
+    "oldest-outstanding-first per (feature, user, host). Of " + fmt(sd.checkouts) + " checkouts, " +
+    fmt(sd.truncated_at_reset || 0) + " were still open at a daemon restart and are closed at that " +
+    "instant (a restart genuinely releases every handle, and leaving them open would manufacture " +
+    "multi-week sessions), " + fmt(sd.open_at_log_end || 0) + " were still open when the log ends, " +
+    "and " + fmt(sd.orphan_checkins || 0) + " checkins had no matching checkout because the log " +
+    "begins mid-session. " + fmt(sd.negative_duration_clamped || 0) + " sessions came out with a " +
+    "negative duration and were clamped to zero; that count is the canary on the dating logic, " +
+    "so treat a large number here as a reason to distrust the durations.");
+
+  add("Simultaneity at one-second resolution",
+    "The daemon logs to the nearest second, so a checkin and a checkout in the same second have no " +
+    "recorded order. Releases are processed before acquisitions, on the grounds that a same-second " +
+    "pair is almost always one handle being handed over; the opposite convention would report peaks " +
+    "that never happened. Peaks here are therefore the lower of the two defensible readings.");
+
+  add("Percentiles are time-weighted",
+    "p95 means the level that concurrency stayed at or below for 95% of the observed wall-clock " +
+    "time — not the 95th percentile of checkout events. A short spike to 10 barely moves it, " +
+    "which is the correct behaviour for sizing: you buy for sustained demand and accept brief " +
+    "queuing. Business hours are " + M.business_hours + " in server local time, with no daylight " +
+    "saving correction applied.");
+
+  add("What this log cannot tell you",
+    "The log records what was served, never what was wanted. It contains no entitlement counts, so " +
+    "it cannot say whether you are over- or under-licensed in absolute terms — compare the " +
+    "sizing curve against the counts in your licence file. Demand suppressed by a queue would be " +
+    "invisible, though with zero capacity denials there is no evidence of any. Sessions ended by a " +
+    "client crash are reclaimed by the daemon on TCP disconnect and appear as ordinary checkins.");
+
+  add("Reproducing this",
+    "python analyse_flexnet.py " + M.log + " -o usage_data.json, then python build_report.py. " +
+    "The parser reads the log in a single streaming pass; the report is regenerated from the " +
+    "170 KB JSON without re-reading the log.");
+}
+
+/* ============================================================== chrome */
+function drawChrome() {
+  $("hdrTitle").textContent = M.title || "Licence capacity";
+  $("vendorTag").textContent = "(" + M.vendor + ")";
+  $("hdrSub").textContent =
+    M.log + " · " + M.first_event.slice(0, 16) + " to " + M.last_event.slice(0, 16) +
+    " · " + M.span_days + " days · " + fmt(M.line_stats.lines) + " lines · " +
+    fmt(M.line_stats.checkout_lines) + " checkouts · " + M.unique_users + " users on " +
+    M.unique_hosts + " hosts";
+  $("foot").textContent = "Generated " + M.generated + " from " + M.log +
+    " by analyse_flexnet.py. Usernames and hostnames are as recorded in the log, case-folded.";
+}
+
+function segs() {
+  const build = (host, items, key) => {
+    host.textContent = "";
+    items.forEach(([v, label, sub]) => {
+      const b = htm("button", null, host);
+      b.type = "button";
+      b.textContent = label;
+      if (sub) htm("span", "dg", b, sub);
+      b.setAttribute("aria-pressed", String(state[key] === v));
+      b.addEventListener("click", () => { state[key] = v; render(); });
+      host.appendChild(b);
+    });
+  };
+  build($("segRange"), RANGES, "range");
+  build($("segScope"), SCOPES, "scope");
+}
+
+function render() {
+  segs();
+  drawChrome();
+  drawVerdict();
+  drawHero();
+  drawSizing();
+  drawDaily();
+  drawHeat();
+  drawDur();
+  drawFeatureTable();
+  drawUsers();
+  drawLongest();
+  drawDenials();
+  drawMethod();
+}
+
+/* theme toggle: explicit stamp beats the OS preference in both directions */
+$("themeBtn").addEventListener("click", () => {
+  const cur = document.documentElement.getAttribute("data-theme");
+  const dark = cur ? cur === "dark"
+    : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  document.documentElement.setAttribute("data-theme", dark ? "light" : "dark");
+  render();                                     // re-read colour tokens
+});
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  if (!document.documentElement.getAttribute("data-theme")) render();
+});
+
+render();
+})();
+</script>
+</body>
+</html>

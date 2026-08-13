@@ -1,0 +1,8 @@
+# Keep the synthetic sample log byte-identical on every platform, so the
+# committed sample report stays reproducible from it. (The parser copes with
+# either line ending; this is only about avoiding a surprise rewrite on
+# checkout.)
+*.log -text
+
+# Screenshots
+*.png binary

@@ -1,0 +1,3913 @@
+ 6:22:57 (orcina) TIMESTAMP 9/1/2025
+ 6:40:44 (orcina) OUT: "Flex" carol@dell-01  
+ 8:10:44 (orcina) IN: "Flex" carol@dell-01  
+ 8:26:08 (orcina) OUT: "Flex" bob@ws-bravo  
+ 8:26:08 (orcina) IN: "Flex" bob@ws-bravo  
+ 8:41:03 (orcina) SLOG: Summary LOG statistics is enabled.
+ 8:41:03 (orcina) License server system started on SAMPLE-LICSRV
+ 8:41:03 (orcina) No features to serve, exiting
+ 8:41:03 (orcina) EXITING DUE TO SIGNAL 27 Exit reason 4
+ 8:41:04 (orcina) SLOG: Summary LOG statistics is enabled.
+ 8:41:04 (orcina) License server system started on SAMPLE-LICSRV
+ 8:41:04 (orcina) No features to serve, exiting
+ 8:41:04 (orcina) EXITING DUE TO SIGNAL 27 Exit reason 4
+ 8:41:05 (orcina) SLOG: Summary LOG statistics is enabled.
+ 8:41:05 (orcina) License server system started on SAMPLE-LICSRV
+ 8:41:05 (orcina) No features to serve, exiting
+ 8:41:05 (orcina) EXITING DUE TO SIGNAL 27 Exit reason 4
+ 8:41:06 (orcina) SLOG: Summary LOG statistics is enabled.
+ 8:41:06 (orcina) Server started on SAMPLE-LICSRV for:	Flex	
+ 8:41:06 (orcina) Starting diagnostics output thread (DRQT)
+ 8:41:06 (orcina) DRQT: running
+ 8:45:08 (orcina) IN: "Flex" grace@dell-03  
+10:00:00 (orcina) OUT: "Flex" bob@ws-bravo  
+10:00:00 (orcina) IN: "Flex" bob@ws-bravo  
+10:07:02 (orcina) OUT: "Flex" dan@dell-02  
+10:07:48 (orcina) OUT: "Flex" erin@ws-echo  
+10:07:48 (orcina) IN: "Flex" erin@ws-echo  
+10:32:55 (orcina) OUT: "Flex" alice@ws-alpha  
+10:32:55 (orcina) IN: "Flex" alice@ws-alpha  
+10:51:45 (orcina) OUT: "Flex" erin@ws-echo  
+10:51:45 (orcina) IN: "Flex" erin@ws-echo  
+11:28:47 (orcina) OUT: "Flex" dan@dell-02  
+11:45:47 (orcina) IN: "Flex" dan@dell-02  
+11:48:12 (orcina) OUT: "Flex" bob@ws-bravo  
+11:49:12 (orcina) IN: "Flex" bob@ws-bravo  
+12:17:09 (orcina) OUT: "Flex" erin@ws-echo  
+12:19:09 (orcina) IN: "Flex" erin@ws-echo  
+12:22:57 (orcina) TIMESTAMP 9/1/2025
+12:28:27 (orcina) OUT: "Flex" dan@dell-02  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:35:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:00 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:01 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:02 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:04 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:05 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:06 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:10 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:11 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:14 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:15 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:16 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:18 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:20 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:23 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:24 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:25 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:28 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:29 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:34 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:38 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:40 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:44 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:51 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:54 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:56 (orcina) OUT: "Flex" alice@ws-compute  
+12:36:56 (orcina) IN: "Flex" alice@ws-compute  
+12:36:56 (orcina) IN: "Flex" alice@ws-compute  
+12:36:57 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:00 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:02 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:04 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:06 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:06 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:07 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:08 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:09 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:10 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:15 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:16 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:17 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:20 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:26 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:26 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:28 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:30 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:32 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:35 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:42 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:43 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:44 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:48 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:50 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:52 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:54 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:54 (orcina) OUT: "Flex" alice@ws-compute  
+12:37:56 (orcina) IN: "Flex" alice@ws-compute  
+12:37:56 (orcina) IN: "Flex" alice@ws-compute  
+12:37:56 (orcina) IN: "Flex" alice@ws-compute  
+12:38:02 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:10 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:25 (orcina) IN: "Flex" alice@ws-compute  
+12:38:26 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:28 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:30 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:32 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:38 (orcina) IN: "Flex" alice@ws-compute  
+12:38:42 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:46 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:48 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:52 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:52 (orcina) IN: "Flex" alice@ws-compute  
+12:38:54 (orcina) OUT: "Flex" alice@ws-compute  
+12:38:56 (orcina) IN: "Flex" alice@ws-compute  
+12:38:56 (orcina) IN: "Flex" alice@ws-compute  
+12:39:10 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:12 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:24 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:26 (orcina) IN: "Flex" alice@ws-compute  
+12:39:30 (orcina) IN: "Flex" alice@ws-compute  
+12:39:40 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:42 (orcina) IN: "Flex" alice@ws-compute  
+12:39:42 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:54 (orcina) OUT: "Flex" alice@ws-compute  
+12:39:56 (orcina) IN: "Flex" alice@ws-compute  
+12:39:56 (orcina) IN: "Flex" alice@ws-compute  
+12:40:07 (orcina) IN: "Flex" alice@ws-compute  
+12:40:11 (orcina) IN: "Flex" alice@ws-compute  
+12:40:44 (orcina) IN: "Flex" alice@ws-compute  
+12:40:56 (orcina) IN: "Flex" alice@ws-compute  
+12:41:14 (orcina) IN: "Flex" alice@ws-compute  
+12:41:17 (orcina) IN: "Flex" alice@ws-compute  
+12:41:56 (orcina) IN: "Flex" alice@ws-compute  
+12:41:56 (orcina) IN: "Flex" alice@ws-compute  
+12:41:56 (orcina) IN: "Flex" alice@ws-compute  
+12:42:06 (orcina) IN: "Flex" alice@ws-compute  
+12:42:10 (orcina) IN: "Flex" alice@ws-compute  
+12:42:15 (orcina) IN: "Flex" alice@ws-compute  
+12:42:56 (orcina) IN: "Flex" alice@ws-compute  
+12:42:56 (orcina) IN: "Flex" alice@ws-compute  
+12:43:09 (orcina) IN: "Flex" alice@ws-compute  
+12:43:24 (orcina) IN: "Flex" alice@ws-compute  
+12:43:26 (orcina) IN: "Flex" alice@ws-compute  
+12:43:32 (orcina) IN: "Flex" alice@ws-compute  
+12:43:34 (orcina) IN: "Flex" alice@ws-compute  
+12:43:41 (orcina) OUT: "Flex" erin@ws-echo  
+12:43:42 (orcina) IN: "Flex" alice@ws-compute  
+12:43:54 (orcina) IN: "Flex" alice@ws-compute  
+12:43:56 (orcina) IN: "Flex" alice@ws-compute  
+12:44:00 (orcina) IN: "Flex" alice@ws-compute  
+12:44:56 (orcina) IN: "Flex" alice@ws-compute  
+12:45:46 (orcina) IN: "Flex" alice@ws-compute  
+12:46:28 (orcina) IN: "Flex" alice@ws-compute  
+12:47:20 (orcina) IN: "Flex" alice@ws-compute  
+12:47:52 (orcina) IN: "Flex" alice@ws-compute  
+12:47:56 (orcina) IN: "Flex" alice@ws-compute  
+12:47:56 (orcina) IN: "Flex" alice@ws-compute  
+12:47:56 (orcina) IN: "Flex" alice@ws-compute  
+12:47:56 (orcina) IN: "Flex" alice@ws-compute  
+12:48:00 (orcina) IN: "Flex" alice@ws-compute  
+12:48:02 (orcina) IN: "Flex" alice@ws-compute  
+12:48:04 (orcina) IN: "Flex" alice@ws-compute  
+12:48:26 (orcina) IN: "Flex" alice@ws-compute  
+12:48:50 (orcina) IN: "Flex" alice@ws-compute  
+12:48:56 (orcina) IN: "Flex" alice@ws-compute  
+12:48:56 (orcina) IN: "Flex" alice@ws-compute  
+12:48:56 (orcina) IN: "Flex" alice@ws-compute  
+12:49:43 (orcina) IN: "Flex" alice@ws-compute  
+12:49:48 (orcina) IN: "Flex" alice@ws-compute  
+12:49:56 (orcina) IN: "Flex" alice@ws-compute  
+12:49:57 (orcina) IN: "Flex" alice@ws-compute  
+12:50:01 (orcina) IN: "Flex" alice@ws-compute  
+12:50:05 (orcina) IN: "Flex" alice@ws-compute  
+12:50:29 (orcina) IN: "Flex" alice@ws-compute  
+12:51:16 (orcina) IN: "Flex" alice@ws-compute  
+12:51:28 (orcina) IN: "Flex" alice@ws-compute  
+12:51:54 (orcina) IN: "Flex" alice@ws-compute  
+12:51:56 (orcina) IN: "Flex" alice@ws-compute  
+12:52:23 (orcina) IN: "Flex" alice@ws-compute  
+12:52:56 (orcina) IN: "Flex" alice@ws-compute  
+12:52:56 (orcina) IN: "Flex" alice@ws-compute  
+12:53:08 (orcina) IN: "Flex" alice@ws-compute  
+12:53:40 (orcina) IN: "Flex" alice@ws-compute  
+12:53:40 (orcina) IN: "Flex" alice@ws-compute  
+12:53:56 (orcina) IN: "Flex" alice@ws-compute  
+12:53:56 (orcina) IN: "Flex" alice@ws-compute  
+12:53:56 (orcina) IN: "Flex" alice@ws-compute  
+12:53:56 (orcina) IN: "Flex" alice@ws-compute  
+12:54:10 (orcina) IN: "Flex" alice@ws-compute  
+12:54:18 (orcina) IN: "Flex" alice@ws-compute  
+12:54:44 (orcina) IN: "Flex" alice@ws-compute  
+12:54:54 (orcina) IN: "Flex" alice@ws-compute  
+12:54:56 (orcina) IN: "Flex" alice@ws-compute  
+12:54:56 (orcina) IN: "Flex" alice@ws-compute  
+12:54:56 (orcina) IN: "Flex" alice@ws-compute  
+12:54:56 (orcina) IN: "Flex" alice@ws-compute  
+12:55:02 (orcina) IN: "Flex" alice@ws-compute  
+12:55:10 (orcina) IN: "Flex" alice@ws-compute  
+12:55:11 (orcina) OUT: "Flex" erin@ws-echo  
+12:55:16 (orcina) IN: "Flex" alice@ws-compute  
+12:55:35 (orcina) IN: "Flex" alice@ws-compute  
+12:55:56 (orcina) IN: "Flex" alice@ws-compute  
+12:56:32 (orcina) IN: "Flex" alice@ws-compute  
+12:56:48 (orcina) IN: "Flex" alice@ws-compute  
+12:56:56 (orcina) IN: "Flex" alice@ws-compute  
+12:56:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:02 (orcina) IN: "Flex" alice@ws-compute  
+12:57:11 (orcina) IN: "Flex" erin@ws-echo  
+12:57:20 (orcina) IN: "Flex" alice@ws-compute  
+12:57:24 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:57:56 (orcina) IN: "Flex" alice@ws-compute  
+12:58:51 (orcina) IN: "Flex" alice@ws-compute  
+12:58:56 (orcina) IN: "Flex" alice@ws-compute  
+12:59:06 (orcina) IN: "Flex" alice@ws-compute  
+12:59:15 (orcina) IN: "Flex" alice@ws-compute  
+12:59:28 (orcina) IN: "Flex" alice@ws-compute  
+12:59:56 (orcina) IN: "Flex" alice@ws-compute  
+12:59:56 (orcina) IN: "Flex" alice@ws-compute  
+12:59:56 (orcina) IN: "Flex" alice@ws-compute  
+12:59:56 (orcina) IN: "Flex" alice@ws-compute  
+13:00:06 (orcina) IN: "Flex" alice@ws-compute  
+13:00:10 (orcina) IN: "Flex" alice@ws-compute  
+13:00:40 (orcina) OUT: "Flex" alice@ws-alpha  
+13:00:54 (orcina) IN: "Flex" alice@ws-compute  
+13:01:04 (orcina) IN: "Flex" alice@ws-compute  
+13:02:12 (orcina) IN: "Flex" alice@ws-compute  
+13:02:30 (orcina) IN: "Flex" alice@ws-compute  
+13:02:40 (orcina) IN: "Flex" alice@ws-alpha  
+13:03:42 (orcina) IN: "Flex" alice@ws-compute  
+13:03:54 (orcina) IN: "Flex" alice@ws-compute  
+13:27:15 (orcina) OUT: "Flex" carol@dell-01  
+13:27:15 (orcina) IN: "Flex" carol@dell-01  
+13:34:00 (orcina) OUT: "Flex" bob@ws-bravo  
+13:34:00 (orcina) IN: "Flex" bob@ws-bravo  
+13:48:41 (orcina) IN: "Flex" erin@ws-echo  
+14:00:14 (orcina) OUT: "Flex" dan@dell-02  
+14:00:32 (orcina) OUT: "Flex" erin@ws-echo  
+14:01:14 (orcina) IN: "Flex" dan@dell-02  
+14:50:15 (orcina) OUT: "Flex" carol@dell-01  
+14:55:25 (orcina) OUT: "Flex" dan@dell-02  
+14:56:56 (orcina) OUT: "Flex" bob@ws-bravo  
+14:57:19 (orcina) OUT: "Flex" dan@dell-02  
+14:59:19 (orcina) IN: "Flex" dan@dell-02  
+14:59:43 (orcina) OUT: "Flex" bob@ws-bravo  
+15:02:43 (orcina) IN: "Flex" bob@ws-bravo  
+15:04:56 (orcina) IN: "Flex" bob@ws-bravo  
+15:09:20 (orcina) OUT: "Flex" erin@ws-echo  
+15:11:20 (orcina) IN: "Flex" erin@ws-echo  
+15:21:59 (orcina) OUT: "Flex" bob@ws-bravo  
+15:28:03 (orcina) OUT: "Flex" dan@dell-02  
+15:28:03 (orcina) IN: "Flex" dan@dell-02  
+15:41:29 (orcina) OUT: "Flex" alice@ws-alpha  
+15:44:25 (orcina) IN: "Flex" dan@dell-02  
+15:45:28 (orcina) OUT: "Flex" erin@ws-echo  
+15:47:58 (orcina) OUT: "Flex" dan@dell-02  
+15:47:58 (orcina) IN: "Flex" dan@dell-02  
+16:10:10 (orcina) OUT: "Flex" bob@ws-bravo  
+16:17:49 (orcina) OUT: "Flex" carol@dell-01  
+16:18:49 (orcina) IN: "Flex" carol@dell-01  
+16:26:53 (orcina) OUT: "Flex" erin@ws-echo  
+16:26:53 (orcina) IN: "Flex" erin@ws-echo  
+16:40:32 (orcina) IN: "Flex" erin@ws-echo  
+16:42:27 (orcina) IN: "Flex" dan@dell-02  
+16:51:59 (orcina) IN: "Flex" bob@ws-bravo  
+17:07:29 (orcina) IN: "Flex" alice@ws-alpha  
+17:09:58 (orcina) OUT: "Flex" erin@ws-echo  
+17:20:00 (orcina) OUT: "Flex" bob@ws-bravo  
+17:37:58 (orcina) IN: "Flex" erin@ws-echo  
+17:55:51 (orcina) OUT: "Flex" dan@dell-02  
+18:22:57 (orcina) TIMESTAMP 9/1/2025
+19:03:03 (orcina) OUT: "Flex" bob@ws-bravo  
+19:27:02 (orcina) IN: "Flex" dan@dell-02  
+19:31:15 (orcina) IN: "Flex" carol@dell-01  
+20:04:03 (orcina) IN: "Flex" bob@ws-bravo  
+20:24:04 (orcina) OUT: "Flex" carol@dell-01  
+20:34:04 (orcina) IN: "Flex" carol@dell-01  
+21:15:10 (orcina) IN: "Flex" bob@ws-bravo  
+21:42:42 (orcina) OUT: "Flex" erin@ws-echo  
+22:15:42 (orcina) IN: "Flex" erin@ws-echo  
+22:25:07 (orcina) OUT: "Flex" dan@dell-02  
+22:25:07 (orcina) IN: "Flex" dan@dell-02  
+22:33:00 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:22:57 (orcina) TIMESTAMP 9/2/2025
+ 1:40:28 (orcina) IN: "Flex" erin@ws-echo  
+ 2:19:51 (orcina) IN: "Flex" dan@dell-02  
+ 6:22:57 (orcina) TIMESTAMP 9/2/2025
+ 6:47:31 (orcina) OUT: "Flex" dan@dell-02  
+ 7:39:31 (orcina) IN: "Flex" dan@dell-02  
+ 7:49:11 (orcina) OUT: "Flex" carol@dell-01  
+ 7:49:11 (orcina) IN: "Flex" carol@dell-01  
+ 8:06:54 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:08:54 (orcina) IN: "Flex" erin@ws-echo  
+ 8:28:52 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 8:29:38 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:29:44 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:30:38 (orcina) IN: "Flex" erin@ws-echo  
+ 8:31:44 (orcina) IN: "Flex" erin@ws-echo  
+ 8:59:02 (orcina) OUT: "Flex" dan@dell-02  
+ 9:15:20 (orcina) OUT: "Flex" erin@ws-echo  
+ 9:32:26 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:35:26 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:35:26 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:38:32 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:44:52 (orcina) OUT: "Flex" dan@dell-02  
+ 9:44:52 (orcina) IN: "Flex" dan@dell-02  
+ 9:49:18 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:50:18 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:59:06 (orcina) OUT: "Flex" frank@ws-foxtrot  
+10:13:09 (orcina) OUT: "Flex" bob@ws-bravo  
+10:31:38 (orcina) OUT: "Flex" bob@ws-bravo  
+10:36:45 (orcina) OUT: "Flex" alice@ws-alpha  
+10:33:38 (orcina) IN: "Flex" bob@ws-bravo  
+10:38:45 (orcina) IN: "Flex" alice@ws-alpha  
+10:48:09 (orcina) IN: "Flex" bob@ws-bravo  
+11:01:06 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:14:15 (orcina) OUT: "Flex" erin@ws-echo  
+11:16:15 (orcina) IN: "Flex" erin@ws-echo  
+11:21:54 (orcina) OUT: "Flex" dan@dell-02  
+11:29:06 (orcina) OUT: "Flex" bob@ws-bravo  
+11:29:06 (orcina) IN: "Flex" bob@ws-bravo  
+11:33:54 (orcina) IN: "Flex" dan@dell-02  
+11:47:57 (orcina) OUT: "Flex" bob@ws-bravo  
+11:55:14 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:55:14 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:04:17 (orcina) OUT: "Flex" dan@dell-02  
+12:04:17 (orcina) IN: "Flex" dan@dell-02  
+12:22:57 (orcina) TIMESTAMP 9/2/2025
+12:38:57 (orcina) IN: "Flex" bob@ws-bravo  
+12:40:26 (orcina) OUT: "Flex" dan@dell-02  
+13:00:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:00:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:04:04 (orcina) OUT: "Flex" carol@dell-01  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:02 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:06 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:08 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:12 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:12 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:15 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:16 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:16 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:17 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:19 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:20 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:20 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:22 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:23 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:24 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:26 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:27 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:29 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:30 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:32 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:34 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:34 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:35 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:37 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:39 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:40 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:41 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:50 (orcina) OUT: "Flex" frank@ws-compute  
+13:15:54 (orcina) OUT: "Flex" frank@ws-compute  
+13:16:00 (orcina) OUT: "Flex" frank@ws-compute  
+13:16:10 (orcina) OUT: "Flex" frank@ws-compute  
+13:16:19 (orcina) IN: "Flex" frank@ws-compute  
+13:17:26 (orcina) IN: "Flex" frank@ws-compute  
+13:17:44 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:18:17 (orcina) IN: "Flex" frank@ws-compute  
+13:18:44 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:19:02 (orcina) IN: "Flex" frank@ws-compute  
+13:19:24 (orcina) IN: "Flex" frank@ws-compute  
+13:21:39 (orcina) IN: "Flex" frank@ws-compute  
+13:22:12 (orcina) IN: "Flex" frank@ws-compute  
+13:22:40 (orcina) IN: "Flex" frank@ws-compute  
+13:23:32 (orcina) IN: "Flex" frank@ws-compute  
+13:23:34 (orcina) IN: "Flex" frank@ws-compute  
+13:24:02 (orcina) IN: "Flex" frank@ws-compute  
+13:24:41 (orcina) IN: "Flex" frank@ws-compute  
+13:25:00 (orcina) IN: "Flex" frank@ws-compute  
+13:25:02 (orcina) IN: "Flex" frank@ws-compute  
+13:25:02 (orcina) IN: "Flex" frank@ws-compute  
+13:26:37 (orcina) IN: "Flex" frank@ws-compute  
+13:28:06 (orcina) IN: "Flex" frank@ws-compute  
+13:29:02 (orcina) IN: "Flex" frank@ws-compute  
+13:29:02 (orcina) IN: "Flex" frank@ws-compute  
+13:30:29 (orcina) IN: "Flex" frank@ws-compute  
+13:31:02 (orcina) IN: "Flex" frank@ws-compute  
+13:31:20 (orcina) IN: "Flex" frank@ws-compute  
+13:33:15 (orcina) IN: "Flex" frank@ws-compute  
+13:33:28 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+13:33:31 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+13:33:37 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+13:33:34 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+13:33:40 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+13:33:58 (orcina) OUT: "Flex" erin@ws-echo  
+13:34:02 (orcina) IN: "Flex" frank@ws-compute  
+13:34:02 (orcina) IN: "Flex" frank@ws-compute  
+13:34:35 (orcina) IN: "Flex" frank@ws-compute  
+13:35:27 (orcina) IN: "Flex" frank@ws-compute  
+13:36:16 (orcina) IN: "Flex" frank@ws-compute  
+13:36:22 (orcina) IN: "Flex" frank@ws-compute  
+13:36:34 (orcina) IN: "Flex" frank@ws-compute  
+13:36:50 (orcina) IN: "Flex" frank@ws-compute  
+13:37:08 (orcina) IN: "Flex" frank@ws-compute  
+13:37:12 (orcina) IN: "Flex" frank@ws-compute  
+13:37:16 (orcina) IN: "Flex" frank@ws-compute  
+13:38:10 (orcina) IN: "Flex" frank@ws-compute  
+13:38:23 (orcina) IN: "Flex" frank@ws-compute  
+13:39:02 (orcina) IN: "Flex" frank@ws-compute  
+13:39:30 (orcina) IN: "Flex" frank@ws-compute  
+13:40:20 (orcina) IN: "Flex" frank@ws-compute  
+13:40:54 (orcina) IN: "Flex" frank@ws-compute  
+13:43:20 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:43:20 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:48:04 (orcina) IN: "Flex" carol@dell-01  
+14:23:25 (orcina) OUT: "Flex" erin@ws-echo  
+14:24:25 (orcina) IN: "Flex" erin@ws-echo  
+14:34:07 (orcina) OUT: "Flex" alice@ws-alpha  
+14:34:07 (orcina) IN: "Flex" alice@ws-alpha  
+14:35:52 (orcina) OUT: "Flex" erin@ws-echo  
+14:37:52 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:10:58 (orcina) IN: "Flex" erin@ws-echo  
+15:12:20 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:16:45 (orcina) OUT: "Flex" erin@ws-echo  
+15:17:45 (orcina) IN: "Flex" erin@ws-echo  
+15:24:02 (orcina) IN: "Flex" dan@dell-02  
+15:28:59 (orcina) OUT: "Flex" dan@dell-02  
+15:28:59 (orcina) IN: "Flex" dan@dell-02  
+15:41:15 (orcina) OUT: "Flex" erin@ws-echo  
+15:41:39 (orcina) OUT: "Flex" carol@dell-01  
+15:41:39 (orcina) IN: "Flex" carol@dell-01  
+15:42:15 (orcina) IN: "Flex" erin@ws-echo  
+15:45:15 (orcina) OUT: "Flex" erin@ws-echo  
+15:46:18 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:46:18 (orcina) IN: "Flex" heidi@ws-hotel  
+15:47:15 (orcina) IN: "Flex" erin@ws-echo  
+15:51:26 (orcina) IN: "Flex" bob@ws-bravo  
+16:19:06 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:40:26 (orcina) IN: "Flex" dan@dell-02  
+16:53:32 (orcina) IN: "Flex" bob@ws-bravo  
+16:57:57 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:58:57 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:02:53 (orcina) OUT: "Flex" bob@ws-bravo  
+17:03:53 (orcina) IN: "Flex" bob@ws-bravo  
+17:13:08 (orcina) OUT: "Flex" frank@ws-foxtrot  
+17:16:07 (orcina) OUT: "Flex" alice@ws-alpha  
+17:17:07 (orcina) IN: "Flex" alice@ws-alpha  
+17:20:09 (orcina) OUT: "Flex" erin@ws-echo  
+17:20:09 (orcina) IN: "Flex" erin@ws-echo  
+17:33:13 (orcina) OUT: "Flex" bob@ws-bravo  
+17:46:20 (orcina) IN: "Flex" erin@ws-echo  
+18:01:13 (orcina) IN: "Flex" bob@ws-bravo  
+18:22:57 (orcina) TIMESTAMP 9/2/2025
+18:54:20 (orcina) IN: "Flex" heidi@ws-hotel  
+19:12:18 (orcina) OUT: "Flex" dan@dell-02  
+19:20:28 (orcina) OUT: "Flex" bob@ws-bravo  
+19:20:28 (orcina) IN: "Flex" bob@ws-bravo  
+19:24:06 (orcina) OUT: "Flex" alice@ws-alpha  
+19:43:18 (orcina) IN: "Flex" dan@dell-02  
+20:18:06 (orcina) IN: "Flex" alice@ws-alpha  
+21:13:49 (orcina) OUT: "Flex" bob@ws-bravo  
+21:54:06 (orcina) IN: "Flex" frank@ws-foxtrot  
+22:11:49 (orcina) IN: "Flex" bob@ws-bravo  
+23:46:08 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 0:11:52 (orcina) IN: "Flex" erin@ws-echo  
+ 0:22:57 (orcina) TIMESTAMP 9/3/2025
+ 6:03:17 (orcina) OUT: "Flex" grace@dell-03  
+ 6:22:57 (orcina) TIMESTAMP 9/3/2025
+ 6:54:17 (orcina) IN: "Flex" grace@dell-03  
+ 7:49:12 (orcina) OUT: "Flex" erin@ws-echo  
+ 7:53:57 (orcina) OUT: "Flex" carol@dell-01  
+ 7:57:54 (orcina) OUT: "Flex" dan@dell-02  
+ 8:03:54 (orcina) IN: "Flex" dan@dell-02  
+ 8:43:43 (orcina) OUT: "Flex" carol@dell-01  
+ 8:44:30 (orcina) OUT: "Flex" alice@ws-alpha  
+ 8:44:30 (orcina) IN: "Flex" alice@ws-alpha  
+ 8:44:43 (orcina) IN: "Flex" carol@dell-01  
+ 8:50:57 (orcina) IN: "Flex" carol@dell-01  
+ 8:57:53 (orcina) OUT: "Flex" dan@dell-02  
+ 9:02:12 (orcina) IN: "Flex" erin@ws-echo  
+ 9:07:08 (orcina) OUT: "Flex" dan@dell-02  
+ 9:09:08 (orcina) IN: "Flex" dan@dell-02  
+ 9:10:38 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:10:38 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:26:01 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:26:01 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:53:04 (orcina) OUT: "Flex" carol@dell-01  
+ 9:58:39 (orcina) OUT: "Flex" dan@dell-02  
+ 9:58:39 (orcina) IN: "Flex" dan@dell-02  
+10:05:25 (orcina) OUT: "Flex" grace@dell-03  
+10:05:39 (orcina) OUT: "Flex" grace@dell-03  
+10:05:39 (orcina) IN: "Flex" grace@dell-03  
+10:06:24 (orcina) OUT: "Flex" erin@ws-echo  
+10:07:24 (orcina) IN: "Flex" erin@ws-echo  
+10:07:31 (orcina) OUT: "Flex" dan@dell-02  
+10:07:38 (orcina) OUT: "Flex" erin@ws-echo  
+10:09:11 (orcina) OUT: "Flex" grace@dell-03  
+10:15:57 (orcina) OUT: "Flex" carol@dell-01  
+10:32:31 (orcina) IN: "Flex" dan@dell-02  
+10:39:06 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:41:06 (orcina) IN: "Flex" heidi@ws-hotel  
+10:43:57 (orcina) IN: "Flex" carol@dell-01  
+10:46:38 (orcina) IN: "Flex" erin@ws-echo  
+11:00:43 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:03:33 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:03:33 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:06:10 (orcina) OUT: "Flex" erin@ws-echo  
+11:06:10 (orcina) IN: "Flex" erin@ws-echo  
+11:33:43 (orcina) OUT: "Flex" carol@dell-01  
+11:39:01 (orcina) OUT: "Flex" grace@dell-03  
+11:39:22 (orcina) OUT: "Flex" erin@ws-echo  
+11:39:22 (orcina) IN: "Flex" erin@ws-echo  
+11:41:01 (orcina) IN: "Flex" grace@dell-03  
+11:44:18 (orcina) OUT: "Flex" alice@ws-alpha  
+11:52:27 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:53:27 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:57:27 (orcina) OUT: "Flex" alice@ws-alpha  
+11:58:18 (orcina) IN: "Flex" alice@ws-alpha  
+11:58:27 (orcina) IN: "Flex" alice@ws-alpha  
+12:05:43 (orcina) IN: "Flex" heidi@ws-hotel  
+12:16:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:16:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:22:57 (orcina) TIMESTAMP 9/3/2025
+12:36:43 (orcina) IN: "Flex" carol@dell-01  
+12:37:53 (orcina) OUT: "Flex" carol@dell-01  
+12:39:50 (orcina) OUT: "Flex" carol@dell-01  
+12:39:50 (orcina) IN: "Flex" carol@dell-01  
+12:47:25 (orcina) OUT: "Flex" alice@ws-alpha  
+12:47:25 (orcina) IN: "Flex" alice@ws-alpha  
+12:49:02 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:49:02 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:52:02 (orcina) OUT: "Flex" bob@ws-bravo  
+12:52:02 (orcina) IN: "Flex" bob@ws-bravo  
+13:03:25 (orcina) OUT: "Flex" bob@ws-bravo  
+13:08:14 (orcina) OUT: "Flex" grace@dell-03  
+13:09:14 (orcina) IN: "Flex" grace@dell-03  
+13:18:25 (orcina) IN: "Flex" bob@ws-bravo  
+13:18:57 (orcina) OUT: "Flex" carol@dell-01  
+13:18:57 (orcina) IN: "Flex" carol@dell-01  
+13:34:22 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:42:36 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:43:46 (orcina) OUT: "Flex" erin@ws-echo  
+13:48:54 (orcina) OUT: "Flex" bob@ws-bravo  
+13:48:54 (orcina) IN: "Flex" bob@ws-bravo  
+13:56:05 (orcina) OUT: "Flex" grace@dell-03  
+13:56:05 (orcina) IN: "Flex" grace@dell-03  
+14:06:24 (orcina) OUT: "Flex" bob@ws-bravo  
+14:15:33 (orcina) OUT: "Flex" erin@ws-echo  
+14:18:33 (orcina) IN: "Flex" erin@ws-echo  
+14:21:36 (orcina) IN: "Flex" heidi@ws-hotel  
+14:22:15 (orcina) OUT: "Flex" dan@dell-02  
+14:25:24 (orcina) IN: "Flex" bob@ws-bravo  
+14:36:15 (orcina) IN: "Flex" dan@dell-02  
+14:41:36 (orcina) OUT: "Flex" erin@ws-echo  
+14:42:36 (orcina) IN: "Flex" erin@ws-echo  
+14:52:28 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:05:01 (orcina) OUT: "Flex" carol@dell-01  
+15:05:01 (orcina) IN: "Flex" carol@dell-01  
+15:18:34 (orcina) OUT: "Flex" carol@dell-01  
+15:36:13 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) bob@ws-bravo  (No such feature exists. (-5,346))
+15:36:16 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) bob@ws-bravo  (No such feature exists. (-5,346))
+15:36:19 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) bob@ws-bravo  (No such feature exists. (-5,346))
+15:54:34 (orcina) IN: "Flex" carol@dell-01  
+15:55:26 (orcina) OUT: "Flex" dan@dell-02  
+16:18:25 (orcina) IN: "Flex" grace@dell-03  
+16:19:45 (orcina) OUT: "Flex" grace@dell-03  
+16:21:28 (orcina) OUT: "Flex" alice@ws-alpha  
+16:21:45 (orcina) IN: "Flex" grace@dell-03  
+16:27:29 (orcina) OUT: "Flex" bob@ws-bravo  
+16:27:29 (orcina) IN: "Flex" bob@ws-bravo  
+16:32:26 (orcina) IN: "Flex" dan@dell-02  
+16:54:43 (orcina) OUT: "Flex" bob@ws-bravo  
+18:00:14 (orcina) OUT: "Flex" alice@ws-alpha  
+18:01:14 (orcina) IN: "Flex" alice@ws-alpha  
+18:05:53 (orcina) IN: "Flex" dan@dell-02  
+18:05:59 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:05:59 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:21:41 (orcina) OUT: "Flex" bob@ws-bravo  
+18:21:41 (orcina) IN: "Flex" bob@ws-bravo  
+18:22:57 (orcina) TIMESTAMP 9/3/2025
+18:24:14 (orcina) OUT: "Flex" carol@dell-01  
+18:39:29 (orcina) OUT: "Flex" bob@ws-bravo  
+18:41:29 (orcina) IN: "Flex" bob@ws-bravo  
+18:56:04 (orcina) IN: "Flex" carol@dell-01  
+18:57:00 (orcina) OUT: "Flex" grace@dell-03  
+19:27:46 (orcina) IN: "Flex" erin@ws-echo  
+19:45:14 (orcina) IN: "Flex" carol@dell-01  
+19:45:28 (orcina) IN: "Flex" heidi@ws-hotel  
+19:47:08 (orcina) OUT: "Flex" grace@dell-03  
+19:48:08 (orcina) IN: "Flex" grace@dell-03  
+19:54:22 (orcina) IN: "Flex" frank@ws-foxtrot  
+19:54:43 (orcina) IN: "Flex" bob@ws-bravo  
+20:24:00 (orcina) IN: "Flex" grace@dell-03  
+21:20:53 (orcina) IN: "Flex" carol@dell-01  
+ 0:14:28 (orcina) IN: "Flex" alice@ws-alpha  
+ 0:22:57 (orcina) TIMESTAMP 9/4/2025
+ 6:22:57 (orcina) TIMESTAMP 9/4/2025
+ 7:23:52 (orcina) OUT: "Flex" erin@ws-echo  
+ 7:31:14 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:12:14 (orcina) IN: "Flex" erin@ws-echo  
+ 8:48:52 (orcina) IN: "Flex" erin@ws-echo  
+ 9:50:30 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 9:50:30 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 9:58:21 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+ 9:58:24 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+ 9:58:27 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+ 9:58:30 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:33:48 (orcina) OUT: "Flex" grace@dell-03  
+10:33:48 (orcina) IN: "Flex" grace@dell-03  
+11:13:39 (orcina) OUT: "Flex" carol@dell-01  
+11:31:45 (orcina) OUT: "Flex" grace@dell-03  
+11:34:07 (orcina) OUT: "Flex" dan@dell-02  
+11:39:28 (orcina) OUT: "Flex" carol@dell-01  
+11:41:28 (orcina) IN: "Flex" carol@dell-01  
+11:45:10 (orcina) OUT: "Flex" erin@ws-echo  
+11:47:10 (orcina) IN: "Flex" erin@ws-echo  
+11:57:51 (orcina) OUT: "Flex" erin@ws-echo  
+12:01:54 (orcina) OUT: "Flex" erin@ws-echo  
+12:02:54 (orcina) IN: "Flex" erin@ws-echo  
+12:04:45 (orcina) IN: "Flex" grace@dell-03  
+12:12:36 (orcina) OUT: "Flex" alice@ws-alpha  
+12:17:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:20:22 (orcina) OUT: "Flex" carol@dell-01  
+12:22:57 (orcina) TIMESTAMP 9/4/2025
+12:23:07 (orcina) IN: "Flex" dan@dell-02  
+12:28:22 (orcina) IN: "Flex" carol@dell-01  
+12:33:40 (orcina) OUT: "Flex" erin@ws-echo  
+12:33:40 (orcina) IN: "Flex" erin@ws-echo  
+12:38:36 (orcina) IN: "Flex" alice@ws-alpha  
+12:40:39 (orcina) IN: "Flex" carol@dell-01  
+12:41:11 (orcina) OUT: "Flex" alice@ws-alpha  
+12:41:11 (orcina) IN: "Flex" alice@ws-alpha  
+12:45:11 (orcina) OUT: "Flex" grace@dell-03  
+12:46:11 (orcina) IN: "Flex" grace@dell-03  
+13:13:50 (orcina) OUT: "Flex" grace@dell-03  
+13:24:20 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:26:20 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:34:40 (orcina) IN: "Flex" heidi@ws-hotel  
+13:42:45 (orcina) OUT: "Flex" dan@dell-02  
+13:42:45 (orcina) IN: "Flex" dan@dell-02  
+13:59:32 (orcina) OUT: "Flex" carol@dell-01  
+13:59:32 (orcina) IN: "Flex" carol@dell-01  
+14:01:44 (orcina) OUT: "Flex" bob@ws-bravo  
+14:15:07 (orcina) OUT: "Flex" carol@dell-01  
+14:15:07 (orcina) IN: "Flex" carol@dell-01  
+14:16:50 (orcina) IN: "Flex" grace@dell-03  
+14:20:23 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:20:23 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:25:53 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:31:10 (orcina) OUT: "Flex" alice@ws-alpha  
+14:32:10 (orcina) IN: "Flex" alice@ws-alpha  
+14:33:04 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:33:04 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:33:10 (orcina) OUT: "Flex" bob@ws-bravo  
+14:35:10 (orcina) IN: "Flex" bob@ws-bravo  
+14:40:47 (orcina) OUT: "Flex" grace@dell-03  
+14:43:04 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:03:44 (orcina) IN: "Flex" bob@ws-bravo  
+15:12:50 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:12:50 (orcina) IN: "Flex" heidi@ws-hotel  
+15:40:05 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:54:05 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:46 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:51 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:52 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:52 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:53 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:54 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:54 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:56 (orcina) OUT: "Flex" frank@ws-compute  
+15:57:58 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:02 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:04 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:09 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:10 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:11 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:14 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:14 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:19 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:20 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:21 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:22 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:26 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:28 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:30 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:30 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:31 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:32 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:32 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:35 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:36 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:40 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:41 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:42 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:43 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:44 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:46 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:50 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:50 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:52 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:53 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:54 (orcina) OUT: "Flex" frank@ws-compute  
+15:58:56 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:01 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:02 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:04 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:05 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:06 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:07 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:08 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:08 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:10 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:12 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:12 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:18 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:19 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:20 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:21 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:22 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:24 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:24 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:25 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:26 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:30 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:31 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:32 (orcina) IN: "Flex" frank@ws-compute  
+15:59:32 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:34 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:34 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:35 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:36 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:41 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:44 (orcina) IN: "Flex" frank@ws-compute  
+15:59:46 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:52 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:54 (orcina) OUT: "Flex" frank@ws-compute  
+15:59:58 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:06 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:08 (orcina) IN: "Flex" frank@ws-compute  
+16:00:12 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:14 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:16 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:18 (orcina) IN: "Flex" frank@ws-compute  
+16:00:22 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:25 (orcina) IN: "Flex" frank@ws-compute  
+16:00:26 (orcina) IN: "Flex" frank@ws-compute  
+16:00:30 (orcina) IN: "Flex" frank@ws-compute  
+16:00:36 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:42 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:44 (orcina) IN: "Flex" frank@ws-compute  
+16:00:44 (orcina) IN: "Flex" frank@ws-compute  
+16:00:44 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:44 (orcina) IN: "Flex" frank@ws-compute  
+16:00:46 (orcina) OUT: "Flex" frank@ws-compute  
+16:00:50 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:01 (orcina) IN: "Flex" frank@ws-compute  
+16:01:02 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:10 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:12 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:32 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:35 (orcina) IN: "Flex" frank@ws-compute  
+16:01:36 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:40 (orcina) OUT: "Flex" frank@ws-compute  
+16:01:44 (orcina) IN: "Flex" frank@ws-compute  
+16:01:52 (orcina) IN: "Flex" frank@ws-compute  
+16:02:02 (orcina) IN: "Flex" frank@ws-compute  
+16:02:04 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:02:14 (orcina) IN: "Flex" frank@ws-compute  
+16:02:19 (orcina) IN: "Flex" frank@ws-compute  
+16:02:20 (orcina) IN: "Flex" frank@ws-compute  
+16:02:22 (orcina) IN: "Flex" frank@ws-compute  
+16:02:32 (orcina) IN: "Flex" frank@ws-compute  
+16:02:44 (orcina) IN: "Flex" frank@ws-compute  
+16:02:44 (orcina) IN: "Flex" frank@ws-compute  
+16:02:44 (orcina) IN: "Flex" frank@ws-compute  
+16:02:50 (orcina) IN: "Flex" frank@ws-compute  
+16:02:54 (orcina) IN: "Flex" frank@ws-compute  
+16:02:58 (orcina) IN: "Flex" frank@ws-compute  
+16:03:04 (orcina) IN: "Flex" frank@ws-compute  
+16:03:08 (orcina) IN: "Flex" frank@ws-compute  
+16:03:24 (orcina) IN: "Flex" frank@ws-compute  
+16:03:44 (orcina) IN: "Flex" frank@ws-compute  
+16:03:44 (orcina) IN: "Flex" frank@ws-compute  
+16:04:06 (orcina) IN: "Flex" frank@ws-compute  
+16:04:44 (orcina) IN: "Flex" frank@ws-compute  
+16:05:26 (orcina) IN: "Flex" frank@ws-compute  
+16:05:44 (orcina) IN: "Flex" frank@ws-compute  
+16:05:44 (orcina) IN: "Flex" frank@ws-compute  
+16:05:51 (orcina) IN: "Flex" frank@ws-compute  
+16:05:54 (orcina) IN: "Flex" frank@ws-compute  
+16:06:05 (orcina) IN: "Flex" frank@ws-compute  
+16:06:34 (orcina) IN: "Flex" frank@ws-compute  
+16:07:10 (orcina) IN: "Flex" frank@ws-compute  
+16:07:35 (orcina) IN: "Flex" frank@ws-compute  
+16:07:44 (orcina) IN: "Flex" frank@ws-compute  
+16:07:44 (orcina) IN: "Flex" frank@ws-compute  
+16:07:47 (orcina) IN: "Flex" grace@dell-03  
+16:08:07 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:08:12 (orcina) IN: "Flex" frank@ws-compute  
+16:08:36 (orcina) IN: "Flex" frank@ws-compute  
+16:08:42 (orcina) IN: "Flex" frank@ws-compute  
+16:08:42 (orcina) IN: "Flex" frank@ws-compute  
+16:08:44 (orcina) IN: "Flex" frank@ws-compute  
+16:08:52 (orcina) IN: "Flex" frank@ws-compute  
+16:08:56 (orcina) IN: "Flex" frank@ws-compute  
+16:09:07 (orcina) IN: "Flex" frank@ws-compute  
+16:09:30 (orcina) IN: "Flex" frank@ws-compute  
+16:09:31 (orcina) IN: "Flex" frank@ws-compute  
+16:09:41 (orcina) IN: "Flex" frank@ws-compute  
+16:09:44 (orcina) IN: "Flex" frank@ws-compute  
+16:10:09 (orcina) IN: "Flex" frank@ws-compute  
+16:10:24 (orcina) OUT: "Flex" erin@ws-echo  
+16:10:44 (orcina) IN: "Flex" frank@ws-compute  
+16:10:44 (orcina) IN: "Flex" frank@ws-compute  
+16:10:44 (orcina) IN: "Flex" frank@ws-compute  
+16:10:53 (orcina) IN: "Flex" frank@ws-compute  
+16:11:41 (orcina) IN: "Flex" frank@ws-compute  
+16:11:44 (orcina) IN: "Flex" frank@ws-compute  
+16:11:44 (orcina) IN: "Flex" frank@ws-compute  
+16:11:44 (orcina) IN: "Flex" frank@ws-compute  
+16:11:46 (orcina) IN: "Flex" frank@ws-compute  
+16:12:40 (orcina) IN: "Flex" frank@ws-compute  
+16:12:46 (orcina) IN: "Flex" frank@ws-compute  
+16:12:47 (orcina) OUT: "Flex" carol@dell-01  
+16:12:53 (orcina) IN: "Flex" frank@ws-compute  
+16:12:56 (orcina) IN: "Flex" frank@ws-compute  
+16:13:12 (orcina) IN: "Flex" frank@ws-compute  
+16:13:44 (orcina) IN: "Flex" frank@ws-compute  
+16:13:50 (orcina) IN: "Flex" frank@ws-compute  
+16:13:58 (orcina) IN: "Flex" frank@ws-compute  
+16:14:14 (orcina) IN: "Flex" frank@ws-compute  
+16:14:36 (orcina) IN: "Flex" frank@ws-compute  
+16:14:44 (orcina) IN: "Flex" frank@ws-compute  
+16:14:44 (orcina) IN: "Flex" frank@ws-compute  
+16:14:50 (orcina) IN: "Flex" frank@ws-compute  
+16:15:02 (orcina) IN: "Flex" frank@ws-compute  
+16:15:29 (orcina) OUT: "Flex" erin@ws-echo  
+16:15:46 (orcina) IN: "Flex" frank@ws-compute  
+16:16:10 (orcina) IN: "Flex" frank@ws-compute  
+16:16:14 (orcina) IN: "Flex" frank@ws-compute  
+16:16:19 (orcina) IN: "Flex" frank@ws-compute  
+16:16:28 (orcina) IN: "Flex" frank@ws-compute  
+16:16:32 (orcina) IN: "Flex" frank@ws-compute  
+16:17:12 (orcina) IN: "Flex" frank@ws-compute  
+16:17:21 (orcina) IN: "Flex" frank@ws-compute  
+16:18:20 (orcina) IN: "Flex" frank@ws-compute  
+16:18:21 (orcina) IN: "Flex" frank@ws-compute  
+16:18:31 (orcina) IN: "Flex" frank@ws-compute  
+16:18:44 (orcina) IN: "Flex" frank@ws-compute  
+16:18:44 (orcina) IN: "Flex" frank@ws-compute  
+16:18:52 (orcina) IN: "Flex" frank@ws-compute  
+16:19:04 (orcina) IN: "Flex" frank@ws-compute  
+16:19:46 (orcina) IN: "Flex" frank@ws-compute  
+16:20:06 (orcina) IN: "Flex" frank@ws-compute  
+16:20:44 (orcina) IN: "Flex" frank@ws-compute  
+16:21:10 (orcina) IN: "Flex" frank@ws-compute  
+16:21:24 (orcina) IN: "Flex" frank@ws-compute  
+16:21:30 (orcina) IN: "Flex" frank@ws-compute  
+16:21:44 (orcina) IN: "Flex" frank@ws-compute  
+16:21:44 (orcina) IN: "Flex" frank@ws-compute  
+16:21:54 (orcina) IN: "Flex" frank@ws-compute  
+16:21:54 (orcina) IN: "Flex" frank@ws-compute  
+16:22:11 (orcina) IN: "Flex" frank@ws-compute  
+16:22:12 (orcina) IN: "Flex" frank@ws-compute  
+16:22:16 (orcina) IN: "Flex" frank@ws-compute  
+16:22:22 (orcina) IN: "Flex" frank@ws-compute  
+16:22:22 (orcina) IN: "Flex" frank@ws-compute  
+16:22:32 (orcina) IN: "Flex" frank@ws-compute  
+16:22:40 (orcina) IN: "Flex" frank@ws-compute  
+16:22:43 (orcina) IN: "Flex" frank@ws-compute  
+16:22:44 (orcina) IN: "Flex" frank@ws-compute  
+16:22:52 (orcina) IN: "Flex" frank@ws-compute  
+16:23:34 (orcina) IN: "Flex" frank@ws-compute  
+16:23:36 (orcina) IN: "Flex" frank@ws-compute  
+16:23:44 (orcina) IN: "Flex" frank@ws-compute  
+16:24:02 (orcina) IN: "Flex" frank@ws-compute  
+16:24:36 (orcina) IN: "Flex" frank@ws-compute  
+16:37:29 (orcina) IN: "Flex" erin@ws-echo  
+16:40:51 (orcina) OUT: "Flex" dan@dell-02  
+16:46:07 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:50:47 (orcina) IN: "Flex" carol@dell-01  
+17:01:35 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:22:01 (orcina) OUT: "Flex" dan@dell-02  
+17:22:01 (orcina) IN: "Flex" dan@dell-02  
+17:22:24 (orcina) IN: "Flex" erin@ws-echo  
+17:24:21 (orcina) OUT: "Flex" bob@ws-bravo  
+17:24:21 (orcina) IN: "Flex" bob@ws-bravo  
+17:37:15 (orcina) OUT: "Flex" erin@ws-echo  
+18:06:35 (orcina) IN: "Flex" heidi@ws-hotel  
+18:15:15 (orcina) IN: "Flex" erin@ws-echo  
+18:22:57 (orcina) TIMESTAMP 9/4/2025
+18:46:15 (orcina) OUT: "Flex" bob@ws-bravo  
+19:09:15 (orcina) IN: "Flex" bob@ws-bravo  
+19:32:39 (orcina) OUT: "Flex" dan@dell-02  
+20:19:27 (orcina) OUT: "Flex" dan@dell-02  
+20:19:27 (orcina) IN: "Flex" dan@dell-02  
+20:25:39 (orcina) IN: "Flex" dan@dell-02  
+20:37:33 (orcina) OUT: "Flex" carol@dell-01  
+20:46:07 (orcina) OUT: "Flex" dan@dell-02  
+20:57:00 (orcina) OUT: "Flex" bob@ws-bravo  
+21:00:07 (orcina) IN: "Flex" dan@dell-02  
+21:54:00 (orcina) IN: "Flex" bob@ws-bravo  
+23:07:53 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 0:22:57 (orcina) TIMESTAMP 9/5/2025
+ 1:45:51 (orcina) IN: "Flex" dan@dell-02  
+ 6:22:57 (orcina) TIMESTAMP 9/5/2025
+ 6:23:33 (orcina) IN: "Flex" carol@dell-01  
+ 6:34:30 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 6:34:30 (orcina) IN: "Flex" heidi@ws-hotel  
+ 6:36:41 (orcina) OUT: "Flex" alice@ws-alpha  
+ 6:50:05 (orcina) OUT: "Flex" carol@dell-01  
+ 6:50:05 (orcina) IN: "Flex" carol@dell-01  
+ 6:56:02 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 6:56:02 (orcina) IN: "Flex" heidi@ws-hotel  
+ 7:05:06 (orcina) OUT: "Flex" erin@ws-echo  
+ 7:05:06 (orcina) IN: "Flex" erin@ws-echo  
+ 7:47:47 (orcina) OUT: "Flex" grace@dell-03  
+ 7:48:47 (orcina) IN: "Flex" grace@dell-03  
+ 7:58:41 (orcina) IN: "Flex" alice@ws-alpha  
+ 8:52:53 (orcina) OUT: "Flex" carol@dell-01  
+ 9:01:12 (orcina) OUT: "Flex" grace@dell-03  
+ 9:01:12 (orcina) IN: "Flex" grace@dell-03  
+ 9:24:43 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:27:00 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 9:34:04 (orcina) OUT: "Flex" dan@dell-02  
+ 9:34:04 (orcina) IN: "Flex" dan@dell-02  
+ 9:49:53 (orcina) IN: "Flex" carol@dell-01  
+10:17:43 (orcina) IN: "Flex" bob@ws-bravo  
+10:27:36 (orcina) OUT: "Flex" alice@ws-alpha  
+10:35:36 (orcina) IN: "Flex" alice@ws-alpha  
+10:40:00 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:48:29 (orcina) OUT: "Flex" alice@ws-alpha  
+10:55:24 (orcina) OUT: "Flex" erin@ws-echo  
+10:55:24 (orcina) IN: "Flex" erin@ws-echo  
+11:02:16 (orcina) OUT: "Flex" bob@ws-bravo  
+11:18:43 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:18:43 (orcina) IN: "Flex" heidi@ws-hotel  
+11:24:38 (orcina) OUT: "Flex" grace@dell-03  
+11:24:38 (orcina) IN: "Flex" grace@dell-03  
+11:24:57 (orcina) OUT: "Flex" bob@ws-bravo  
+11:26:57 (orcina) IN: "Flex" bob@ws-bravo  
+11:40:29 (orcina) OUT: "Flex" alice@ws-alpha  
+11:43:26 (orcina) OUT: "Flex" erin@ws-echo  
+11:43:33 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:45:26 (orcina) IN: "Flex" erin@ws-echo  
+11:52:29 (orcina) IN: "Flex" alice@ws-alpha  
+11:54:33 (orcina) IN: "Flex" heidi@ws-hotel  
+12:14:29 (orcina) IN: "Flex" alice@ws-alpha  
+12:19:09 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:21:35 (orcina) OUT: "Flex" dan@dell-02  
+12:22:35 (orcina) IN: "Flex" dan@dell-02  
+12:22:57 (orcina) TIMESTAMP 9/5/2025
+12:26:58 (orcina) OUT: "Flex" dan@dell-02  
+12:27:16 (orcina) IN: "Flex" bob@ws-bravo  
+12:34:20 (orcina) OUT: "Flex" bob@ws-bravo  
+12:40:06 (orcina) OUT: "Flex" carol@dell-01  
+12:50:58 (orcina) IN: "Flex" dan@dell-02  
+12:57:43 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:57:46 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:57:49 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:57:52 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:57:55 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:57:58 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:58:01 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:58:04 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+12:58:07 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+13:04:00 (orcina) OUT: "Flex" erin@ws-echo  
+13:06:03 (orcina) OUT: "Flex" dan@dell-02  
+13:06:03 (orcina) IN: "Flex" dan@dell-02  
+13:24:37 (orcina) OUT: "Flex" erin@ws-echo  
+13:44:32 (orcina) OUT: "Flex" dan@dell-02  
+13:44:56 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:44:56 (orcina) IN: "Flex" heidi@ws-hotel  
+13:49:13 (orcina) OUT: "Flex" grace@dell-03  
+13:49:13 (orcina) IN: "Flex" grace@dell-03  
+13:51:44 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:53:28 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:54:20 (orcina) IN: "Flex" bob@ws-bravo  
+14:13:23 (orcina) OUT: "Flex" alice@ws-alpha  
+14:13:23 (orcina) IN: "Flex" alice@ws-alpha  
+14:13:28 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:24:00 (orcina) IN: "Flex" erin@ws-echo  
+14:38:53 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:39:23 (orcina) OUT: "Flex" alice@ws-alpha  
+14:39:23 (orcina) IN: "Flex" alice@ws-alpha  
+14:39:53 (orcina) IN: "Flex" heidi@ws-hotel  
+14:41:16 (orcina) OUT: "Flex" bob@ws-bravo  
+14:43:09 (orcina) IN: "Flex" heidi@ws-hotel  
+14:50:37 (orcina) IN: "Flex" erin@ws-echo  
+15:01:37 (orcina) OUT: "Flex" bob@ws-bravo  
+15:03:32 (orcina) IN: "Flex" dan@dell-02  
+15:03:37 (orcina) IN: "Flex" bob@ws-bravo  
+15:09:42 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:10:42 (orcina) IN: "Flex" heidi@ws-hotel  
+15:11:22 (orcina) OUT: "Flex" dan@dell-02  
+15:11:22 (orcina) IN: "Flex" dan@dell-02  
+15:13:44 (orcina) OUT: "Flex" alice@ws-alpha  
+15:17:21 (orcina) OUT: "Flex" alice@ws-alpha  
+15:21:19 (orcina) OUT: "Flex" erin@ws-echo  
+15:27:23 (orcina) OUT: "Flex" erin@ws-echo  
+15:27:53 (orcina) OUT: "Flex" grace@dell-03  
+15:28:53 (orcina) IN: "Flex" grace@dell-03  
+15:28:59 (orcina) OUT: "Flex" grace@dell-03  
+15:29:23 (orcina) IN: "Flex" erin@ws-echo  
+15:34:34 (orcina) OUT: "Flex" grace@dell-03  
+15:36:34 (orcina) IN: "Flex" grace@dell-03  
+15:39:59 (orcina) IN: "Flex" grace@dell-03  
+15:47:06 (orcina) OUT: "Flex" alice@ws-alpha  
+15:51:15 (orcina) OUT: "Flex" carol@dell-01  
+15:57:19 (orcina) OUT: "Flex" erin@ws-echo  
+16:00:44 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:30:44 (orcina) IN: "Flex" alice@ws-alpha  
+16:51:32 (orcina) OUT: "Flex" erin@ws-echo  
+16:52:32 (orcina) IN: "Flex" erin@ws-echo  
+17:04:46 (orcina) OUT: "Flex" erin@ws-echo  
+17:06:19 (orcina) IN: "Flex" erin@ws-echo  
+17:06:46 (orcina) IN: "Flex" erin@ws-echo  
+17:09:42 (orcina) OUT: "Flex" alice@ws-alpha  
+17:34:06 (orcina) IN: "Flex" carol@dell-01  
+18:02:27 (orcina) OUT: "Flex" bob@ws-bravo  
+18:02:27 (orcina) IN: "Flex" bob@ws-bravo  
+18:20:19 (orcina) OUT: "Flex" grace@dell-03  
+18:22:57 (orcina) TIMESTAMP 9/5/2025
+18:38:50 (orcina) OUT: "Flex" bob@ws-bravo  
+18:38:50 (orcina) IN: "Flex" bob@ws-bravo  
+19:00:19 (orcina) IN: "Flex" grace@dell-03  
+19:18:12 (orcina) OUT: "Flex" grace@dell-03  
+19:20:12 (orcina) IN: "Flex" grace@dell-03  
+19:55:42 (orcina) IN: "Flex" alice@ws-alpha  
+19:59:16 (orcina) IN: "Flex" bob@ws-bravo  
+20:28:06 (orcina) IN: "Flex" alice@ws-alpha  
+21:07:21 (orcina) IN: "Flex" alice@ws-alpha  
+22:04:19 (orcina) IN: "Flex" erin@ws-echo  
+ 0:22:57 (orcina) TIMESTAMP 9/6/2025
+ 1:38:15 (orcina) IN: "Flex" carol@dell-01  
+ 6:22:57 (orcina) TIMESTAMP 9/6/2025
+11:30:55 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) heidi@ws-hotel  (No such feature exists. (-5,346))
+11:30:58 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) heidi@ws-hotel  (No such feature exists. (-5,346))
+11:53:19 (orcina) OUT: "Flex" erin@ws-echo  
+11:53:19 (orcina) IN: "Flex" erin@ws-echo  
+12:22:57 (orcina) TIMESTAMP 9/6/2025
+18:22:57 (orcina) TIMESTAMP 9/6/2025
+ 0:22:57 (orcina) TIMESTAMP 9/7/2025
+ 6:22:57 (orcina) TIMESTAMP 9/7/2025
+10:23:04 (orcina) OUT: "Flex" grace@dell-03  
+10:24:04 (orcina) IN: "Flex" grace@dell-03  
+12:22:57 (orcina) TIMESTAMP 9/7/2025
+14:53:45 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:49:31 (orcina) OUT: "Flex" grace@dell-03  
+16:49:31 (orcina) IN: "Flex" grace@dell-03  
+16:56:28 (orcina) OUT: "Flex" grace@dell-03  
+16:58:28 (orcina) IN: "Flex" grace@dell-03  
+17:09:45 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:25:46 (orcina) OUT: "Flex" frank@ws-foxtrot  
+17:25:46 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:22:57 (orcina) TIMESTAMP 9/7/2025
+19:28:08 (orcina) OUT: "Flex" dan@dell-02  
+20:22:17 (orcina) OUT: "Flex" frank@ws-foxtrot  
+20:56:37 (orcina) IN: "Flex" erin@ws-echo  
+20:57:08 (orcina) IN: "Flex" dan@dell-02  
+21:12:17 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 0:22:57 (orcina) TIMESTAMP 9/8/2025
+ 6:15:03 (orcina) OUT: "Flex" bob@ws-bravo  
+ 6:15:03 (orcina) IN: "Flex" bob@ws-bravo  
+ 6:22:57 (orcina) TIMESTAMP 9/8/2025
+ 6:31:32 (orcina) OUT: "Flex" dan@dell-02  
+ 6:31:32 (orcina) IN: "Flex" dan@dell-02  
+ 7:31:06 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:36:11 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:53:00 (orcina) OUT: "Flex" bob@ws-bravo  
+ 8:54:00 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:02:23 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:13:31 (orcina) OUT: "Flex" alice@ws-alpha  
+ 9:13:31 (orcina) IN: "Flex" alice@ws-alpha  
+ 9:19:48 (orcina) OUT: "Flex" carol@dell-01  
+ 9:21:59 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:22:34 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:22:34 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:28:26 (orcina) OUT: "Flex" erin@ws-echo  
+ 9:38:23 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:39:52 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 9:56:59 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:59:48 (orcina) IN: "Flex" carol@dell-01  
+10:08:37 (orcina) OUT: "Flex" grace@dell-03  
+10:10:37 (orcina) IN: "Flex" grace@dell-03  
+10:30:52 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:31:26 (orcina) IN: "Flex" erin@ws-echo  
+10:46:40 (orcina) OUT: "Flex" bob@ws-bravo  
+10:46:40 (orcina) IN: "Flex" bob@ws-bravo  
+10:52:40 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:43 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:46 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:49 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:52 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:55 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:52:58 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+10:53:01 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) erin@ws-echo  (No such feature exists. (-5,346))
+11:23:54 (orcina) OUT: "Flex" bob@ws-bravo  
+11:25:54 (orcina) IN: "Flex" bob@ws-bravo  
+11:30:22 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:42:28 (orcina) OUT: "Flex" carol@dell-01  
+11:43:28 (orcina) IN: "Flex" carol@dell-01  
+11:56:55 (orcina) OUT: "Flex" dan@dell-02  
+11:56:55 (orcina) IN: "Flex" dan@dell-02  
+12:04:33 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:06:37 (orcina) OUT: "Flex" erin@ws-echo  
+12:07:37 (orcina) IN: "Flex" erin@ws-echo  
+12:11:43 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:11:43 (orcina) IN: "Flex" heidi@ws-hotel  
+12:22:57 (orcina) TIMESTAMP 9/8/2025
+12:39:50 (orcina) OUT: "Flex" carol@dell-01  
+12:40:49 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:40:50 (orcina) IN: "Flex" carol@dell-01  
+12:48:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:48:40 (orcina) IN: "Flex" heidi@ws-hotel  
+12:59:48 (orcina) OUT: "Flex" dan@dell-02  
+13:15:04 (orcina) OUT: "Flex" dan@dell-02  
+13:15:04 (orcina) IN: "Flex" dan@dell-02  
+13:15:25 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:15:25 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:21:33 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:29:10 (orcina) OUT: "Flex" alice@ws-alpha  
+13:29:10 (orcina) IN: "Flex" alice@ws-alpha  
+13:29:50 (orcina) OUT: "Flex" erin@ws-echo  
+13:29:50 (orcina) IN: "Flex" erin@ws-echo  
+13:33:27 (orcina) OUT: "Flex" erin@ws-echo  
+13:35:27 (orcina) IN: "Flex" erin@ws-echo  
+13:38:48 (orcina) IN: "Flex" dan@dell-02  
+13:51:16 (orcina) OUT: "Flex" bob@ws-bravo  
+14:07:12 (orcina) OUT: "Flex" grace@dell-03  
+14:07:12 (orcina) IN: "Flex" grace@dell-03  
+14:45:07 (orcina) OUT: "Flex" carol@dell-01  
+14:45:07 (orcina) IN: "Flex" carol@dell-01  
+15:06:30 (orcina) OUT: "Flex" carol@dell-01  
+15:06:30 (orcina) IN: "Flex" carol@dell-01  
+15:06:35 (orcina) OUT: "Flex" grace@dell-03  
+15:10:20 (orcina) OUT: "Flex" dan@dell-02  
+15:10:20 (orcina) IN: "Flex" dan@dell-02  
+15:19:06 (orcina) IN: "Flex" erin@ws-echo  
+15:20:31 (orcina) OUT: "Flex" carol@dell-01  
+15:24:16 (orcina) OUT: "Flex" dan@dell-02  
+15:29:33 (orcina) OUT: "Flex" dan@dell-02  
+15:29:33 (orcina) IN: "Flex" dan@dell-02  
+15:51:16 (orcina) IN: "Flex" dan@dell-02  
+16:07:02 (orcina) OUT: "Flex" carol@dell-01  
+16:08:02 (orcina) IN: "Flex" carol@dell-01  
+16:23:23 (orcina) OUT: "Flex" bob@ws-bravo  
+16:23:23 (orcina) IN: "Flex" bob@ws-bravo  
+16:24:16 (orcina) IN: "Flex" bob@ws-bravo  
+16:28:41 (orcina) OUT: "Flex" carol@dell-01  
+16:36:31 (orcina) IN: "Flex" carol@dell-01  
+16:44:52 (orcina) OUT: "Flex" alice@ws-alpha  
+16:45:52 (orcina) IN: "Flex" alice@ws-alpha  
+16:50:55 (orcina) OUT: "Flex" dan@dell-02  
+16:50:55 (orcina) IN: "Flex" dan@dell-02  
+16:53:43 (orcina) OUT: "Flex" erin@ws-echo  
+17:02:11 (orcina) IN: "Flex" erin@ws-echo  
+17:11:06 (orcina) OUT: "Flex" alice@ws-alpha  
+17:35:49 (orcina) IN: "Flex" heidi@ws-hotel  
+17:39:12 (orcina) OUT: "Flex" bob@ws-bravo  
+17:40:43 (orcina) OUT: "Flex" carol@dell-01  
+17:42:43 (orcina) IN: "Flex" carol@dell-01  
+17:43:41 (orcina) IN: "Flex" carol@dell-01  
+17:47:43 (orcina) IN: "Flex" erin@ws-echo  
+18:00:06 (orcina) IN: "Flex" alice@ws-alpha  
+18:03:54 (orcina) OUT: "Flex" dan@dell-02  
+18:08:46 (orcina) OUT: "Flex" carol@dell-01  
+18:10:46 (orcina) IN: "Flex" carol@dell-01  
+18:21:39 (orcina) OUT: "Flex" erin@ws-echo  
+18:22:57 (orcina) TIMESTAMP 9/8/2025
+18:23:39 (orcina) IN: "Flex" erin@ws-echo  
+18:26:22 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:52:12 (orcina) IN: "Flex" bob@ws-bravo  
+19:01:54 (orcina) IN: "Flex" dan@dell-02  
+19:38:48 (orcina) OUT: "Flex" carol@dell-01  
+19:51:18 (orcina) OUT: "Flex" erin@ws-echo  
+19:51:18 (orcina) IN: "Flex" erin@ws-echo  
+19:52:12 (orcina) OUT: "Flex" bob@ws-bravo  
+20:06:22 (orcina) OUT: "Flex" alice@ws-alpha  
+20:17:22 (orcina) IN: "Flex" alice@ws-alpha  
+22:22:36 (orcina) OUT: "Flex" bob@ws-bravo  
+22:22:36 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:08:56 (orcina) IN: "Flex" grace@dell-03  
+ 0:12:12 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:22:57 (orcina) TIMESTAMP 9/9/2025
+ 0:32:35 (orcina) IN: "Flex" grace@dell-03  
+ 4:12:48 (orcina) IN: "Flex" carol@dell-01  
+ 6:22:57 (orcina) TIMESTAMP 9/9/2025
+ 7:26:43 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 7:26:43 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 7:59:01 (orcina) OUT: "Flex" dan@dell-02  
+ 8:11:13 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 8:11:13 (orcina) IN: "Flex" heidi@ws-hotel  
+ 8:55:55 (orcina) OUT: "Flex" carol@dell-01  
+ 8:55:55 (orcina) IN: "Flex" carol@dell-01  
+ 9:06:03 (orcina) OUT: "Flex" grace@dell-03  
+ 9:25:30 (orcina) OUT: "Flex" erin@ws-echo  
+ 9:25:30 (orcina) IN: "Flex" erin@ws-echo  
+ 9:48:54 (orcina) OUT: "Flex" grace@dell-03  
+10:10:19 (orcina) OUT: "Flex" dan@dell-02  
+10:10:19 (orcina) IN: "Flex" dan@dell-02  
+10:30:54 (orcina) IN: "Flex" grace@dell-03  
+10:51:55 (orcina) OUT: "Flex" erin@ws-echo  
+10:51:55 (orcina) IN: "Flex" erin@ws-echo  
+11:04:02 (orcina) OUT: "Flex" dan@dell-02  
+11:04:02 (orcina) IN: "Flex" dan@dell-02  
+11:11:09 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:11:17 (orcina) OUT: "Flex" alice@ws-alpha  
+11:11:17 (orcina) IN: "Flex" alice@ws-alpha  
+11:13:09 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:19:07 (orcina) OUT: "Flex" alice@ws-alpha  
+11:31:28 (orcina) OUT: "Flex" erin@ws-echo  
+11:33:28 (orcina) IN: "Flex" erin@ws-echo  
+11:41:03 (orcina) IN: "Flex" grace@dell-03  
+12:01:21 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) alice@ws-alpha  (No such feature exists. (-5,346))
+12:01:24 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) alice@ws-alpha  (No such feature exists. (-5,346))
+12:01:27 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) alice@ws-alpha  (No such feature exists. (-5,346))
+12:01:30 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) alice@ws-alpha  (No such feature exists. (-5,346))
+12:01:33 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) alice@ws-alpha  (No such feature exists. (-5,346))
+12:22:57 (orcina) TIMESTAMP 9/9/2025
+12:35:43 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:36:21 (orcina) OUT: "Flex" carol@dell-01  
+12:38:21 (orcina) IN: "Flex" carol@dell-01  
+12:39:30 (orcina) OUT: "Flex" grace@dell-03  
+12:55:23 (orcina) OUT: "Flex" grace@dell-03  
+12:55:23 (orcina) IN: "Flex" grace@dell-03  
+13:02:59 (orcina) OUT: "Flex" alice@ws-alpha  
+13:16:43 (orcina) IN: "Flex" heidi@ws-hotel  
+13:29:37 (orcina) OUT: "Flex" grace@dell-03  
+13:36:59 (orcina) IN: "Flex" alice@ws-alpha  
+13:55:39 (orcina) OUT: "Flex" carol@dell-01  
+14:06:30 (orcina) IN: "Flex" grace@dell-03  
+14:09:10 (orcina) OUT: "Flex" erin@ws-echo  
+14:30:22 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:30:22 (orcina) IN: "Flex" heidi@ws-hotel  
+14:32:14 (orcina) OUT: "Flex" carol@dell-01  
+14:32:14 (orcina) IN: "Flex" carol@dell-01  
+14:43:48 (orcina) OUT: "Flex" carol@dell-01  
+14:45:48 (orcina) IN: "Flex" carol@dell-01  
+14:52:30 (orcina) OUT: "Flex" dan@dell-02  
+15:10:00 (orcina) OUT: "Flex" erin@ws-echo  
+15:12:12 (orcina) OUT: "Flex" grace@dell-03  
+15:14:07 (orcina) IN: "Flex" alice@ws-alpha  
+15:14:12 (orcina) IN: "Flex" grace@dell-03  
+15:16:30 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:16:30 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:18:30 (orcina) IN: "Flex" dan@dell-02  
+15:24:33 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:26:33 (orcina) IN: "Flex" heidi@ws-hotel  
+15:37:35 (orcina) OUT: "Flex" dan@dell-02  
+15:38:35 (orcina) IN: "Flex" dan@dell-02  
+15:39:10 (orcina) IN: "Flex" erin@ws-echo  
+15:59:11 (orcina) OUT: "Flex" grace@dell-03  
+15:59:11 (orcina) IN: "Flex" grace@dell-03  
+15:59:39 (orcina) IN: "Flex" carol@dell-01  
+16:06:58 (orcina) OUT: "Flex" alice@ws-alpha  
+16:06:58 (orcina) IN: "Flex" alice@ws-alpha  
+16:13:00 (orcina) IN: "Flex" erin@ws-echo  
+16:25:00 (orcina) OUT: "Flex" heidi@ws-hotel  
+16:26:00 (orcina) IN: "Flex" heidi@ws-hotel  
+16:46:48 (orcina) OUT: "Flex" erin@ws-echo  
+16:53:27 (orcina) OUT: "Flex" carol@dell-01  
+16:53:51 (orcina) OUT: "Flex" alice@ws-alpha  
+16:55:46 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:55:51 (orcina) IN: "Flex" alice@ws-alpha  
+16:56:20 (orcina) OUT: "Flex" carol@dell-01  
+16:57:46 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:08:08 (orcina) OUT: "Flex" grace@dell-03  
+17:08:08 (orcina) IN: "Flex" grace@dell-03  
+17:09:54 (orcina) OUT: "Flex" grace@dell-03  
+17:10:54 (orcina) IN: "Flex" grace@dell-03  
+17:29:08 (orcina) OUT: "Flex" grace@dell-03  
+17:30:37 (orcina) OUT: "Flex" dan@dell-02  
+17:30:37 (orcina) IN: "Flex" dan@dell-02  
+17:31:08 (orcina) IN: "Flex" grace@dell-03  
+17:38:01 (orcina) IN: "Flex" dan@dell-02  
+17:41:37 (orcina) OUT: "Flex" erin@ws-echo  
+17:41:37 (orcina) IN: "Flex" erin@ws-echo  
+17:43:09 (orcina) OUT: "Flex" carol@dell-01  
+17:58:00 (orcina) OUT: "Flex" carol@dell-01  
+18:22:57 (orcina) TIMESTAMP 9/9/2025
+18:59:03 (orcina) OUT: "Flex" carol@dell-01  
+19:06:03 (orcina) IN: "Flex" carol@dell-01  
+20:05:18 (orcina) OUT: "Flex" heidi@ws-hotel  
+20:59:37 (orcina) IN: "Flex" grace@dell-03  
+21:03:09 (orcina) IN: "Flex" carol@dell-01  
+21:06:00 (orcina) IN: "Flex" carol@dell-01  
+ 0:22:57 (orcina) TIMESTAMP 9/10/2025
+ 1:20:48 (orcina) IN: "Flex" erin@ws-echo  
+ 2:22:20 (orcina) IN: "Flex" carol@dell-01  
+ 2:22:27 (orcina) IN: "Flex" carol@dell-01  
+ 5:40:18 (orcina) IN: "Flex" heidi@ws-hotel  
+ 6:22:57 (orcina) TIMESTAMP 9/10/2025
+ 6:49:12 (orcina) OUT: "Flex" carol@dell-01  
+ 6:51:12 (orcina) IN: "Flex" carol@dell-01  
+ 6:52:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 6:53:29 (orcina) IN: "Flex" heidi@ws-hotel  
+ 7:44:12 (orcina) OUT: "Flex" dan@dell-02  
+ 7:44:12 (orcina) IN: "Flex" dan@dell-02  
+ 7:52:53 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 7:52:53 (orcina) IN: "Flex" heidi@ws-hotel  
+ 8:58:19 (orcina) OUT: "Flex" dan@dell-02  
+ 8:58:19 (orcina) IN: "Flex" dan@dell-02  
+ 9:57:29 (orcina) OUT: "Flex" carol@dell-01  
+ 9:57:29 (orcina) IN: "Flex" carol@dell-01  
+ 9:58:44 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:59:44 (orcina) IN: "Flex" heidi@ws-hotel  
+10:00:18 (orcina) OUT: "Flex" erin@ws-echo  
+10:02:18 (orcina) IN: "Flex" erin@ws-echo  
+10:17:34 (orcina) OUT: "Flex" carol@dell-01  
+10:17:34 (orcina) IN: "Flex" carol@dell-01  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:49 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:52 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:53 (orcina) OUT: "Flex" frank@ws-compute  
+10:28:59 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:01 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:03 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:07 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:11 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:12 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:13 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:14 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:17 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:17 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:19 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:23 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:24 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:25 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:28 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:31 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:31 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:32 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:33 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:37 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:39 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:39 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:42 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:43 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:44 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:45 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:47 (orcina) IN: "Flex" frank@ws-compute  
+10:29:47 (orcina) IN: "Flex" frank@ws-compute  
+10:29:49 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:49 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:51 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:51 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:52 (orcina) IN: "Flex" frank@ws-compute  
+10:29:52 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:54 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:55 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:55 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:56 (orcina) OUT: "Flex" frank@ws-compute  
+10:29:57 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:03 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:04 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:05 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:06 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:07 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:07 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:10 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:12 (orcina) IN: "Flex" frank@ws-compute  
+10:30:12 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:14 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:18 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:19 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:20 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:25 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:27 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:29 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:30 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:36 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:37 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:38 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:40 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:42 (orcina) IN: "Flex" frank@ws-compute  
+10:30:45 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:47 (orcina) IN: "Flex" frank@ws-compute  
+10:30:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:51 (orcina) OUT: "Flex" frank@ws-compute  
+10:30:52 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:00 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:01 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:03 (orcina) IN: "Flex" frank@ws-compute  
+10:31:07 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:10 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:11 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:11 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:13 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:13 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:16 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:20 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:23 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:27 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:28 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:29 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:31 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:34 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:38 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:42 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:43 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:45 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:47 (orcina) IN: "Flex" frank@ws-compute  
+10:31:47 (orcina) IN: "Flex" frank@ws-compute  
+10:31:47 (orcina) IN: "Flex" frank@ws-compute  
+10:31:47 (orcina) IN: "Flex" frank@ws-compute  
+10:31:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:47 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:48 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:49 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:51 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:54 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:55 (orcina) OUT: "Flex" frank@ws-compute  
+10:31:57 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:01 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:03 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:05 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:09 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:15 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:19 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:21 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:31 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:37 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:39 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:45 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:47 (orcina) IN: "Flex" frank@ws-compute  
+10:32:47 (orcina) IN: "Flex" frank@ws-compute  
+10:32:49 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:51 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:53 (orcina) OUT: "Flex" frank@ws-compute  
+10:32:56 (orcina) IN: "Flex" frank@ws-compute  
+10:33:01 (orcina) IN: "Flex" frank@ws-compute  
+10:33:05 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:07 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:09 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:17 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:19 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:32 (orcina) IN: "Flex" frank@ws-compute  
+10:33:35 (orcina) IN: "Flex" frank@ws-compute  
+10:33:37 (orcina) IN: "Flex" frank@ws-compute  
+10:33:37 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:43 (orcina) OUT: "Flex" frank@ws-compute  
+10:33:47 (orcina) IN: "Flex" frank@ws-compute  
+10:34:05 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:07 (orcina) IN: "Flex" frank@ws-compute  
+10:34:13 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:17 (orcina) IN: "Flex" frank@ws-compute  
+10:34:19 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:20 (orcina) IN: "Flex" frank@ws-compute  
+10:34:24 (orcina) IN: "Flex" frank@ws-compute  
+10:34:31 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:33 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:35 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:43 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:45 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:47 (orcina) IN: "Flex" frank@ws-compute  
+10:34:47 (orcina) IN: "Flex" frank@ws-compute  
+10:34:47 (orcina) IN: "Flex" frank@ws-compute  
+10:34:49 (orcina) IN: "Flex" frank@ws-compute  
+10:34:52 (orcina) IN: "Flex" frank@ws-compute  
+10:34:57 (orcina) OUT: "Flex" frank@ws-compute  
+10:34:59 (orcina) OUT: "Flex" frank@ws-compute  
+10:35:03 (orcina) OUT: "Flex" frank@ws-compute  
+10:35:05 (orcina) IN: "Flex" frank@ws-compute  
+10:35:05 (orcina) OUT: "Flex" frank@ws-compute  
+10:35:09 (orcina) IN: "Flex" frank@ws-compute  
+10:35:17 (orcina) IN: "Flex" frank@ws-compute  
+10:35:30 (orcina) IN: "Flex" frank@ws-compute  
+10:35:47 (orcina) IN: "Flex" frank@ws-compute  
+10:35:49 (orcina) IN: "Flex" frank@ws-compute  
+10:37:07 (orcina) IN: "Flex" frank@ws-compute  
+10:37:19 (orcina) IN: "Flex" frank@ws-compute  
+10:37:31 (orcina) IN: "Flex" frank@ws-compute  
+10:37:47 (orcina) IN: "Flex" frank@ws-compute  
+10:37:47 (orcina) IN: "Flex" frank@ws-compute  
+10:37:47 (orcina) IN: "Flex" frank@ws-compute  
+10:37:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:03 (orcina) IN: "Flex" frank@ws-compute  
+10:38:09 (orcina) OUT: "Flex" erin@ws-echo  
+10:38:09 (orcina) IN: "Flex" erin@ws-echo  
+10:38:11 (orcina) IN: "Flex" frank@ws-compute  
+10:38:33 (orcina) IN: "Flex" frank@ws-compute  
+10:38:35 (orcina) IN: "Flex" frank@ws-compute  
+10:38:39 (orcina) IN: "Flex" frank@ws-compute  
+10:38:45 (orcina) IN: "Flex" frank@ws-compute  
+10:38:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:47 (orcina) IN: "Flex" frank@ws-compute  
+10:38:51 (orcina) IN: "Flex" frank@ws-compute  
+10:38:54 (orcina) IN: "Flex" frank@ws-compute  
+10:38:55 (orcina) IN: "Flex" frank@ws-compute  
+10:38:57 (orcina) IN: "Flex" frank@ws-compute  
+10:39:05 (orcina) IN: "Flex" frank@ws-compute  
+10:39:27 (orcina) IN: "Flex" frank@ws-compute  
+10:39:47 (orcina) IN: "Flex" frank@ws-compute  
+10:39:47 (orcina) IN: "Flex" frank@ws-compute  
+10:39:47 (orcina) IN: "Flex" frank@ws-compute  
+10:39:55 (orcina) IN: "Flex" frank@ws-compute  
+10:39:55 (orcina) IN: "Flex" frank@ws-compute  
+10:40:05 (orcina) IN: "Flex" frank@ws-compute  
+10:40:13 (orcina) IN: "Flex" frank@ws-compute  
+10:40:14 (orcina) IN: "Flex" frank@ws-compute  
+10:40:27 (orcina) IN: "Flex" frank@ws-compute  
+10:40:35 (orcina) IN: "Flex" frank@ws-compute  
+10:40:47 (orcina) IN: "Flex" frank@ws-compute  
+10:40:47 (orcina) IN: "Flex" frank@ws-compute  
+10:40:47 (orcina) IN: "Flex" frank@ws-compute  
+10:40:47 (orcina) IN: "Flex" frank@ws-compute  
+10:40:47 (orcina) IN: "Flex" frank@ws-compute  
+10:40:57 (orcina) IN: "Flex" frank@ws-compute  
+10:41:04 (orcina) IN: "Flex" frank@ws-compute  
+10:41:12 (orcina) IN: "Flex" frank@ws-compute  
+10:41:19 (orcina) IN: "Flex" frank@ws-compute  
+10:41:23 (orcina) IN: "Flex" frank@ws-compute  
+10:41:28 (orcina) IN: "Flex" frank@ws-compute  
+10:41:31 (orcina) IN: "Flex" frank@ws-compute  
+10:41:35 (orcina) IN: "Flex" frank@ws-compute  
+10:41:47 (orcina) IN: "Flex" frank@ws-compute  
+10:42:03 (orcina) IN: "Flex" frank@ws-compute  
+10:42:10 (orcina) IN: "Flex" frank@ws-compute  
+10:42:15 (orcina) IN: "Flex" frank@ws-compute  
+10:42:16 (orcina) IN: "Flex" frank@ws-compute  
+10:42:42 (orcina) IN: "Flex" frank@ws-compute  
+10:42:45 (orcina) IN: "Flex" frank@ws-compute  
+10:42:47 (orcina) IN: "Flex" frank@ws-compute  
+10:42:51 (orcina) IN: "Flex" frank@ws-compute  
+10:43:07 (orcina) IN: "Flex" frank@ws-compute  
+10:43:18 (orcina) IN: "Flex" frank@ws-compute  
+10:43:19 (orcina) IN: "Flex" frank@ws-compute  
+10:43:43 (orcina) IN: "Flex" frank@ws-compute  
+10:43:47 (orcina) IN: "Flex" frank@ws-compute  
+10:43:47 (orcina) IN: "Flex" frank@ws-compute  
+10:43:47 (orcina) IN: "Flex" frank@ws-compute  
+10:43:47 (orcina) IN: "Flex" frank@ws-compute  
+10:44:00 (orcina) IN: "Flex" frank@ws-compute  
+10:44:07 (orcina) IN: "Flex" frank@ws-compute  
+10:44:23 (orcina) IN: "Flex" frank@ws-compute  
+10:44:31 (orcina) IN: "Flex" frank@ws-compute  
+10:44:35 (orcina) IN: "Flex" frank@ws-compute  
+10:44:45 (orcina) IN: "Flex" frank@ws-compute  
+10:44:47 (orcina) IN: "Flex" frank@ws-compute  
+10:44:52 (orcina) IN: "Flex" frank@ws-compute  
+10:45:06 (orcina) IN: "Flex" frank@ws-compute  
+10:45:14 (orcina) IN: "Flex" frank@ws-compute  
+10:45:47 (orcina) IN: "Flex" frank@ws-compute  
+10:45:47 (orcina) IN: "Flex" frank@ws-compute  
+10:45:47 (orcina) IN: "Flex" frank@ws-compute  
+10:45:56 (orcina) OUT: "Flex" erin@ws-echo  
+10:46:21 (orcina) IN: "Flex" frank@ws-compute  
+10:46:47 (orcina) IN: "Flex" frank@ws-compute  
+10:46:49 (orcina) IN: "Flex" frank@ws-compute  
+10:46:51 (orcina) IN: "Flex" frank@ws-compute  
+10:47:03 (orcina) IN: "Flex" frank@ws-compute  
+10:47:11 (orcina) IN: "Flex" frank@ws-compute  
+10:47:13 (orcina) IN: "Flex" frank@ws-compute  
+10:47:25 (orcina) IN: "Flex" frank@ws-compute  
+10:47:35 (orcina) IN: "Flex" frank@ws-compute  
+10:47:39 (orcina) IN: "Flex" frank@ws-compute  
+10:47:45 (orcina) IN: "Flex" frank@ws-compute  
+10:47:47 (orcina) IN: "Flex" frank@ws-compute  
+10:47:47 (orcina) IN: "Flex" frank@ws-compute  
+10:47:47 (orcina) IN: "Flex" frank@ws-compute  
+10:47:47 (orcina) IN: "Flex" frank@ws-compute  
+10:48:05 (orcina) IN: "Flex" frank@ws-compute  
+10:48:38 (orcina) IN: "Flex" frank@ws-compute  
+10:48:40 (orcina) IN: "Flex" frank@ws-compute  
+10:48:47 (orcina) IN: "Flex" frank@ws-compute  
+10:48:49 (orcina) IN: "Flex" frank@ws-compute  
+10:49:33 (orcina) IN: "Flex" frank@ws-compute  
+10:49:37 (orcina) IN: "Flex" frank@ws-compute  
+10:49:37 (orcina) IN: "Flex" frank@ws-compute  
+10:49:47 (orcina) IN: "Flex" frank@ws-compute  
+10:49:57 (orcina) IN: "Flex" frank@ws-compute  
+10:50:05 (orcina) IN: "Flex" frank@ws-compute  
+10:50:10 (orcina) IN: "Flex" frank@ws-compute  
+10:50:19 (orcina) IN: "Flex" frank@ws-compute  
+10:50:34 (orcina) IN: "Flex" frank@ws-compute  
+10:50:36 (orcina) IN: "Flex" frank@ws-compute  
+10:50:37 (orcina) IN: "Flex" frank@ws-compute  
+10:50:43 (orcina) IN: "Flex" frank@ws-compute  
+10:50:47 (orcina) IN: "Flex" frank@ws-compute  
+10:50:47 (orcina) IN: "Flex" frank@ws-compute  
+10:50:47 (orcina) IN: "Flex" frank@ws-compute  
+10:50:47 (orcina) IN: "Flex" frank@ws-compute  
+10:50:47 (orcina) IN: "Flex" frank@ws-compute  
+10:50:49 (orcina) IN: "Flex" frank@ws-compute  
+10:50:53 (orcina) IN: "Flex" frank@ws-compute  
+10:50:59 (orcina) IN: "Flex" frank@ws-compute  
+10:51:13 (orcina) IN: "Flex" frank@ws-compute  
+10:51:29 (orcina) IN: "Flex" frank@ws-compute  
+10:51:47 (orcina) IN: "Flex" frank@ws-compute  
+10:51:47 (orcina) IN: "Flex" frank@ws-compute  
+10:51:47 (orcina) IN: "Flex" frank@ws-compute  
+10:51:47 (orcina) IN: "Flex" frank@ws-compute  
+10:51:48 (orcina) IN: "Flex" frank@ws-compute  
+10:51:54 (orcina) IN: "Flex" frank@ws-compute  
+10:52:07 (orcina) IN: "Flex" frank@ws-compute  
+10:52:09 (orcina) IN: "Flex" frank@ws-compute  
+10:52:17 (orcina) IN: "Flex" frank@ws-compute  
+10:52:20 (orcina) IN: "Flex" frank@ws-compute  
+10:52:25 (orcina) IN: "Flex" frank@ws-compute  
+10:52:28 (orcina) IN: "Flex" frank@ws-compute  
+10:52:29 (orcina) IN: "Flex" frank@ws-compute  
+10:52:47 (orcina) IN: "Flex" frank@ws-compute  
+10:52:47 (orcina) IN: "Flex" frank@ws-compute  
+10:52:47 (orcina) IN: "Flex" frank@ws-compute  
+10:52:47 (orcina) IN: "Flex" frank@ws-compute  
+10:52:47 (orcina) IN: "Flex" frank@ws-compute  
+10:53:19 (orcina) IN: "Flex" frank@ws-compute  
+10:53:39 (orcina) IN: "Flex" frank@ws-compute  
+10:53:47 (orcina) IN: "Flex" frank@ws-compute  
+10:53:47 (orcina) IN: "Flex" frank@ws-compute  
+10:53:51 (orcina) IN: "Flex" frank@ws-compute  
+10:53:53 (orcina) IN: "Flex" frank@ws-compute  
+10:54:01 (orcina) IN: "Flex" frank@ws-compute  
+10:54:11 (orcina) IN: "Flex" frank@ws-compute  
+10:54:31 (orcina) IN: "Flex" frank@ws-compute  
+10:54:43 (orcina) IN: "Flex" frank@ws-compute  
+10:54:44 (orcina) IN: "Flex" frank@ws-compute  
+10:55:31 (orcina) IN: "Flex" frank@ws-compute  
+10:55:45 (orcina) IN: "Flex" frank@ws-compute  
+10:55:51 (orcina) IN: "Flex" frank@ws-compute  
+10:56:01 (orcina) IN: "Flex" frank@ws-compute  
+10:56:13 (orcina) IN: "Flex" frank@ws-compute  
+10:56:38 (orcina) IN: "Flex" frank@ws-compute  
+10:56:43 (orcina) IN: "Flex" frank@ws-compute  
+10:57:59 (orcina) IN: "Flex" frank@ws-compute  
+11:03:13 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) dan@dell-02  (No such feature exists. (-5,346))
+11:03:16 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) dan@dell-02  (No such feature exists. (-5,346))
+11:03:19 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) dan@dell-02  (No such feature exists. (-5,346))
+11:03:22 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) dan@dell-02  (No such feature exists. (-5,346))
+11:15:24 (orcina) OUT: "Flex" carol@dell-01  
+11:16:58 (orcina) OUT: "Flex" erin@ws-echo  
+11:39:25 (orcina) OUT: "Flex" erin@ws-echo  
+11:48:20 (orcina) OUT: "Flex" alice@ws-alpha  
+11:48:20 (orcina) IN: "Flex" alice@ws-alpha  
+12:10:56 (orcina) UNSUPPORTED: "Flex" (00F2 6F5A 8ADE F6BD ) grace@dell-03  (No such feature exists. (-5,346))
+12:10:56 (orcina) OUT: "Flex" grace@dell-03  
+12:11:45 (orcina) OUT: "Flex" erin@ws-echo  
+12:12:50 (orcina) OUT: "Flex" carol@dell-01  
+12:15:50 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:20:56 (orcina) IN: "Flex" grace@dell-03  
+12:22:57 (orcina) TIMESTAMP 9/10/2025
+12:55:00 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:21:34 (orcina) OUT: "Flex" carol@dell-01  
+13:26:28 (orcina) OUT: "Flex" erin@ws-echo  
+13:26:28 (orcina) IN: "Flex" erin@ws-echo  
+13:27:00 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:29:42 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:32:01 (orcina) OUT: "Flex" erin@ws-echo  
+13:32:01 (orcina) IN: "Flex" erin@ws-echo  
+13:34:47 (orcina) OUT: "Flex" alice@ws-alpha  
+13:35:32 (orcina) OUT: "Flex" erin@ws-echo  
+13:35:34 (orcina) IN: "Flex" carol@dell-01  
+13:36:32 (orcina) IN: "Flex" erin@ws-echo  
+13:36:45 (orcina) IN: "Flex" erin@ws-echo  
+13:45:01 (orcina) OUT: "Flex" grace@dell-03  
+13:45:54 (orcina) OUT: "Flex" alice@ws-alpha  
+13:46:01 (orcina) IN: "Flex" grace@dell-03  
+13:47:54 (orcina) IN: "Flex" alice@ws-alpha  
+13:51:32 (orcina) OUT: "Flex" dan@dell-02  
+14:06:18 (orcina) OUT: "Flex" carol@dell-01  
+14:07:18 (orcina) IN: "Flex" carol@dell-01  
+14:14:42 (orcina) IN: "Flex" heidi@ws-hotel  
+14:20:32 (orcina) IN: "Flex" dan@dell-02  
+14:28:01 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:59:47 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:59:47 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:13:59 (orcina) OUT: "Flex" carol@dell-01  
+15:13:59 (orcina) IN: "Flex" carol@dell-01  
+15:25:59 (orcina) OUT: "Flex" carol@dell-01  
+15:35:59 (orcina) IN: "Flex" carol@dell-01  
+15:41:37 (orcina) OUT: "Flex" grace@dell-03  
+15:41:37 (orcina) IN: "Flex" grace@dell-03  
+15:48:50 (orcina) IN: "Flex" carol@dell-01  
+15:49:01 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:08:58 (orcina) IN: "Flex" erin@ws-echo  
+16:37:35 (orcina) OUT: "Flex" alice@ws-alpha  
+16:38:35 (orcina) IN: "Flex" alice@ws-alpha  
+16:45:56 (orcina) IN: "Flex" erin@ws-echo  
+17:18:11 (orcina) OUT: "Flex" grace@dell-03  
+17:18:11 (orcina) IN: "Flex" grace@dell-03  
+17:25:36 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:37:25 (orcina) IN: "Flex" erin@ws-echo  
+17:38:36 (orcina) IN: "Flex" heidi@ws-hotel  
+17:55:15 (orcina) OUT: "Flex" erin@ws-echo  
+18:00:24 (orcina) IN: "Flex" carol@dell-01  
+18:06:07 (orcina) OUT: "Flex" alice@ws-alpha  
+18:22:57 (orcina) TIMESTAMP 9/10/2025
+18:35:15 (orcina) IN: "Flex" erin@ws-echo  
+21:03:28 (orcina) OUT: "Flex" heidi@ws-hotel  
+21:03:28 (orcina) IN: "Flex" heidi@ws-hotel  
+21:53:50 (orcina) IN: "Flex" heidi@ws-hotel  
+22:03:02 (orcina) OUT: "Flex" erin@ws-echo  
+22:15:02 (orcina) IN: "Flex" erin@ws-echo  
+23:04:47 (orcina) IN: "Flex" alice@ws-alpha  
+ 0:22:57 (orcina) TIMESTAMP 9/11/2025
+ 0:32:07 (orcina) IN: "Flex" alice@ws-alpha  
+ 1:58:08 (orcina) OUT: "Flex" carol@dell-01  
+ 2:05:08 (orcina) OUT: "Flex" bob@ws-bravo  
+ 2:12:08 (orcina) OUT: "Flex" alice@ws-alpha  
+ 4:12:08 (orcina) Lost communications with lmgrd. 
+ 4:12:09 (orcina) EXITING DUE TO SIGNAL 28 Exit reason 5
+ 4:12:33 (orcina) SLOG: Summary LOG statistics is enabled.
+ 4:12:33 (orcina) Server started on SAMPLE-LICSRV for:	Flex	
+ 6:06:47 (orcina) OUT: "Flex" bob@ws-bravo  
+ 6:22:57 (orcina) TIMESTAMP 9/11/2025
+ 6:40:47 (orcina) IN: "Flex" bob@ws-bravo  
+ 6:52:48 (orcina) OUT: "Flex" bob@ws-bravo  
+ 6:52:48 (orcina) IN: "Flex" bob@ws-bravo  
+ 8:01:38 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 8:09:57 (orcina) OUT: "Flex" alice@ws-alpha  
+ 8:11:57 (orcina) IN: "Flex" alice@ws-alpha  
+ 8:52:15 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 8:52:15 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 9:00:52 (orcina) OUT: "Flex" erin@ws-echo  
+ 9:00:52 (orcina) IN: "Flex" erin@ws-echo  
+ 9:08:34 (orcina) OUT: "Flex" grace@dell-03  
+ 9:08:34 (orcina) IN: "Flex" grace@dell-03  
+ 9:11:39 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+ 9:11:42 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+ 9:11:45 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+ 9:11:48 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+ 9:17:05 (orcina) OUT: "Flex" dan@dell-02  
+ 9:27:08 (orcina) OUT: "Flex" carol@dell-01  
+ 9:50:26 (orcina) OUT: "Flex" dan@dell-02  
+10:06:15 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:06:15 (orcina) IN: "Flex" heidi@ws-hotel  
+10:22:34 (orcina) OUT: "Flex" bob@ws-bravo  
+10:23:05 (orcina) IN: "Flex" dan@dell-02  
+10:25:16 (orcina) OUT: "Flex" dan@dell-02  
+10:28:40 (orcina) OUT: "Flex" frank@ws-foxtrot  
+10:55:32 (orcina) OUT: "Flex" erin@ws-echo  
+11:08:24 (orcina) OUT: "Flex" bob@ws-bravo  
+11:10:24 (orcina) IN: "Flex" bob@ws-bravo  
+11:14:07 (orcina) OUT: "Flex" bob@ws-bravo  
+11:18:16 (orcina) IN: "Flex" dan@dell-02  
+11:21:11 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:27:32 (orcina) IN: "Flex" erin@ws-echo  
+11:45:27 (orcina) OUT: "Flex" erin@ws-echo  
+11:45:27 (orcina) IN: "Flex" erin@ws-echo  
+11:52:19 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:53:19 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:54:45 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:55:45 (orcina) IN: "Flex" heidi@ws-hotel  
+11:56:18 (orcina) OUT: "Flex" erin@ws-echo  
+12:05:36 (orcina) OUT: "Flex" dan@dell-02  
+12:12:01 (orcina) OUT: "Flex" carol@dell-01  
+12:13:07 (orcina) IN: "Flex" bob@ws-bravo  
+12:13:11 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:22:57 (orcina) TIMESTAMP 9/11/2025
+12:31:45 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:32:47 (orcina) OUT: "Flex" bob@ws-bravo  
+12:33:45 (orcina) IN: "Flex" heidi@ws-hotel  
+12:34:26 (orcina) OUT: "Flex" carol@dell-01  
+12:37:04 (orcina) OUT: "Flex" dan@dell-02  
+12:51:20 (orcina) OUT: "Flex" alice@ws-alpha  
+12:51:20 (orcina) IN: "Flex" alice@ws-alpha  
+12:58:57 (orcina) OUT: "Flex" carol@dell-01  
+12:58:57 (orcina) IN: "Flex" carol@dell-01  
+13:03:01 (orcina) IN: "Flex" carol@dell-01  
+13:12:46 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:13:48 (orcina) UNSUPPORTED: "Flex" (00F2 6F5A 8ADE F6BD ) frank@ws-foxtrot  (No such feature exists. (-5,346))
+13:13:48 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:19:39 (orcina) OUT: "Flex" grace@dell-03  
+13:39:40 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:39:55 (orcina) OUT: "Flex" alice@ws-alpha  
+13:40:55 (orcina) IN: "Flex" alice@ws-alpha  
+13:45:38 (orcina) OUT: "Flex" dan@dell-02  
+13:45:46 (orcina) IN: "Flex" heidi@ws-hotel  
+13:46:59 (orcina) OUT: "Flex" erin@ws-echo  
+13:47:59 (orcina) IN: "Flex" erin@ws-echo  
+13:48:03 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:50:38 (orcina) IN: "Flex" dan@dell-02  
+13:52:04 (orcina) IN: "Flex" dan@dell-02  
+13:58:24 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:00:24 (orcina) IN: "Flex" heidi@ws-hotel  
+14:02:28 (orcina) OUT: "Flex" erin@ws-echo  
+14:02:28 (orcina) IN: "Flex" erin@ws-echo  
+14:03:26 (orcina) IN: "Flex" carol@dell-01  
+14:05:48 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:31:55 (orcina) OUT: "Flex" grace@dell-03  
+14:31:55 (orcina) IN: "Flex" grace@dell-03  
+14:32:05 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:32:05 (orcina) IN: "Flex" heidi@ws-hotel  
+14:32:34 (orcina) OUT: "Flex" alice@ws-alpha  
+14:32:34 (orcina) IN: "Flex" alice@ws-alpha  
+14:38:35 (orcina) OUT: "Flex" carol@dell-01  
+14:39:39 (orcina) IN: "Flex" grace@dell-03  
+14:40:54 (orcina) OUT: "Flex" erin@ws-echo  
+14:52:22 (orcina) OUT: "Flex" dan@dell-02  
+14:52:35 (orcina) IN: "Flex" carol@dell-01  
+14:59:03 (orcina) IN: "Flex" heidi@ws-hotel  
+15:03:54 (orcina) IN: "Flex" erin@ws-echo  
+15:04:45 (orcina) OUT: "Flex" bob@ws-bravo  
+15:06:25 (orcina) OUT: "Flex" carol@dell-01  
+15:06:25 (orcina) IN: "Flex" carol@dell-01  
+15:20:18 (orcina) IN: "Flex" erin@ws-echo  
+15:28:45 (orcina) IN: "Flex" bob@ws-bravo  
+15:32:47 (orcina) IN: "Flex" bob@ws-bravo  
+15:38:48 (orcina) OUT: "Flex" alice@ws-alpha  
+15:50:08 (orcina) IN: "Flex" carol@dell-01  
+15:53:22 (orcina) IN: "Flex" dan@dell-02  
+16:03:48 (orcina) IN: "Flex" alice@ws-alpha  
+16:09:55 (orcina) OUT: "Flex" alice@ws-alpha  
+16:11:44 (orcina) OUT: "Flex" grace@dell-03  
+16:12:34 (orcina) IN: "Flex" bob@ws-bravo  
+16:13:44 (orcina) IN: "Flex" grace@dell-03  
+16:47:36 (orcina) OUT: "Flex" heidi@ws-hotel  
+16:59:36 (orcina) IN: "Flex" heidi@ws-hotel  
+17:16:34 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:23:15 (orcina) OUT: "Flex" frank@ws-foxtrot  
+17:25:15 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:27:17 (orcina) OUT: "Flex" alice@ws-alpha  
+17:50:36 (orcina) IN: "Flex" dan@dell-02  
+17:59:38 (orcina) IN: "Flex" heidi@ws-hotel  
+18:01:42 (orcina) OUT: "Flex" alice@ws-alpha  
+18:01:42 (orcina) IN: "Flex" alice@ws-alpha  
+18:12:13 (orcina) OUT: "Flex" grace@dell-03  
+18:12:30 (orcina) OUT: "Flex" carol@dell-01  
+18:13:55 (orcina) IN: "Flex" alice@ws-alpha  
+18:22:57 (orcina) TIMESTAMP 9/11/2025
+18:23:17 (orcina) IN: "Flex" alice@ws-alpha  
+18:42:34 (orcina) IN: "Flex" heidi@ws-hotel  
+18:53:42 (orcina) OUT: "Flex" erin@ws-echo  
+19:03:26 (orcina) IN: "Flex" dan@dell-02  
+19:06:13 (orcina) OUT: "Flex" erin@ws-echo  
+19:32:48 (orcina) OUT: "Flex" alice@ws-alpha  
+19:33:48 (orcina) IN: "Flex" alice@ws-alpha  
+20:14:54 (orcina) OUT: "Flex" dan@dell-02  
+20:25:13 (orcina) IN: "Flex" grace@dell-03  
+20:34:41 (orcina) OUT: "Flex" bob@ws-bravo  
+20:35:12 (orcina) OUT: "Flex" heidi@ws-hotel  
+20:36:12 (orcina) IN: "Flex" heidi@ws-hotel  
+20:36:41 (orcina) IN: "Flex" bob@ws-bravo  
+21:40:42 (orcina) IN: "Flex" erin@ws-echo  
+21:44:54 (orcina) IN: "Flex" dan@dell-02  
+ 0:22:57 (orcina) TIMESTAMP 9/12/2025
+ 0:42:13 (orcina) IN: "Flex" erin@ws-echo  
+ 2:54:30 (orcina) IN: "Flex" carol@dell-01  
+ 6:01:04 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 6:02:04 (orcina) IN: "Flex" heidi@ws-hotel  
+ 6:22:57 (orcina) TIMESTAMP 9/12/2025
+ 8:13:12 (orcina) OUT: "Flex" erin@ws-echo  
+ 8:31:56 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 8:32:56 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:22:20 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+ 9:22:23 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+ 9:22:26 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+ 9:22:29 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+ 9:22:32 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+ 9:58:21 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:10:21 (orcina) IN: "Flex" heidi@ws-hotel  
+10:43:18 (orcina) OUT: "Flex" erin@ws-echo  
+10:44:18 (orcina) IN: "Flex" erin@ws-echo  
+10:59:31 (orcina) OUT: "Flex" carol@dell-01  
+11:01:31 (orcina) IN: "Flex" carol@dell-01  
+11:17:11 (orcina) OUT: "Flex" bob@ws-bravo  
+11:17:11 (orcina) IN: "Flex" bob@ws-bravo  
+11:22:12 (orcina) IN: "Flex" erin@ws-echo  
+11:39:01 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:41:01 (orcina) IN: "Flex" heidi@ws-hotel  
+11:54:11 (orcina) OUT: "Flex" bob@ws-bravo  
+12:08:28 (orcina) OUT: "Flex" alice@ws-alpha  
+12:10:28 (orcina) IN: "Flex" alice@ws-alpha  
+12:22:57 (orcina) TIMESTAMP 9/12/2025
+12:34:22 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:04:05 (orcina) OUT: "Flex" dan@dell-02  
+13:01:08 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:35:23 (orcina) OUT: "Flex" alice@ws-alpha  
+13:42:21 (orcina) OUT: "Flex" bob@ws-bravo  
+13:52:02 (orcina) OUT: "Flex" grace@dell-03  
+13:52:02 (orcina) IN: "Flex" grace@dell-03  
+13:55:22 (orcina) IN: "Flex" heidi@ws-hotel  
+14:13:47 (orcina) OUT: "Flex" dan@dell-02  
+14:21:08 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:27:30 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:28:27 (orcina) OUT: "Flex" alice@ws-alpha  
+14:41:23 (orcina) IN: "Flex" alice@ws-alpha  
+14:42:53 (orcina) OUT: "Flex" alice@ws-alpha  
+14:42:53 (orcina) IN: "Flex" alice@ws-alpha  
+14:42:56 (orcina) OUT: "Flex" alice@ws-alpha  
+14:43:56 (orcina) IN: "Flex" alice@ws-alpha  
+14:44:52 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:45:30 (orcina) IN: "Flex" heidi@ws-hotel  
+15:16:05 (orcina) IN: "Flex" dan@dell-02  
+15:17:58 (orcina) OUT: "Flex" erin@ws-echo  
+15:22:06 (orcina) OUT: "Flex" alice@ws-alpha  
+15:23:06 (orcina) IN: "Flex" alice@ws-alpha  
+15:24:55 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:24:55 (orcina) IN: "Flex" heidi@ws-hotel  
+15:26:47 (orcina) OUT: "Flex" erin@ws-echo  
+15:26:47 (orcina) IN: "Flex" erin@ws-echo  
+15:28:52 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:37:19 (orcina) OUT: "Flex" erin@ws-echo  
+15:40:40 (orcina) OUT: "Flex" carol@dell-01  
+15:41:40 (orcina) IN: "Flex" carol@dell-01  
+15:44:27 (orcina) IN: "Flex" alice@ws-alpha  
+15:56:18 (orcina) OUT: "Flex" erin@ws-echo  
+15:56:18 (orcina) IN: "Flex" erin@ws-echo  
+16:06:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:07:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:07:52 (orcina) OUT: "Flex" dan@dell-02  
+16:16:00 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:16:00 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:34:07 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:34:07 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:34:28 (orcina) OUT: "Flex" dan@dell-02  
+16:34:28 (orcina) IN: "Flex" dan@dell-02  
+16:37:11 (orcina) IN: "Flex" bob@ws-bravo  
+16:49:52 (orcina) IN: "Flex" dan@dell-02  
+16:51:02 (orcina) OUT: "Flex" grace@dell-03  
+16:54:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+16:55:40 (orcina) IN: "Flex" heidi@ws-hotel  
+17:18:21 (orcina) OUT: "Flex" dan@dell-02  
+17:22:02 (orcina) IN: "Flex" grace@dell-03  
+17:23:16 (orcina) OUT: "Flex" erin@ws-echo  
+17:43:59 (orcina) OUT: "Flex" grace@dell-03  
+17:45:59 (orcina) IN: "Flex" grace@dell-03  
+18:22:57 (orcina) TIMESTAMP 9/12/2025
+18:24:21 (orcina) IN: "Flex" dan@dell-02  
+19:04:47 (orcina) IN: "Flex" dan@dell-02  
+19:28:04 (orcina) OUT: "Flex" carol@dell-01  
+19:39:44 (orcina) OUT: "Flex" dan@dell-02  
+19:39:44 (orcina) IN: "Flex" dan@dell-02  
+19:43:45 (orcina) OUT: "Flex" alice@ws-alpha  
+19:43:45 (orcina) IN: "Flex" alice@ws-alpha  
+20:10:04 (orcina) IN: "Flex" carol@dell-01  
+21:24:16 (orcina) IN: "Flex" erin@ws-echo  
+22:01:21 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:22:57 (orcina) TIMESTAMP 9/13/2025
+ 1:11:58 (orcina) IN: "Flex" erin@ws-echo  
+ 1:16:19 (orcina) IN: "Flex" erin@ws-echo  
+ 6:22:57 (orcina) TIMESTAMP 9/13/2025
+ 6:50:31 (orcina) OUT: "Flex" bob@ws-bravo  
+ 6:52:31 (orcina) IN: "Flex" bob@ws-bravo  
+10:13:03 (orcina) OUT: "Flex" bob@ws-bravo  
+10:13:03 (orcina) IN: "Flex" bob@ws-bravo  
+11:38:08 (orcina) OUT: "Flex" grace@dell-03  
+11:40:08 (orcina) IN: "Flex" grace@dell-03  
+12:22:57 (orcina) TIMESTAMP 9/13/2025
+13:35:00 (orcina) OUT: "Flex" grace@dell-03  
+13:35:00 (orcina) IN: "Flex" grace@dell-03  
+14:29:47 (orcina) OUT: "Flex" carol@dell-01  
+14:36:54 (orcina) OUT: "Flex" dan@dell-02  
+14:36:54 (orcina) IN: "Flex" dan@dell-02  
+15:01:47 (orcina) IN: "Flex" carol@dell-01  
+15:29:07 (orcina) OUT: "Flex" bob@ws-bravo  
+16:31:01 (orcina) OUT: "Flex" carol@dell-01  
+16:31:01 (orcina) IN: "Flex" carol@dell-01  
+17:15:47 (orcina) OUT: "Flex" dan@dell-02  
+18:12:00 (orcina) OUT: "Flex" bob@ws-bravo  
+18:14:00 (orcina) IN: "Flex" bob@ws-bravo  
+18:22:57 (orcina) TIMESTAMP 9/13/2025
+18:33:47 (orcina) IN: "Flex" dan@dell-02  
+18:49:17 (orcina) OUT: "Flex" dan@dell-02  
+20:04:17 (orcina) IN: "Flex" dan@dell-02  
+ 0:22:57 (orcina) TIMESTAMP 9/14/2025
+ 6:22:57 (orcina) TIMESTAMP 9/14/2025
+10:52:40 (orcina) OUT: "Flex" erin@ws-echo  
+11:13:42 (orcina) OUT: "Flex" carol@dell-01  
+11:32:40 (orcina) IN: "Flex" erin@ws-echo  
+12:22:57 (orcina) TIMESTAMP 9/14/2025
+12:35:58 (orcina) OUT: "Flex" carol@dell-01  
+13:40:58 (orcina) IN: "Flex" carol@dell-01  
+13:49:08 (orcina) OUT: "Flex" erin@ws-echo  
+15:44:08 (orcina) OUT: "Flex" bob@ws-bravo  
+16:12:59 (orcina) UNSUPPORTED: "Flex" (00F2 6F5A 8ADE F6BD ) bob@ws-bravo  (No such feature exists. (-5,346))
+16:12:59 (orcina) OUT: "Flex" bob@ws-bravo  
+16:52:16 (orcina) OUT: "Flex" bob@ws-bravo  
+16:52:16 (orcina) IN: "Flex" bob@ws-bravo  
+16:56:59 (orcina) IN: "Flex" bob@ws-bravo  
+18:21:08 (orcina) IN: "Flex" bob@ws-bravo  
+18:22:57 (orcina) TIMESTAMP 9/14/2025
+18:36:45 (orcina) OUT: "Flex" erin@ws-echo  
+19:01:45 (orcina) IN: "Flex" erin@ws-echo  
+19:14:41 (orcina) OUT: "Flex" erin@ws-echo  
+19:16:41 (orcina) IN: "Flex" erin@ws-echo  
+19:18:47 (orcina) OUT: "Flex" frank@ws-foxtrot  
+19:19:47 (orcina) IN: "Flex" frank@ws-foxtrot  
+19:27:42 (orcina) IN: "Flex" carol@dell-01  
+ 0:22:57 (orcina) TIMESTAMP 9/15/2025
+ 6:22:57 (orcina) TIMESTAMP 9/15/2025
+ 6:41:54 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 6:42:54 (orcina) IN: "Flex" heidi@ws-hotel  
+ 6:44:50 (orcina) OUT: "Flex" erin@ws-echo  
+ 6:46:50 (orcina) IN: "Flex" erin@ws-echo  
+ 6:47:02 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 8:03:02 (orcina) IN: "Flex" heidi@ws-hotel  
+ 8:44:45 (orcina) OUT: "Flex" alice@ws-alpha  
+ 8:55:09 (orcina) OUT: "Flex" bob@ws-bravo  
+ 8:55:09 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:01:06 (orcina) OUT: "Flex" alice@ws-alpha  
+ 9:02:06 (orcina) IN: "Flex" alice@ws-alpha  
+ 9:04:39 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:24:45 (orcina) IN: "Flex" alice@ws-alpha  
+ 9:42:05 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:42:05 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:43:10 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:43:10 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:43:39 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 9:52:16 (orcina) OUT: "Flex" dan@dell-02  
+10:04:41 (orcina) OUT: "Flex" grace@dell-03  
+10:08:39 (orcina) IN: "Flex" heidi@ws-hotel  
+10:13:59 (orcina) OUT: "Flex" grace@dell-03  
+10:13:59 (orcina) IN: "Flex" grace@dell-03  
+10:44:29 (orcina) OUT: "Flex" alice@ws-alpha  
+10:44:29 (orcina) IN: "Flex" alice@ws-alpha  
+10:53:39 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:58:57 (orcina) OUT: "Flex" carol@dell-01  
+10:58:57 (orcina) IN: "Flex" carol@dell-01  
+11:01:41 (orcina) IN: "Flex" grace@dell-03  
+11:06:21 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:07:21 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:21:13 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:21:31 (orcina) OUT: "Flex" erin@ws-echo  
+11:28:05 (orcina) OUT: "Flex" erin@ws-echo  
+12:00:05 (orcina) IN: "Flex" erin@ws-echo  
+12:00:57 (orcina) OUT: "Flex" erin@ws-echo  
+12:07:24 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+12:07:27 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) grace@dell-03  (No such feature exists. (-5,346))
+12:09:33 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:10:43 (orcina) OUT: "Flex" bob@ws-bravo  
+12:10:43 (orcina) IN: "Flex" bob@ws-bravo  
+12:14:28 (orcina) OUT: "Flex" erin@ws-echo  
+12:18:29 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:22:57 (orcina) TIMESTAMP 9/15/2025
+12:27:02 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:36:49 (orcina) OUT: "Flex" grace@dell-03  
+12:40:02 (orcina) OUT: "Flex" bob@ws-bravo  
+12:41:02 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:41:02 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:41:57 (orcina) IN: "Flex" erin@ws-echo  
+12:43:10 (orcina) OUT: "Flex" bob@ws-bravo  
+12:43:10 (orcina) IN: "Flex" bob@ws-bravo  
+12:51:31 (orcina) IN: "Flex" erin@ws-echo  
+12:53:26 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:56:33 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:06:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:06:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:07:17 (orcina) OUT: "Flex" erin@ws-echo  
+13:07:17 (orcina) IN: "Flex" erin@ws-echo  
+13:15:49 (orcina) IN: "Flex" grace@dell-03  
+13:22:23 (orcina) OUT: "Flex" bob@ws-bravo  
+13:22:23 (orcina) IN: "Flex" bob@ws-bravo  
+13:30:44 (orcina) OUT: "Flex" alice@ws-alpha  
+13:30:44 (orcina) IN: "Flex" alice@ws-alpha  
+13:38:02 (orcina) IN: "Flex" bob@ws-bravo  
+13:40:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+13:43:26 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:48:50 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:58:50 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:36 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:38 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:40 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:41 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:42 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:45 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:47 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:48 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:49 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:50 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:50 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:52 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:53 (orcina) OUT: "Flex" alice@ws-compute  
+13:59:59 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:00 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:00 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:03 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:06 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:08 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:12 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:12 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:14 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:19 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:29 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:31 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:32 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:35 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:36 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:36 (orcina) IN: "Flex" alice@ws-compute  
+14:00:36 (orcina) IN: "Flex" alice@ws-compute  
+14:00:36 (orcina) IN: "Flex" alice@ws-compute  
+14:00:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:40 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:41 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:43 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:44 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:56 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:58 (orcina) OUT: "Flex" alice@ws-compute  
+14:00:59 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:00 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:02 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:06 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:06 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:08 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:09 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:12 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:16 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:21 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:23 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:25 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:28 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:35 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:36 (orcina) IN: "Flex" alice@ws-compute  
+14:01:36 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:36 (orcina) IN: "Flex" alice@ws-compute  
+14:01:36 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:36 (orcina) IN: "Flex" alice@ws-compute  
+14:01:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:39 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:41 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:42 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:43 (orcina) IN: "Flex" alice@ws-compute  
+14:01:46 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:47 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:48 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:50 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:52 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:53 (orcina) IN: "Flex" alice@ws-compute  
+14:01:53 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:54 (orcina) OUT: "Flex" alice@ws-compute  
+14:01:55 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:00 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:00 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:01 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:04 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:04 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:05 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:08 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:08 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:10 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:10 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:20 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:24 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:26 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:26 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:31 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:32 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:33 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:34 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:35 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:36 (orcina) IN: "Flex" alice@ws-compute  
+14:02:36 (orcina) IN: "Flex" alice@ws-compute  
+14:02:36 (orcina) IN: "Flex" alice@ws-compute  
+14:02:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:40 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:40 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:43 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:44 (orcina) IN: "Flex" alice@ws-compute  
+14:02:44 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:50 (orcina) OUT: "Flex" alice@ws-compute  
+14:02:58 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:04 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:12 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:22 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:26 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:28 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:32 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:34 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:36 (orcina) IN: "Flex" alice@ws-compute  
+14:03:40 (orcina) IN: "Flex" alice@ws-compute  
+14:03:44 (orcina) OUT: "Flex" alice@ws-compute  
+14:03:52 (orcina) IN: "Flex" alice@ws-compute  
+14:03:54 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:10 (orcina) IN: "Flex" alice@ws-compute  
+14:04:12 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:20 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:28 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:35 (orcina) IN: "Flex" alice@ws-compute  
+14:04:36 (orcina) IN: "Flex" alice@ws-compute  
+14:04:36 (orcina) IN: "Flex" alice@ws-compute  
+14:04:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:41 (orcina) IN: "Flex" alice@ws-compute  
+14:04:48 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:52 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:54 (orcina) OUT: "Flex" alice@ws-compute  
+14:04:56 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:00 (orcina) IN: "Flex" alice@ws-compute  
+14:05:02 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:04 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:08 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:14 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:18 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:22 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:24 (orcina) OUT: "Flex" grace@dell-03  
+14:05:24 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:33 (orcina) OUT: "Flex" erin@ws-echo  
+14:05:33 (orcina) IN: "Flex" erin@ws-echo  
+14:05:36 (orcina) IN: "Flex" alice@ws-compute  
+14:05:36 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:38 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:42 (orcina) IN: "Flex" alice@ws-compute  
+14:05:46 (orcina) OUT: "Flex" alice@ws-compute  
+14:05:54 (orcina) OUT: "Flex" alice@ws-compute  
+14:06:18 (orcina) IN: "Flex" alice@ws-compute  
+14:06:20 (orcina) IN: "Flex" alice@ws-compute  
+14:06:20 (orcina) IN: "Flex" alice@ws-compute  
+14:06:26 (orcina) IN: "Flex" alice@ws-compute  
+14:06:35 (orcina) OUT: "Flex" dan@dell-02  
+14:06:36 (orcina) IN: "Flex" alice@ws-compute  
+14:06:36 (orcina) IN: "Flex" alice@ws-compute  
+14:06:36 (orcina) IN: "Flex" alice@ws-compute  
+14:06:38 (orcina) IN: "Flex" alice@ws-compute  
+14:06:42 (orcina) IN: "Flex" alice@ws-compute  
+14:06:54 (orcina) IN: "Flex" alice@ws-compute  
+14:07:12 (orcina) IN: "Flex" alice@ws-compute  
+14:07:21 (orcina) IN: "Flex" alice@ws-compute  
+14:07:26 (orcina) IN: "Flex" alice@ws-compute  
+14:07:36 (orcina) IN: "Flex" alice@ws-compute  
+14:07:36 (orcina) IN: "Flex" alice@ws-compute  
+14:07:47 (orcina) IN: "Flex" alice@ws-compute  
+14:07:50 (orcina) IN: "Flex" alice@ws-compute  
+14:08:00 (orcina) IN: "Flex" alice@ws-compute  
+14:08:06 (orcina) IN: "Flex" alice@ws-compute  
+14:08:12 (orcina) IN: "Flex" alice@ws-compute  
+14:08:16 (orcina) IN: "Flex" alice@ws-compute  
+14:08:23 (orcina) IN: "Flex" alice@ws-compute  
+14:08:31 (orcina) IN: "Flex" alice@ws-compute  
+14:08:36 (orcina) IN: "Flex" alice@ws-compute  
+14:08:36 (orcina) IN: "Flex" alice@ws-compute  
+14:08:48 (orcina) IN: "Flex" alice@ws-compute  
+14:08:50 (orcina) IN: "Flex" alice@ws-compute  
+14:09:18 (orcina) IN: "Flex" alice@ws-compute  
+14:09:25 (orcina) IN: "Flex" alice@ws-compute  
+14:09:36 (orcina) IN: "Flex" alice@ws-compute  
+14:09:36 (orcina) IN: "Flex" alice@ws-compute  
+14:09:38 (orcina) IN: "Flex" alice@ws-compute  
+14:09:38 (orcina) IN: "Flex" alice@ws-compute  
+14:09:54 (orcina) IN: "Flex" alice@ws-compute  
+14:09:58 (orcina) IN: "Flex" alice@ws-compute  
+14:10:00 (orcina) IN: "Flex" alice@ws-compute  
+14:10:06 (orcina) IN: "Flex" alice@ws-compute  
+14:10:29 (orcina) IN: "Flex" alice@ws-compute  
+14:10:36 (orcina) IN: "Flex" alice@ws-compute  
+14:10:36 (orcina) IN: "Flex" alice@ws-compute  
+14:10:36 (orcina) IN: "Flex" alice@ws-compute  
+14:10:36 (orcina) IN: "Flex" alice@ws-compute  
+14:10:49 (orcina) IN: "Flex" alice@ws-compute  
+14:11:08 (orcina) IN: "Flex" alice@ws-compute  
+14:11:22 (orcina) IN: "Flex" alice@ws-compute  
+14:11:26 (orcina) IN: "Flex" alice@ws-compute  
+14:11:28 (orcina) IN: "Flex" alice@ws-compute  
+14:11:32 (orcina) IN: "Flex" alice@ws-compute  
+14:11:35 (orcina) IN: "Flex" alice@ws-compute  
+14:11:36 (orcina) IN: "Flex" alice@ws-compute  
+14:11:36 (orcina) IN: "Flex" alice@ws-compute  
+14:11:36 (orcina) IN: "Flex" alice@ws-compute  
+14:11:36 (orcina) IN: "Flex" alice@ws-compute  
+14:12:36 (orcina) IN: "Flex" alice@ws-compute  
+14:12:36 (orcina) IN: "Flex" alice@ws-compute  
+14:13:08 (orcina) IN: "Flex" alice@ws-compute  
+14:13:19 (orcina) IN: "Flex" alice@ws-compute  
+14:13:33 (orcina) IN: "Flex" alice@ws-compute  
+14:13:36 (orcina) IN: "Flex" alice@ws-compute  
+14:13:36 (orcina) IN: "Flex" alice@ws-compute  
+14:13:36 (orcina) IN: "Flex" alice@ws-compute  
+14:13:36 (orcina) IN: "Flex" alice@ws-compute  
+14:13:39 (orcina) IN: "Flex" alice@ws-compute  
+14:13:43 (orcina) IN: "Flex" alice@ws-compute  
+14:13:46 (orcina) IN: "Flex" alice@ws-compute  
+14:14:00 (orcina) IN: "Flex" alice@ws-compute  
+14:14:03 (orcina) IN: "Flex" alice@ws-compute  
+14:14:18 (orcina) IN: "Flex" alice@ws-compute  
+14:14:36 (orcina) IN: "Flex" alice@ws-compute  
+14:14:38 (orcina) IN: "Flex" alice@ws-compute  
+14:14:44 (orcina) IN: "Flex" alice@ws-compute  
+14:14:53 (orcina) IN: "Flex" alice@ws-compute  
+14:14:56 (orcina) IN: "Flex" alice@ws-compute  
+14:14:58 (orcina) IN: "Flex" alice@ws-compute  
+14:15:06 (orcina) IN: "Flex" alice@ws-compute  
+14:15:32 (orcina) IN: "Flex" alice@ws-compute  
+14:15:35 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:36 (orcina) IN: "Flex" alice@ws-compute  
+14:15:38 (orcina) IN: "Flex" alice@ws-compute  
+14:15:48 (orcina) IN: "Flex" alice@ws-compute  
+14:15:59 (orcina) IN: "Flex" alice@ws-compute  
+14:16:36 (orcina) IN: "Flex" alice@ws-compute  
+14:16:36 (orcina) IN: "Flex" alice@ws-compute  
+14:16:36 (orcina) IN: "Flex" alice@ws-compute  
+14:16:40 (orcina) IN: "Flex" alice@ws-compute  
+14:16:52 (orcina) IN: "Flex" alice@ws-compute  
+14:16:59 (orcina) IN: "Flex" alice@ws-compute  
+14:17:04 (orcina) IN: "Flex" alice@ws-compute  
+14:17:31 (orcina) IN: "Flex" alice@ws-compute  
+14:17:36 (orcina) IN: "Flex" alice@ws-compute  
+14:17:40 (orcina) IN: "Flex" alice@ws-compute  
+14:17:50 (orcina) IN: "Flex" alice@ws-compute  
+14:18:08 (orcina) IN: "Flex" alice@ws-compute  
+14:18:18 (orcina) IN: "Flex" alice@ws-compute  
+14:18:36 (orcina) IN: "Flex" alice@ws-compute  
+14:18:36 (orcina) IN: "Flex" alice@ws-compute  
+14:18:36 (orcina) IN: "Flex" alice@ws-compute  
+14:18:36 (orcina) IN: "Flex" alice@ws-compute  
+14:18:38 (orcina) IN: "Flex" alice@ws-compute  
+14:19:12 (orcina) IN: "Flex" alice@ws-compute  
+14:19:12 (orcina) IN: "Flex" alice@ws-compute  
+14:19:18 (orcina) IN: "Flex" alice@ws-compute  
+14:19:22 (orcina) IN: "Flex" alice@ws-compute  
+14:19:28 (orcina) IN: "Flex" alice@ws-compute  
+14:19:36 (orcina) IN: "Flex" alice@ws-compute  
+14:19:36 (orcina) IN: "Flex" alice@ws-compute  
+14:19:40 (orcina) IN: "Flex" alice@ws-compute  
+14:20:12 (orcina) IN: "Flex" alice@ws-compute  
+14:20:14 (orcina) IN: "Flex" alice@ws-compute  
+14:20:36 (orcina) IN: "Flex" alice@ws-compute  
+14:20:36 (orcina) IN: "Flex" alice@ws-compute  
+14:20:45 (orcina) IN: "Flex" alice@ws-compute  
+14:20:46 (orcina) IN: "Flex" alice@ws-compute  
+14:21:00 (orcina) IN: "Flex" alice@ws-compute  
+14:21:01 (orcina) IN: "Flex" alice@ws-compute  
+14:21:08 (orcina) IN: "Flex" alice@ws-compute  
+14:21:09 (orcina) IN: "Flex" alice@ws-compute  
+14:21:24 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:36 (orcina) IN: "Flex" alice@ws-compute  
+14:21:47 (orcina) IN: "Flex" alice@ws-compute  
+14:21:52 (orcina) IN: "Flex" alice@ws-compute  
+14:22:05 (orcina) IN: "Flex" alice@ws-compute  
+14:22:10 (orcina) IN: "Flex" alice@ws-compute  
+14:22:36 (orcina) IN: "Flex" alice@ws-compute  
+14:22:36 (orcina) IN: "Flex" alice@ws-compute  
+14:22:36 (orcina) IN: "Flex" alice@ws-compute  
+14:22:50 (orcina) IN: "Flex" alice@ws-compute  
+14:22:55 (orcina) IN: "Flex" alice@ws-compute  
+14:23:04 (orcina) IN: "Flex" alice@ws-compute  
+14:23:36 (orcina) IN: "Flex" alice@ws-compute  
+14:23:54 (orcina) IN: "Flex" alice@ws-compute  
+14:23:56 (orcina) IN: "Flex" alice@ws-compute  
+14:24:02 (orcina) IN: "Flex" alice@ws-compute  
+14:24:24 (orcina) IN: "Flex" alice@ws-compute  
+14:24:32 (orcina) IN: "Flex" alice@ws-compute  
+14:24:36 (orcina) IN: "Flex" alice@ws-compute  
+14:25:04 (orcina) IN: "Flex" alice@ws-compute  
+14:25:18 (orcina) IN: "Flex" alice@ws-compute  
+14:25:41 (orcina) IN: "Flex" alice@ws-compute  
+14:25:41 (orcina) IN: "Flex" alice@ws-compute  
+14:25:44 (orcina) IN: "Flex" alice@ws-compute  
+14:25:48 (orcina) IN: "Flex" alice@ws-compute  
+14:26:14 (orcina) IN: "Flex" alice@ws-compute  
+14:26:38 (orcina) IN: "Flex" alice@ws-compute  
+14:26:54 (orcina) IN: "Flex" alice@ws-compute  
+14:27:04 (orcina) IN: "Flex" alice@ws-compute  
+14:27:28 (orcina) IN: "Flex" alice@ws-compute  
+14:28:02 (orcina) IN: "Flex" alice@ws-compute  
+14:29:08 (orcina) IN: "Flex" alice@ws-compute  
+14:29:20 (orcina) OUT: "Flex" carol@dell-01  
+14:29:20 (orcina) IN: "Flex" carol@dell-01  
+14:33:40 (orcina) IN: "Flex" heidi@ws-hotel  
+14:42:48 (orcina) OUT: "Flex" alice@ws-alpha  
+14:50:37 (orcina) OUT: "Flex" carol@dell-01  
+14:51:33 (orcina) OUT: "Flex" grace@dell-03  
+14:51:37 (orcina) IN: "Flex" carol@dell-01  
+14:51:48 (orcina) IN: "Flex" alice@ws-alpha  
+14:53:17 (orcina) OUT: "Flex" alice@ws-alpha  
+14:54:17 (orcina) IN: "Flex" alice@ws-alpha  
+14:56:00 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:58:00 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:58:44 (orcina) OUT: "Flex" grace@dell-03  
+15:02:45 (orcina) OUT: "Flex" dan@dell-02  
+15:03:15 (orcina) OUT: "Flex" carol@dell-01  
+15:04:55 (orcina) OUT: "Flex" erin@ws-echo  
+15:14:32 (orcina) OUT: "Flex" erin@ws-echo  
+15:18:31 (orcina) OUT: "Flex" bob@ws-bravo  
+15:18:31 (orcina) IN: "Flex" bob@ws-bravo  
+15:19:55 (orcina) IN: "Flex" erin@ws-echo  
+15:27:42 (orcina) OUT: "Flex" erin@ws-echo  
+15:28:44 (orcina) IN: "Flex" grace@dell-03  
+15:29:32 (orcina) IN: "Flex" erin@ws-echo  
+15:34:24 (orcina) IN: "Flex" grace@dell-03  
+15:38:09 (orcina) OUT: "Flex" bob@ws-bravo  
+15:38:09 (orcina) IN: "Flex" bob@ws-bravo  
+15:43:30 (orcina) OUT: "Flex" alice@ws-alpha  
+15:44:30 (orcina) IN: "Flex" alice@ws-alpha  
+15:45:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:45:29 (orcina) IN: "Flex" heidi@ws-hotel  
+15:45:45 (orcina) IN: "Flex" dan@dell-02  
+16:10:15 (orcina) OUT: "Flex" erin@ws-echo  
+16:15:11 (orcina) OUT: "Flex" carol@dell-01  
+16:23:47 (orcina) OUT: "Flex" bob@ws-bravo  
+16:23:47 (orcina) IN: "Flex" bob@ws-bravo  
+17:00:12 (orcina) OUT: "Flex" alice@ws-alpha  
+17:01:12 (orcina) IN: "Flex" alice@ws-alpha  
+17:02:22 (orcina) OUT: "Flex" bob@ws-bravo  
+17:06:15 (orcina) IN: "Flex" erin@ws-echo  
+17:25:49 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:25:49 (orcina) IN: "Flex" heidi@ws-hotel  
+17:46:29 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:47:54 (orcina) OUT: "Flex" dan@dell-02  
+17:47:54 (orcina) IN: "Flex" dan@dell-02  
+17:53:02 (orcina) OUT: "Flex" dan@dell-02  
+17:57:16 (orcina) IN: "Flex" dan@dell-02  
+18:22:57 (orcina) TIMESTAMP 9/15/2025
+18:28:21 (orcina) OUT: "Flex" grace@dell-03  
+18:28:21 (orcina) IN: "Flex" grace@dell-03  
+18:48:13 (orcina) IN: "Flex" heidi@ws-hotel  
+18:50:02 (orcina) OUT: "Flex" heidi@ws-hotel  
+19:15:02 (orcina) IN: "Flex" dan@dell-02  
+19:42:42 (orcina) IN: "Flex" erin@ws-echo  
+19:53:53 (orcina) OUT: "Flex" frank@ws-foxtrot  
+19:54:53 (orcina) IN: "Flex" frank@ws-foxtrot  
+19:55:35 (orcina) IN: "Flex" dan@dell-02  
+20:00:02 (orcina) IN: "Flex" heidi@ws-hotel  
+20:00:57 (orcina) OUT: "Flex" dan@dell-02  
+20:17:02 (orcina) IN: "Flex" heidi@ws-hotel  
+20:56:28 (orcina) IN: "Flex" erin@ws-echo  
+21:06:15 (orcina) IN: "Flex" carol@dell-01  
+21:57:05 (orcina) OUT: "Flex" dan@dell-02  
+22:34:57 (orcina) IN: "Flex" dan@dell-02  
+23:16:11 (orcina) IN: "Flex" carol@dell-01  
+23:23:33 (orcina) IN: "Flex" grace@dell-03  
+23:38:22 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:22:57 (orcina) TIMESTAMP 9/16/2025
+ 3:39:05 (orcina) IN: "Flex" dan@dell-02  
+ 4:19:16 (orcina) IN: "Flex" bob@ws-bravo  
+ 6:22:57 (orcina) TIMESTAMP 9/16/2025
+ 6:43:21 (orcina) OUT: "Flex" grace@dell-03  
+ 6:45:18 (orcina) OUT: "Flex" dan@dell-02  
+ 6:51:21 (orcina) IN: "Flex" grace@dell-03  
+ 7:14:30 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 8:02:28 (orcina) OUT: "Flex" bob@ws-bravo  
+ 8:03:28 (orcina) IN: "Flex" bob@ws-bravo  
+ 8:14:18 (orcina) IN: "Flex" dan@dell-02  
+ 8:30:50 (orcina) OUT: "Flex" bob@ws-bravo  
+ 8:51:29 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 8:53:29 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 9:19:29 (orcina) OUT: "Flex" dan@dell-02  
+ 9:21:29 (orcina) IN: "Flex" dan@dell-02  
+ 9:26:41 (orcina) OUT: "Flex" grace@dell-03  
+ 9:26:41 (orcina) IN: "Flex" grace@dell-03  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:33 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:33 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:35 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:41 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:43 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:44 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:45 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:46 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:53 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:55 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:56 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:57 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:27:59 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:00 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:01 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:07 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:07 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:09 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:09 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:11 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:13 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:14 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:15 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:16 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:21 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:28:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:28:31 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:34 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:39 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:40 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:41 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:41 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:43 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:46 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:47 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:48 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:51 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:28:57 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:01 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:05 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:07 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:09 (orcina) IN: "Flex" frank@ws-compute  
+ 9:29:09 (orcina) IN: "Flex" frank@ws-compute  
+ 9:29:11 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:17 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:23 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:25 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:27 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:29:31 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:37 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:43 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:47 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:55 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:29:57 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:30:01 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:30:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:30:53 (orcina) IN: "Flex" frank@ws-compute  
+ 9:31:13 (orcina) IN: "Flex" frank@ws-compute  
+ 9:31:23 (orcina) IN: "Flex" frank@ws-compute  
+ 9:31:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:31:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:01 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:07 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:21 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:31 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:31 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:41 (orcina) IN: "Flex" frank@ws-compute  
+ 9:32:47 (orcina) IN: "Flex" frank@ws-compute  
+ 9:33:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:33:43 (orcina) IN: "Flex" frank@ws-compute  
+ 9:34:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:35:16 (orcina) IN: "Flex" frank@ws-compute  
+ 9:35:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:35:55 (orcina) IN: "Flex" frank@ws-compute  
+ 9:36:12 (orcina) OUT: "Flex" grace@dell-03  
+ 9:36:12 (orcina) IN: "Flex" grace@dell-03  
+ 9:36:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:36:48 (orcina) IN: "Flex" frank@ws-compute  
+ 9:37:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:37:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:37:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:37:43 (orcina) IN: "Flex" frank@ws-compute  
+ 9:37:50 (orcina) IN: "Flex" bob@ws-bravo  
+ 9:38:17 (orcina) IN: "Flex" frank@ws-compute  
+ 9:38:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:38:41 (orcina) IN: "Flex" frank@ws-compute  
+ 9:38:45 (orcina) IN: "Flex" frank@ws-compute  
+ 9:38:46 (orcina) IN: "Flex" frank@ws-compute  
+ 9:39:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:39:55 (orcina) IN: "Flex" frank@ws-compute  
+ 9:40:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:40:34 (orcina) IN: "Flex" frank@ws-compute  
+ 9:40:59 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:01 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:07 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:30 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 9:41:39 (orcina) IN: "Flex" frank@ws-compute  
+ 9:41:43 (orcina) IN: "Flex" frank@ws-compute  
+ 9:42:01 (orcina) IN: "Flex" frank@ws-compute  
+ 9:42:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:42:44 (orcina) IN: "Flex" frank@ws-compute  
+ 9:42:46 (orcina) IN: "Flex" frank@ws-compute  
+ 9:43:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:43:40 (orcina) IN: "Flex" frank@ws-compute  
+ 9:44:25 (orcina) IN: "Flex" frank@ws-compute  
+ 9:45:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:45:37 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:10 (orcina) OUT: "Flex" carol@dell-01  
+ 9:46:11 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:14 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:51 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:15 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:27 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:57 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:33 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:41 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:57 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:57 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:47 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:56 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:00 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:07 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:33 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:11 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:35 (orcina) IN: "Flex" frank@ws-compute  
+ 9:53:05 (orcina) IN: "Flex" frank@ws-compute  
+10:02:44 (orcina) OUT: "Flex" bob@ws-bravo  
+10:02:44 (orcina) IN: "Flex" bob@ws-bravo  
+10:12:17 (orcina) OUT: "Flex" bob@ws-bravo  
+10:20:10 (orcina) IN: "Flex" carol@dell-01  
+10:27:46 (orcina) OUT: "Flex" erin@ws-echo  
+10:36:50 (orcina) OUT: "Flex" alice@ws-alpha  
+10:36:50 (orcina) IN: "Flex" alice@ws-alpha  
+10:47:40 (orcina) OUT: "Flex" carol@dell-01  
+10:51:45 (orcina) OUT: "Flex" alice@ws-alpha  
+10:51:45 (orcina) IN: "Flex" alice@ws-alpha  
+11:11:20 (orcina) OUT: "Flex" alice@ws-alpha  
+11:11:20 (orcina) IN: "Flex" alice@ws-alpha  
+11:20:17 (orcina) OUT: "Flex" grace@dell-03  
+11:27:02 (orcina) OUT: "Flex" erin@ws-echo  
+11:29:02 (orcina) IN: "Flex" erin@ws-echo  
+11:46:53 (orcina) OUT: "Flex" dan@dell-02  
+11:48:53 (orcina) IN: "Flex" dan@dell-02  
+12:00:53 (orcina) OUT: "Flex" carol@dell-01  
+12:20:53 (orcina) IN: "Flex" carol@dell-01  
+12:22:57 (orcina) TIMESTAMP 9/16/2025
+12:23:21 (orcina) OUT: "Flex" dan@dell-02  
+12:30:00 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:33:17 (orcina) IN: "Flex" grace@dell-03  
+12:35:33 (orcina) OUT: "Flex" carol@dell-01  
+12:36:33 (orcina) IN: "Flex" carol@dell-01  
+12:46:21 (orcina) OUT: "Flex" erin@ws-echo  
+12:47:21 (orcina) IN: "Flex" erin@ws-echo  
+12:49:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:50:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:51:21 (orcina) IN: "Flex" dan@dell-02  
+13:11:13 (orcina) OUT: "Flex" dan@dell-02  
+13:29:49 (orcina) OUT: "Flex" alice@ws-alpha  
+13:42:38 (orcina) OUT: "Flex" bob@ws-bravo  
+13:43:28 (orcina) OUT: "Flex" grace@dell-03  
+13:44:28 (orcina) IN: "Flex" grace@dell-03  
+13:50:13 (orcina) IN: "Flex" dan@dell-02  
+13:51:34 (orcina) OUT: "Flex" dan@dell-02  
+13:55:34 (orcina) IN: "Flex" dan@dell-02  
+14:06:33 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:06:33 (orcina) IN: "Flex" heidi@ws-hotel  
+14:09:49 (orcina) IN: "Flex" alice@ws-alpha  
+14:37:50 (orcina) OUT: "Flex" bob@ws-bravo  
+14:40:39 (orcina) OUT: "Flex" grace@dell-03  
+15:00:28 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:00:28 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:06:00 (orcina) OUT: "Flex" alice@ws-alpha  
+15:31:59 (orcina) OUT: "Flex" alice@ws-alpha  
+15:46:20 (orcina) OUT: "Flex" grace@dell-03  
+15:46:20 (orcina) IN: "Flex" grace@dell-03  
+15:49:56 (orcina) OUT: "Flex" grace@dell-03  
+15:49:56 (orcina) IN: "Flex" grace@dell-03  
+15:52:17 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:52:17 (orcina) IN: "Flex" heidi@ws-hotel  
+16:01:00 (orcina) IN: "Flex" alice@ws-alpha  
+16:06:50 (orcina) IN: "Flex" bob@ws-bravo  
+16:21:40 (orcina) IN: "Flex" carol@dell-01  
+16:47:25 (orcina) OUT: "Flex" dan@dell-02  
+16:47:25 (orcina) IN: "Flex" dan@dell-02  
+16:58:59 (orcina) IN: "Flex" alice@ws-alpha  
+17:03:52 (orcina) OUT: "Flex" alice@ws-alpha  
+17:03:52 (orcina) IN: "Flex" alice@ws-alpha  
+17:32:38 (orcina) IN: "Flex" bob@ws-bravo  
+17:42:53 (orcina) OUT: "Flex" dan@dell-02  
+17:52:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:54:29 (orcina) IN: "Flex" heidi@ws-hotel  
+17:57:46 (orcina) OUT: "Flex" grace@dell-03  
+18:03:53 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:03:53 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:10:58 (orcina) OUT: "Flex" grace@dell-03  
+18:20:34 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:22:57 (orcina) TIMESTAMP 9/16/2025
+18:32:38 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:33:58 (orcina) IN: "Flex" grace@dell-03  
+18:34:38 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:38:34 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:45:46 (orcina) IN: "Flex" erin@ws-echo  
+18:51:17 (orcina) IN: "Flex" bob@ws-bravo  
+18:56:53 (orcina) IN: "Flex" dan@dell-02  
+19:22:59 (orcina) OUT: "Flex" grace@dell-03  
+19:22:59 (orcina) IN: "Flex" grace@dell-03  
+19:24:46 (orcina) IN: "Flex" grace@dell-03  
+21:05:00 (orcina) IN: "Flex" heidi@ws-hotel  
+21:56:38 (orcina) OUT: "Flex" carol@dell-01  
+23:04:38 (orcina) IN: "Flex" carol@dell-01  
+23:41:39 (orcina) IN: "Flex" grace@dell-03  
+ 0:22:57 (orcina) TIMESTAMP 9/17/2025
+ 6:04:16 (orcina) OUT: "Flex" bob@ws-bravo  
+ 6:04:16 (orcina) IN: "Flex" bob@ws-bravo  
+ 6:22:57 (orcina) TIMESTAMP 9/17/2025
+ 6:26:16 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 6:26:16 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 7:06:25 (orcina) OUT: "Flex" grace@dell-03  
+ 7:06:25 (orcina) IN: "Flex" grace@dell-03  
+ 7:11:25 (orcina) OUT: "Flex" grace@dell-03  
+ 7:36:21 (orcina) OUT: "Flex" bob@ws-bravo  
+ 7:38:21 (orcina) IN: "Flex" bob@ws-bravo  
+ 7:54:45 (orcina) OUT: "Flex" dan@dell-02  
+ 8:08:37 (orcina) OUT: "Flex" alice@ws-alpha  
+ 8:20:37 (orcina) IN: "Flex" alice@ws-alpha  
+ 8:23:58 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 8:24:24 (orcina) OUT: "Flex" dan@dell-02  
+ 8:57:45 (orcina) IN: "Flex" dan@dell-02  
+ 9:12:58 (orcina) IN: "Flex" heidi@ws-hotel  
+ 9:14:54 (orcina) OUT: "Flex" dan@dell-02  
+ 9:16:46 (orcina) OUT: "Flex" alice@ws-alpha  
+ 9:22:17 (orcina) OUT: "Flex" carol@dell-01  
+ 9:23:17 (orcina) IN: "Flex" carol@dell-01  
+ 9:23:46 (orcina) IN: "Flex" alice@ws-alpha  
+ 9:27:54 (orcina) IN: "Flex" dan@dell-02  
+ 9:31:24 (orcina) IN: "Flex" dan@dell-02  
+ 9:36:00 (orcina) OUT: "Flex" heidi@ws-hotel  
+ 9:45:45 (orcina) OUT: "Flex" grace@dell-03  
+ 9:51:29 (orcina) OUT: "Flex" grace@dell-03  
+ 9:52:42 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 9:53:42 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:02:25 (orcina) IN: "Flex" grace@dell-03  
+10:11:00 (orcina) IN: "Flex" heidi@ws-hotel  
+10:18:07 (orcina) OUT: "Flex" frank@ws-foxtrot  
+10:19:07 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:20:30 (orcina) OUT: "Flex" grace@dell-03  
+10:20:30 (orcina) IN: "Flex" grace@dell-03  
+10:21:09 (orcina) OUT: "Flex" bob@ws-bravo  
+10:21:09 (orcina) IN: "Flex" bob@ws-bravo  
+10:28:18 (orcina) OUT: "Flex" alice@ws-alpha  
+10:41:05 (orcina) OUT: "Flex" carol@dell-01  
+10:41:05 (orcina) IN: "Flex" carol@dell-01  
+10:41:18 (orcina) IN: "Flex" alice@ws-alpha  
+10:54:45 (orcina) IN: "Flex" grace@dell-03  
+11:11:46 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:13:46 (orcina) IN: "Flex" heidi@ws-hotel  
+11:17:04 (orcina) OUT: "Flex" heidi@ws-hotel  
+11:30:16 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:32:08 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:23 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:25 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:32 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:35 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:37 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:41 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:43 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:44 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:54 (orcina) OUT: "Flex" alice@ws-compute  
+11:38:58 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:00 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:01 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:04 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:06 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:07 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:14 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:17 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:19 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:20 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:20 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:22 (orcina) IN: "Flex" alice@ws-compute  
+11:39:22 (orcina) IN: "Flex" alice@ws-compute  
+11:39:22 (orcina) IN: "Flex" alice@ws-compute  
+11:39:23 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:26 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:27 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:28 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:28 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:29 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:30 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:30 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:32 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:39 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:41 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:44 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:44 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:45 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:48 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:51 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:54 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:54 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:55 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:56 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:57 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:58 (orcina) OUT: "Flex" alice@ws-compute  
+11:39:59 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:04 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:04 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:05 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:13 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:15 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:17 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:18 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:20 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:22 (orcina) IN: "Flex" alice@ws-compute  
+11:40:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:23 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:26 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:30 (orcina) IN: "Flex" alice@ws-compute  
+11:40:34 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:39 (orcina) IN: "Flex" alice@ws-compute  
+11:40:40 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:40 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:42 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:43 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:45 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:46 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:50 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:51 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:54 (orcina) OUT: "Flex" alice@ws-compute  
+11:40:57 (orcina) IN: "Flex" alice@ws-compute  
+11:40:57 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:02 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:02 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:03 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:04 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:05 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:06 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:07 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:08 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:11 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:14 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:16 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:19 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:20 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:21 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:22 (orcina) IN: "Flex" alice@ws-compute  
+11:41:22 (orcina) IN: "Flex" alice@ws-compute  
+11:41:22 (orcina) IN: "Flex" alice@ws-compute  
+11:41:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:25 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:26 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:27 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:30 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:31 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:32 (orcina) IN: "Flex" alice@ws-compute  
+11:41:36 (orcina) IN: "Flex" alice@ws-compute  
+11:41:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:40 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:42 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:44 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:50 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:52 (orcina) OUT: "Flex" alice@ws-compute  
+11:41:54 (orcina) IN: "Flex" alice@ws-compute  
+11:41:56 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:02 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:06 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:08 (orcina) IN: "Flex" alice@ws-compute  
+11:42:16 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:18 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:20 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:22 (orcina) IN: "Flex" alice@ws-compute  
+11:42:22 (orcina) IN: "Flex" alice@ws-compute  
+11:42:22 (orcina) IN: "Flex" alice@ws-compute  
+11:42:28 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:40 (orcina) OUT: "Flex" alice@ws-compute  
+11:42:42 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:02 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:10 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:15 (orcina) IN: "Flex" alice@ws-compute  
+11:43:22 (orcina) IN: "Flex" alice@ws-compute  
+11:43:22 (orcina) IN: "Flex" alice@ws-compute  
+11:43:22 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:28 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:30 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:34 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:40 (orcina) OUT: "Flex" alice@ws-compute  
+11:43:58 (orcina) IN: "Flex" alice@ws-compute  
+11:44:02 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:04 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:12 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:22 (orcina) IN: "Flex" alice@ws-compute  
+11:44:22 (orcina) IN: "Flex" alice@ws-compute  
+11:44:22 (orcina) IN: "Flex" alice@ws-compute  
+11:44:22 (orcina) IN: "Flex" alice@ws-compute  
+11:44:22 (orcina) IN: "Flex" alice@ws-compute  
+11:44:24 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:26 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:26 (orcina) IN: "Flex" alice@ws-compute  
+11:44:34 (orcina) IN: "Flex" alice@ws-compute  
+11:44:36 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:38 (orcina) OUT: "Flex" alice@ws-compute  
+11:44:41 (orcina) IN: "Flex" alice@ws-compute  
+11:44:43 (orcina) IN: "Flex" alice@ws-compute  
+11:44:48 (orcina) IN: "Flex" alice@ws-compute  
+11:45:02 (orcina) IN: "Flex" alice@ws-compute  
+11:45:20 (orcina) IN: "Flex" alice@ws-compute  
+11:45:30 (orcina) IN: "Flex" alice@ws-compute  
+11:45:40 (orcina) IN: "Flex" alice@ws-compute  
+11:45:42 (orcina) IN: "Flex" alice@ws-compute  
+11:45:54 (orcina) IN: "Flex" alice@ws-compute  
+11:46:07 (orcina) IN: "Flex" alice@ws-compute  
+11:46:10 (orcina) IN: "Flex" alice@ws-compute  
+11:46:22 (orcina) IN: "Flex" alice@ws-compute  
+11:46:22 (orcina) IN: "Flex" alice@ws-compute  
+11:46:26 (orcina) IN: "Flex" alice@ws-compute  
+11:46:35 (orcina) IN: "Flex" alice@ws-compute  
+11:46:36 (orcina) IN: "Flex" alice@ws-compute  
+11:47:04 (orcina) IN: "Flex" alice@ws-compute  
+11:47:10 (orcina) IN: "Flex" alice@ws-compute  
+11:47:22 (orcina) IN: "Flex" alice@ws-compute  
+11:47:22 (orcina) IN: "Flex" alice@ws-compute  
+11:47:22 (orcina) IN: "Flex" alice@ws-compute  
+11:47:22 (orcina) IN: "Flex" alice@ws-compute  
+11:47:44 (orcina) IN: "Flex" alice@ws-compute  
+11:48:10 (orcina) IN: "Flex" alice@ws-compute  
+11:48:17 (orcina) IN: "Flex" alice@ws-compute  
+11:48:19 (orcina) IN: "Flex" alice@ws-compute  
+11:48:29 (orcina) IN: "Flex" alice@ws-compute  
+11:48:38 (orcina) IN: "Flex" alice@ws-compute  
+11:48:43 (orcina) IN: "Flex" alice@ws-compute  
+11:48:44 (orcina) IN: "Flex" alice@ws-compute  
+11:48:45 (orcina) IN: "Flex" alice@ws-compute  
+11:49:20 (orcina) IN: "Flex" alice@ws-compute  
+11:49:22 (orcina) IN: "Flex" alice@ws-compute  
+11:49:22 (orcina) IN: "Flex" alice@ws-compute  
+11:49:22 (orcina) IN: "Flex" alice@ws-compute  
+11:49:25 (orcina) IN: "Flex" alice@ws-compute  
+11:49:28 (orcina) IN: "Flex" alice@ws-compute  
+11:49:45 (orcina) OUT: "Flex" bob@ws-bravo  
+11:49:46 (orcina) IN: "Flex" alice@ws-compute  
+11:49:54 (orcina) IN: "Flex" alice@ws-compute  
+11:50:22 (orcina) IN: "Flex" alice@ws-compute  
+11:50:30 (orcina) IN: "Flex" alice@ws-compute  
+11:50:32 (orcina) IN: "Flex" alice@ws-compute  
+11:50:36 (orcina) IN: "Flex" alice@ws-compute  
+11:50:36 (orcina) IN: "Flex" alice@ws-compute  
+11:50:41 (orcina) IN: "Flex" alice@ws-compute  
+11:50:45 (orcina) IN: "Flex" bob@ws-bravo  
+11:50:58 (orcina) IN: "Flex" alice@ws-compute  
+11:51:05 (orcina) IN: "Flex" alice@ws-compute  
+11:51:14 (orcina) IN: "Flex" alice@ws-compute  
+11:51:16 (orcina) IN: "Flex" alice@ws-compute  
+11:51:18 (orcina) IN: "Flex" alice@ws-compute  
+11:51:18 (orcina) IN: "Flex" alice@ws-compute  
+11:51:20 (orcina) IN: "Flex" alice@ws-compute  
+11:51:22 (orcina) IN: "Flex" alice@ws-compute  
+11:51:22 (orcina) IN: "Flex" alice@ws-compute  
+11:51:22 (orcina) IN: "Flex" alice@ws-compute  
+11:51:24 (orcina) IN: "Flex" alice@ws-compute  
+11:51:28 (orcina) IN: "Flex" alice@ws-compute  
+11:51:38 (orcina) IN: "Flex" alice@ws-compute  
+11:51:50 (orcina) IN: "Flex" alice@ws-compute  
+11:51:54 (orcina) IN: "Flex" alice@ws-compute  
+11:51:56 (orcina) IN: "Flex" alice@ws-compute  
+11:51:56 (orcina) IN: "Flex" alice@ws-compute  
+11:52:04 (orcina) IN: "Flex" alice@ws-compute  
+11:52:12 (orcina) IN: "Flex" alice@ws-compute  
+11:52:16 (orcina) IN: "Flex" alice@ws-compute  
+11:52:17 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:52:22 (orcina) IN: "Flex" alice@ws-compute  
+11:52:22 (orcina) IN: "Flex" alice@ws-compute  
+11:52:24 (orcina) IN: "Flex" alice@ws-compute  
+11:52:36 (orcina) IN: "Flex" alice@ws-compute  
+11:53:02 (orcina) IN: "Flex" alice@ws-compute  
+11:53:02 (orcina) IN: "Flex" alice@ws-compute  
+11:53:22 (orcina) IN: "Flex" alice@ws-compute  
+11:53:22 (orcina) IN: "Flex" alice@ws-compute  
+11:53:38 (orcina) IN: "Flex" alice@ws-compute  
+11:54:21 (orcina) IN: "Flex" alice@ws-compute  
+11:54:22 (orcina) IN: "Flex" alice@ws-compute  
+11:54:22 (orcina) IN: "Flex" alice@ws-compute  
+11:54:22 (orcina) IN: "Flex" alice@ws-compute  
+11:54:22 (orcina) IN: "Flex" alice@ws-compute  
+11:54:26 (orcina) IN: "Flex" alice@ws-compute  
+11:54:39 (orcina) OUT: "Flex" bob@ws-bravo  
+11:54:39 (orcina) IN: "Flex" bob@ws-bravo  
+11:55:01 (orcina) IN: "Flex" alice@ws-compute  
+11:55:04 (orcina) IN: "Flex" alice@ws-compute  
+11:55:06 (orcina) IN: "Flex" alice@ws-compute  
+11:55:07 (orcina) IN: "Flex" alice@ws-compute  
+11:55:22 (orcina) IN: "Flex" alice@ws-compute  
+11:55:22 (orcina) IN: "Flex" alice@ws-compute  
+11:55:22 (orcina) IN: "Flex" alice@ws-compute  
+11:55:22 (orcina) IN: "Flex" alice@ws-compute  
+11:55:28 (orcina) IN: "Flex" alice@ws-compute  
+11:55:44 (orcina) IN: "Flex" alice@ws-compute  
+11:55:45 (orcina) IN: "Flex" alice@ws-compute  
+11:55:51 (orcina) IN: "Flex" alice@ws-compute  
+11:56:02 (orcina) IN: "Flex" alice@ws-compute  
+11:56:22 (orcina) IN: "Flex" alice@ws-compute  
+11:56:22 (orcina) IN: "Flex" alice@ws-compute  
+11:56:22 (orcina) IN: "Flex" alice@ws-compute  
+11:56:44 (orcina) IN: "Flex" alice@ws-compute  
+11:56:52 (orcina) IN: "Flex" alice@ws-compute  
+11:57:11 (orcina) IN: "Flex" alice@ws-compute  
+11:57:22 (orcina) IN: "Flex" alice@ws-compute  
+11:57:25 (orcina) IN: "Flex" alice@ws-compute  
+11:57:26 (orcina) IN: "Flex" alice@ws-compute  
+11:57:36 (orcina) IN: "Flex" alice@ws-compute  
+11:57:38 (orcina) IN: "Flex" alice@ws-compute  
+11:57:50 (orcina) IN: "Flex" alice@ws-compute  
+11:57:55 (orcina) IN: "Flex" alice@ws-compute  
+11:58:00 (orcina) IN: "Flex" alice@ws-compute  
+11:58:02 (orcina) IN: "Flex" alice@ws-compute  
+11:58:17 (orcina) IN: "Flex" alice@ws-compute  
+11:58:24 (orcina) IN: "Flex" alice@ws-compute  
+11:58:36 (orcina) IN: "Flex" alice@ws-compute  
+11:59:03 (orcina) IN: "Flex" alice@ws-compute  
+11:59:19 (orcina) IN: "Flex" alice@ws-compute  
+11:59:20 (orcina) IN: "Flex" alice@ws-compute  
+11:59:23 (orcina) IN: "Flex" alice@ws-compute  
+11:59:28 (orcina) IN: "Flex" alice@ws-compute  
+12:00:04 (orcina) IN: "Flex" alice@ws-compute  
+12:00:10 (orcina) IN: "Flex" alice@ws-compute  
+12:00:22 (orcina) IN: "Flex" alice@ws-compute  
+12:00:22 (orcina) IN: "Flex" alice@ws-compute  
+12:00:24 (orcina) IN: "Flex" alice@ws-compute  
+12:00:37 (orcina) IN: "Flex" alice@ws-compute  
+12:00:40 (orcina) IN: "Flex" alice@ws-compute  
+12:00:40 (orcina) IN: "Flex" alice@ws-compute  
+12:00:51 (orcina) IN: "Flex" alice@ws-compute  
+12:01:06 (orcina) IN: "Flex" alice@ws-compute  
+12:01:06 (orcina) IN: "Flex" alice@ws-compute  
+12:01:10 (orcina) IN: "Flex" alice@ws-compute  
+12:01:10 (orcina) IN: "Flex" alice@ws-compute  
+12:01:13 (orcina) IN: "Flex" alice@ws-compute  
+12:01:22 (orcina) IN: "Flex" alice@ws-compute  
+12:01:22 (orcina) IN: "Flex" alice@ws-compute  
+12:01:22 (orcina) IN: "Flex" alice@ws-compute  
+12:01:22 (orcina) IN: "Flex" alice@ws-compute  
+12:01:38 (orcina) IN: "Flex" alice@ws-compute  
+12:01:40 (orcina) IN: "Flex" alice@ws-compute  
+12:01:57 (orcina) IN: "Flex" alice@ws-compute  
+12:01:59 (orcina) IN: "Flex" alice@ws-compute  
+12:02:05 (orcina) IN: "Flex" alice@ws-compute  
+12:02:14 (orcina) IN: "Flex" alice@ws-compute  
+12:02:22 (orcina) IN: "Flex" alice@ws-compute  
+12:02:22 (orcina) IN: "Flex" alice@ws-compute  
+12:02:27 (orcina) IN: "Flex" alice@ws-compute  
+12:02:27 (orcina) IN: "Flex" alice@ws-compute  
+12:02:31 (orcina) IN: "Flex" alice@ws-compute  
+12:02:42 (orcina) IN: "Flex" alice@ws-compute  
+12:02:42 (orcina) IN: "Flex" alice@ws-compute  
+12:03:20 (orcina) IN: "Flex" alice@ws-compute  
+12:03:22 (orcina) IN: "Flex" alice@ws-compute  
+12:03:22 (orcina) IN: "Flex" alice@ws-compute  
+12:03:22 (orcina) IN: "Flex" alice@ws-compute  
+12:03:22 (orcina) IN: "Flex" alice@ws-compute  
+12:03:23 (orcina) IN: "Flex" alice@ws-compute  
+12:03:30 (orcina) IN: "Flex" alice@ws-compute  
+12:04:24 (orcina) IN: "Flex" alice@ws-compute  
+12:04:34 (orcina) IN: "Flex" alice@ws-compute  
+12:04:38 (orcina) IN: "Flex" alice@ws-compute  
+12:05:04 (orcina) IN: "Flex" alice@ws-compute  
+12:05:23 (orcina) IN: "Flex" alice@ws-compute  
+12:05:40 (orcina) IN: "Flex" alice@ws-compute  
+12:07:36 (orcina) IN: "Flex" alice@ws-compute  
+12:07:46 (orcina) OUT: "Flex" bob@ws-bravo  
+12:08:24 (orcina) IN: "Flex" alice@ws-compute  
+12:13:16 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:20:26 (orcina) OUT: "Flex" dan@dell-02  
+12:20:29 (orcina) IN: "Flex" grace@dell-03  
+12:22:26 (orcina) IN: "Flex" dan@dell-02  
+12:22:57 (orcina) TIMESTAMP 9/17/2025
+12:24:06 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:24:06 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:29:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:38:18 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:39:18 (orcina) IN: "Flex" frank@ws-foxtrot  
+12:39:46 (orcina) IN: "Flex" bob@ws-bravo  
+12:49:15 (orcina) OUT: "Flex" carol@dell-01  
+12:52:09 (orcina) OUT: "Flex" dan@dell-02  
+12:54:09 (orcina) IN: "Flex" dan@dell-02  
+12:54:45 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:54:45 (orcina) IN: "Flex" heidi@ws-hotel  
+13:06:21 (orcina) OUT: "Flex" grace@dell-03  
+13:19:15 (orcina) IN: "Flex" carol@dell-01  
+13:28:14 (orcina) OUT: "Flex" carol@dell-01  
+13:30:14 (orcina) IN: "Flex" carol@dell-01  
+13:32:12 (orcina) OUT: "Flex" carol@dell-01  
+13:33:12 (orcina) IN: "Flex" carol@dell-01  
+13:45:40 (orcina) IN: "Flex" heidi@ws-hotel  
+13:49:50 (orcina) OUT: "Flex" frank@ws-foxtrot  
+13:54:13 (orcina) OUT: "Flex" bob@ws-bravo  
+13:57:55 (orcina) OUT: "Flex" grace@dell-03  
+14:06:21 (orcina) IN: "Flex" grace@dell-03  
+14:07:33 (orcina) OUT: "Flex" grace@dell-03  
+14:13:57 (orcina) OUT: "Flex" carol@dell-01  
+14:13:57 (orcina) IN: "Flex" carol@dell-01  
+14:27:01 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:34:33 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:38:13 (orcina) OUT: "Flex" dan@dell-02  
+14:47:43 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:47:43 (orcina) IN: "Flex" heidi@ws-hotel  
+14:48:21 (orcina) OUT: "Flex" bob@ws-bravo  
+14:48:46 (orcina) OUT: "Flex" carol@dell-01  
+14:49:21 (orcina) IN: "Flex" bob@ws-bravo  
+14:50:55 (orcina) IN: "Flex" grace@dell-03  
+14:51:06 (orcina) OUT: "Flex" carol@dell-01  
+15:01:50 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:02:16 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:02:16 (orcina) IN: "Flex" heidi@ws-hotel  
+15:08:06 (orcina) IN: "Flex" carol@dell-01  
+15:09:50 (orcina) OUT: "Flex" alice@ws-alpha  
+15:09:50 (orcina) IN: "Flex" alice@ws-alpha  
+15:17:17 (orcina) OUT: "Flex" dan@dell-02  
+15:18:38 (orcina) OUT: "Flex" dan@dell-02  
+15:31:49 (orcina) OUT: "Flex" bob@ws-bravo  
+15:33:49 (orcina) IN: "Flex" bob@ws-bravo  
+15:37:33 (orcina) IN: "Flex" grace@dell-03  
+15:38:04 (orcina) IN: "Flex" heidi@ws-hotel  
+15:38:13 (orcina) OUT: "Flex" grace@dell-03  
+15:42:26 (orcina) OUT: "Flex" dan@dell-02  
+15:43:01 (orcina) IN: "Flex" frank@ws-foxtrot  
+15:43:26 (orcina) IN: "Flex" dan@dell-02  
+15:43:38 (orcina) IN: "Flex" dan@dell-02  
+15:45:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:52:13 (orcina) IN: "Flex" grace@dell-03  
+15:53:13 (orcina) IN: "Flex" dan@dell-02  
+16:06:31 (orcina) OUT: "Flex" alice@ws-alpha  
+16:08:31 (orcina) IN: "Flex" alice@ws-alpha  
+16:15:46 (orcina) IN: "Flex" carol@dell-01  
+16:34:17 (orcina) IN: "Flex" dan@dell-02  
+16:39:29 (orcina) IN: "Flex" heidi@ws-hotel  
+16:49:01 (orcina) OUT: "Flex" alice@ws-alpha  
+16:49:01 (orcina) IN: "Flex" alice@ws-alpha  
+16:55:08 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:06:18 (orcina) OUT: "Flex" grace@dell-03  
+17:06:18 (orcina) IN: "Flex" grace@dell-03  
+17:14:33 (orcina) OUT: "Flex" bob@ws-bravo  
+17:21:00 (orcina) OUT: "Flex" dan@dell-02  
+17:21:00 (orcina) IN: "Flex" dan@dell-02  
+17:32:01 (orcina) OUT: "Flex" heidi@ws-hotel  
+18:22:57 (orcina) TIMESTAMP 9/17/2025
+18:30:17 (orcina) OUT: "Flex" dan@dell-02  
+18:30:17 (orcina) IN: "Flex" dan@dell-02  
+18:49:01 (orcina) IN: "Flex" heidi@ws-hotel  
+18:49:17 (orcina) OUT: "Flex" alice@ws-alpha  
+19:05:22 (orcina) OUT: "Flex" carol@dell-01  
+19:05:22 (orcina) IN: "Flex" carol@dell-01  
+19:36:40 (orcina) OUT: "Flex" grace@dell-03  
+19:36:40 (orcina) IN: "Flex" grace@dell-03  
+19:49:17 (orcina) IN: "Flex" frank@ws-foxtrot  
+20:06:17 (orcina) IN: "Flex" alice@ws-alpha  
+20:48:18 (orcina) OUT: "Flex" bob@ws-bravo  
+20:48:18 (orcina) IN: "Flex" bob@ws-bravo  
+21:44:13 (orcina) IN: "Flex" bob@ws-bravo  
+21:46:11 (orcina) OUT: "Flex" heidi@ws-hotel  
+21:46:11 (orcina) IN: "Flex" heidi@ws-hotel  
+23:10:33 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 0:22:57 (orcina) TIMESTAMP 9/18/2025
+ 1:30:33 (orcina) IN: "Flex" bob@ws-bravo  
+ 6:22:57 (orcina) TIMESTAMP 9/18/2025
+ 6:25:50 (orcina) OUT: "Flex" dan@dell-02  
+ 6:25:50 (orcina) IN: "Flex" dan@dell-02  
+ 6:30:24 (orcina) OUT: "Flex" carol@dell-01  
+ 7:12:24 (orcina) IN: "Flex" carol@dell-01  
+ 7:28:45 (orcina) OUT: "Flex" erin@ws-echo  
+ 7:28:45 (orcina) IN: "Flex" erin@ws-echo  
+ 8:41:12 (orcina) OUT: "Flex" carol@dell-01  
+ 8:41:12 (orcina) IN: "Flex" carol@dell-01  
+ 8:54:52 (orcina) OUT: "Flex" carol@dell-01  
+ 9:04:11 (orcina) OUT: "Flex" dan@dell-02  
+ 9:04:11 (orcina) IN: "Flex" dan@dell-02  
+ 9:11:46 (orcina) OUT: "Flex" dan@dell-02  
+ 9:11:46 (orcina) IN: "Flex" dan@dell-02  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:20 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:20 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:26 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:26 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:27 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:28 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:28 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:30 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:32 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:36 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:37 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:38 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:40 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:42 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:44 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:45 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:46 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:48 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:51 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:52 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:53 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:44:56 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:00 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:01 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:02 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:10 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:11 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:14 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:16 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:19 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:20 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:21 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:25 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:29 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:30 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:31 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:32 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:35 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:36 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:36 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:37 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:38 (orcina) IN: "Flex" frank@ws-compute  
+ 9:45:38 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:40 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:41 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:42 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:45 (orcina) IN: "Flex" frank@ws-compute  
+ 9:45:47 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:48 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:48 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:52 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:52 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:53 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:54 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:56 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:57 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:58 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:45:59 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:03 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:08 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:09 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:10 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:11 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:14 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:17 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:18 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:46:22 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:26 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:30 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:34 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:36 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:48 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:50 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:46:58 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:00 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:02 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:06 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:08 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:10 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:12 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:20 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:24 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:32 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:50 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:47:56 (orcina) IN: "Flex" frank@ws-compute  
+ 9:47:56 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:48:10 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:48:14 (orcina) OUT: "Flex" frank@ws-compute  
+ 9:48:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:20 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:31 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:35 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:40 (orcina) IN: "Flex" frank@ws-compute  
+ 9:48:48 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:49:36 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:20 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:30 (orcina) IN: "Flex" frank@ws-compute  
+ 9:50:50 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:01 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:03 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:22 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:57 (orcina) IN: "Flex" frank@ws-compute  
+ 9:51:58 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:38 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:46 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:53 (orcina) IN: "Flex" frank@ws-compute  
+ 9:52:56 (orcina) IN: "Flex" frank@ws-compute  
+ 9:53:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:53:30 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:02 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:14 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:54:26 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:10 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:12 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:28 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:44 (orcina) IN: "Flex" frank@ws-compute  
+ 9:55:52 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:26 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:28 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:36 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:42 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:48 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:51 (orcina) IN: "Flex" frank@ws-compute  
+ 9:56:53 (orcina) IN: "Flex" frank@ws-compute  
+ 9:57:10 (orcina) IN: "Flex" frank@ws-compute  
+ 9:57:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:57:26 (orcina) IN: "Flex" frank@ws-compute  
+ 9:57:52 (orcina) IN: "Flex" frank@ws-compute  
+ 9:57:54 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:29 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:36 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:41 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:42 (orcina) IN: "Flex" frank@ws-compute  
+ 9:58:56 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:11 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:12 (orcina) OUT: "Flex" bob@ws-bravo  
+ 9:59:14 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:18 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:37 (orcina) IN: "Flex" frank@ws-compute  
+ 9:59:50 (orcina) IN: "Flex" frank@ws-compute  
+10:00:12 (orcina) IN: "Flex" bob@ws-bravo  
+10:00:18 (orcina) IN: "Flex" frank@ws-compute  
+10:00:25 (orcina) IN: "Flex" frank@ws-compute  
+10:01:18 (orcina) IN: "Flex" frank@ws-compute  
+10:01:24 (orcina) IN: "Flex" frank@ws-compute  
+10:02:11 (orcina) IN: "Flex" frank@ws-compute  
+10:02:16 (orcina) IN: "Flex" frank@ws-compute  
+10:02:18 (orcina) IN: "Flex" frank@ws-compute  
+10:02:18 (orcina) IN: "Flex" frank@ws-compute  
+10:02:21 (orcina) IN: "Flex" frank@ws-compute  
+10:02:27 (orcina) IN: "Flex" frank@ws-compute  
+10:02:36 (orcina) IN: "Flex" frank@ws-compute  
+10:02:48 (orcina) IN: "Flex" frank@ws-compute  
+10:03:19 (orcina) IN: "Flex" frank@ws-compute  
+10:04:17 (orcina) IN: "Flex" frank@ws-compute  
+10:04:18 (orcina) IN: "Flex" frank@ws-compute  
+10:04:18 (orcina) IN: "Flex" frank@ws-compute  
+10:04:32 (orcina) IN: "Flex" frank@ws-compute  
+10:04:32 (orcina) IN: "Flex" frank@ws-compute  
+10:04:40 (orcina) IN: "Flex" frank@ws-compute  
+10:04:48 (orcina) IN: "Flex" frank@ws-compute  
+10:05:18 (orcina) IN: "Flex" frank@ws-compute  
+10:05:34 (orcina) IN: "Flex" frank@ws-compute  
+10:05:58 (orcina) IN: "Flex" frank@ws-compute  
+10:05:59 (orcina) IN: "Flex" frank@ws-compute  
+10:06:06 (orcina) IN: "Flex" frank@ws-compute  
+10:06:10 (orcina) IN: "Flex" frank@ws-compute  
+10:06:18 (orcina) IN: "Flex" frank@ws-compute  
+10:06:20 (orcina) IN: "Flex" frank@ws-compute  
+10:06:20 (orcina) IN: "Flex" frank@ws-compute  
+10:08:02 (orcina) IN: "Flex" frank@ws-compute  
+10:08:18 (orcina) IN: "Flex" frank@ws-compute  
+10:08:18 (orcina) IN: "Flex" frank@ws-compute  
+10:08:18 (orcina) IN: "Flex" frank@ws-compute  
+10:08:18 (orcina) IN: "Flex" frank@ws-compute  
+10:08:32 (orcina) IN: "Flex" frank@ws-compute  
+10:08:52 (orcina) IN: "Flex" frank@ws-compute  
+10:09:09 (orcina) IN: "Flex" frank@ws-compute  
+10:09:18 (orcina) IN: "Flex" frank@ws-compute  
+10:09:18 (orcina) IN: "Flex" frank@ws-compute  
+10:09:18 (orcina) IN: "Flex" frank@ws-compute  
+10:09:18 (orcina) IN: "Flex" frank@ws-compute  
+10:09:29 (orcina) IN: "Flex" frank@ws-compute  
+10:10:30 (orcina) IN: "Flex" frank@ws-compute  
+10:10:37 (orcina) IN: "Flex" frank@ws-compute  
+10:10:47 (orcina) IN: "Flex" frank@ws-compute  
+10:11:10 (orcina) IN: "Flex" frank@ws-compute  
+10:12:50 (orcina) OUT: "Flex" frank@ws-foxtrot  
+10:12:50 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:13:14 (orcina) IN: "Flex" frank@ws-compute  
+10:16:43 (orcina) OUT: "Flex" grace@dell-03  
+10:16:43 (orcina) IN: "Flex" grace@dell-03  
+10:40:42 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:42:44 (orcina) OUT: "Flex" dan@dell-02  
+10:44:44 (orcina) IN: "Flex" dan@dell-02  
+10:58:29 (orcina) OUT: "Flex" grace@dell-03  
+10:58:29 (orcina) IN: "Flex" grace@dell-03  
+11:05:52 (orcina) OUT: "Flex" grace@dell-03  
+11:06:52 (orcina) IN: "Flex" grace@dell-03  
+12:12:42 (orcina) OUT: "Flex" carol@dell-01  
+12:12:42 (orcina) IN: "Flex" carol@dell-01  
+12:22:57 (orcina) TIMESTAMP 9/18/2025
+12:42:41 (orcina) OUT: "Flex" carol@dell-01  
+12:42:41 (orcina) IN: "Flex" carol@dell-01  
+12:57:55 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:58:00 (orcina) OUT: "Flex" frank@ws-foxtrot  
+12:58:43 (orcina) OUT: "Flex" carol@dell-01  
+12:58:43 (orcina) IN: "Flex" carol@dell-01  
+13:08:55 (orcina) IN: "Flex" frank@ws-foxtrot  
+13:26:11 (orcina) OUT: "Flex" alice@ws-alpha  
+13:27:11 (orcina) IN: "Flex" alice@ws-alpha  
+13:29:42 (orcina) IN: "Flex" heidi@ws-hotel  
+13:36:40 (orcina) OUT: "Flex" bob@ws-bravo  
+13:43:40 (orcina) IN: "Flex" bob@ws-bravo  
+13:45:12 (orcina) OUT: "Flex" erin@ws-echo  
+13:47:00 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:00:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:01:29 (orcina) IN: "Flex" heidi@ws-hotel  
+14:14:21 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:14:21 (orcina) IN: "Flex" heidi@ws-hotel  
+14:22:04 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:25:14 (orcina) OUT: "Flex" heidi@ws-hotel  
+14:32:16 (orcina) OUT: "Flex" frank@ws-foxtrot  
+14:33:16 (orcina) IN: "Flex" frank@ws-foxtrot  
+14:38:37 (orcina) OUT: "Flex" alice@ws-alpha  
+14:38:37 (orcina) IN: "Flex" alice@ws-alpha  
+14:49:59 (orcina) OUT: "Flex" alice@ws-alpha  
+14:57:02 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+14:57:04 (orcina) IN: "Flex" heidi@ws-hotel  
+14:57:05 (orcina) UNSUPPORTED: "Wave" (PORT_AT_HOST_PLUS   ) carol@dell-01  (No such feature exists. (-5,346))
+14:57:12 (orcina) IN: "Flex" erin@ws-echo  
+15:04:29 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:14:14 (orcina) OUT: "Flex" erin@ws-echo  
+15:14:14 (orcina) IN: "Flex" erin@ws-echo  
+15:23:09 (orcina) OUT: "Flex" heidi@ws-hotel  
+15:23:09 (orcina) IN: "Flex" heidi@ws-hotel  
+15:26:59 (orcina) IN: "Flex" alice@ws-alpha  
+15:27:35 (orcina) OUT: "Flex" bob@ws-bravo  
+15:27:35 (orcina) IN: "Flex" bob@ws-bravo  
+15:48:27 (orcina) OUT: "Flex" bob@ws-bravo  
+16:02:20 (orcina) OUT: "Flex" heidi@ws-hotel  
+16:02:20 (orcina) IN: "Flex" heidi@ws-hotel  
+16:18:21 (orcina) OUT: "Flex" alice@ws-alpha  
+16:18:21 (orcina) IN: "Flex" alice@ws-alpha  
+16:48:53 (orcina) OUT: "Flex" heidi@ws-hotel  
+16:54:27 (orcina) IN: "Flex" bob@ws-bravo  
+16:58:53 (orcina) IN: "Flex" heidi@ws-hotel  
+17:24:59 (orcina) OUT: "Flex" grace@dell-03  
+18:16:52 (orcina) IN: "Flex" carol@dell-01  
+18:22:57 (orcina) TIMESTAMP 9/18/2025
+18:24:40 (orcina) OUT: "Flex" heidi@ws-hotel  
+18:48:35 (orcina) OUT: "Flex" bob@ws-bravo  
+18:48:35 (orcina) IN: "Flex" bob@ws-bravo  
+19:20:40 (orcina) IN: "Flex" heidi@ws-hotel  
+19:53:11 (orcina) OUT: "Flex" frank@ws-foxtrot  
+19:53:11 (orcina) IN: "Flex" frank@ws-foxtrot  
+20:46:44 (orcina) OUT: "Flex" erin@ws-echo  
+20:48:44 (orcina) IN: "Flex" erin@ws-echo  
+20:55:59 (orcina) IN: "Flex" grace@dell-03  
+21:49:29 (orcina) IN: "Flex" heidi@ws-hotel  
+23:31:14 (orcina) IN: "Flex" heidi@ws-hotel  
+ 0:22:57 (orcina) TIMESTAMP 9/19/2025
+ 6:22:57 (orcina) TIMESTAMP 9/19/2025
+ 6:32:45 (orcina) OUT: "Flex" alice@ws-alpha  
+ 6:32:45 (orcina) IN: "Flex" alice@ws-alpha  
+ 7:16:49 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 7:16:49 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 8:31:06 (orcina) OUT: "Flex" frank@ws-foxtrot  
+ 8:31:06 (orcina) IN: "Flex" frank@ws-foxtrot  
+ 8:42:31 (orcina) OUT: "Flex" carol@dell-01  
+ 8:44:31 (orcina) IN: "Flex" carol@dell-01  
+ 8:51:18 (orcina) OUT: "Flex" dan@dell-02  
+ 8:51:18 (orcina) IN: "Flex" dan@dell-02  
+ 9:36:18 (orcina) OUT: "Flex" carol@dell-01  
+10:05:12 (orcina) OUT: "Flex" grace@dell-03  
+10:06:12 (orcina) IN: "Flex" grace@dell-03  
+10:07:19 (orcina) OUT: "Flex" carol@dell-01  
+10:07:19 (orcina) IN: "Flex" carol@dell-01  
+10:10:01 (orcina) OUT: "Flex" frank@ws-foxtrot  
+10:10:01 (orcina) IN: "Flex" frank@ws-foxtrot  
+10:31:56 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:44:06 (orcina) OUT: "Flex" carol@dell-01  
+10:46:06 (orcina) IN: "Flex" carol@dell-01  
+10:50:56 (orcina) OUT: "Flex" bob@ws-bravo  
+10:51:56 (orcina) IN: "Flex" bob@ws-bravo  
+10:53:50 (orcina) OUT: "Flex" heidi@ws-hotel  
+10:54:56 (orcina) IN: "Flex" heidi@ws-hotel  
+11:17:33 (orcina) OUT: "Flex" grace@dell-03  
+11:27:11 (orcina) OUT: "Flex" carol@dell-01  
+11:27:11 (orcina) IN: "Flex" carol@dell-01  
+11:30:53 (orcina) OUT: "Flex" bob@ws-bravo  
+11:30:53 (orcina) IN: "Flex" bob@ws-bravo  
+11:46:32 (orcina) OUT: "Flex" bob@ws-bravo  
+11:48:58 (orcina) OUT: "Flex" frank@ws-foxtrot  
+11:48:58 (orcina) IN: "Flex" frank@ws-foxtrot  
+11:49:50 (orcina) IN: "Flex" heidi@ws-hotel  
+11:50:47 (orcina) OUT: "Flex" alice@ws-alpha  
+12:06:47 (orcina) IN: "Flex" alice@ws-alpha  
+12:22:57 (orcina) TIMESTAMP 9/19/2025
+12:39:20 (orcina) OUT: "Flex" grace@dell-03  
+12:46:05 (orcina) OUT: "Flex" grace@dell-03  
+12:46:05 (orcina) IN: "Flex" grace@dell-03  
+12:54:38 (orcina) OUT: "Flex" heidi@ws-hotel  
+12:54:38 (orcina) IN: "Flex" heidi@ws-hotel  
+13:07:20 (orcina) IN: "Flex" grace@dell-03  
+13:09:32 (orcina) IN: "Flex" bob@ws-bravo  
+13:11:20 (orcina) OUT: "Flex" dan@dell-02  
+13:17:54 (orcina) OUT: "Flex" dan@dell-02  
+13:17:54 (orcina) IN: "Flex" dan@dell-02  
+13:31:20 (orcina) IN: "Flex" dan@dell-02  
+14:19:27 (orcina) OUT: "Flex" dan@dell-02  
+14:24:18 (orcina) IN: "Flex" carol@dell-01  
+14:26:21 (orcina) OUT: "Flex" grace@dell-03  
+14:45:49 (orcina) OUT: "Flex" alice@ws-alpha  
+14:49:21 (orcina) IN: "Flex" grace@dell-03  
+14:57:42 (orcina) OUT: "Flex" dan@dell-02  
+14:57:42 (orcina) IN: "Flex" dan@dell-02  
+15:03:05 (orcina) OUT: "Flex" alice@ws-alpha  
+15:10:46 (orcina) OUT: "Flex" alice@ws-alpha  
+15:17:19 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:19:46 (orcina) IN: "Flex" alice@ws-alpha  
+15:24:37 (orcina) OUT: "Flex" frank@ws-foxtrot  
+15:30:46 (orcina) OUT: "Flex" dan@dell-02  
+15:40:38 (orcina) OUT: "Flex" carol@dell-01  
+15:40:38 (orcina) IN: "Flex" carol@dell-01  
+15:45:27 (orcina) IN: "Flex" dan@dell-02  
+15:55:58 (orcina) OUT: "Flex" alice@ws-alpha  
+15:56:19 (orcina) IN: "Flex" frank@ws-foxtrot  
+16:22:41 (orcina) OUT: "Flex" alice@ws-alpha  
+16:36:18 (orcina) OUT: "Flex" dan@dell-02  
+16:42:51 (orcina) OUT: "Flex" bob@ws-bravo  
+16:50:46 (orcina) IN: "Flex" dan@dell-02  
+16:53:12 (orcina) OUT: "Flex" frank@ws-foxtrot  
+16:55:12 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:14:05 (orcina) IN: "Flex" alice@ws-alpha  
+17:27:17 (orcina) OUT: "Flex" heidi@ws-hotel  
+17:27:17 (orcina) IN: "Flex" heidi@ws-hotel  
+17:30:51 (orcina) IN: "Flex" bob@ws-bravo  
+17:44:37 (orcina) IN: "Flex" frank@ws-foxtrot  
+17:57:54 (orcina) OUT: "Flex" dan@dell-02  
+17:57:54 (orcina) IN: "Flex" dan@dell-02  
+18:00:18 (orcina) IN: "Flex" dan@dell-02  
+18:13:01 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:22:57 (orcina) TIMESTAMP 9/19/2025
+18:29:48 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:29:58 (orcina) IN: "Flex" alice@ws-alpha  
+18:30:48 (orcina) IN: "Flex" frank@ws-foxtrot  
+18:30:58 (orcina) OUT: "Flex" frank@ws-foxtrot  
+18:30:58 (orcina) IN: "Flex" frank@ws-foxtrot  
+19:13:33 (orcina) IN: "Flex" grace@dell-03  
+19:33:01 (orcina) IN: "Flex" frank@ws-foxtrot  
+19:44:40 (orcina) OUT: "Flex" alice@ws-alpha  
+19:58:40 (orcina) IN: "Flex" alice@ws-alpha  
+20:40:36 (orcina) OUT: "Flex" dan@dell-02  
+21:01:40 (orcina) OUT: "Flex" bob@ws-bravo  
+21:02:40 (orcina) IN: "Flex" bob@ws-bravo  
+21:08:36 (orcina) IN: "Flex" dan@dell-02  
+22:17:49 (orcina) IN: "Flex" alice@ws-alpha  
+ 0:22:57 (orcina) TIMESTAMP 9/20/2025
+ 6:22:57 (orcina) TIMESTAMP 9/20/2025
+10:01:40 (orcina) IN: "Flex" erin@ws-echo  
+12:22:57 (orcina) TIMESTAMP 9/20/2025
+14:22:41 (orcina) OUT: "Flex" dan@dell-02  
+15:23:41 (orcina) IN: "Flex" dan@dell-02  
+18:22:57 (orcina) TIMESTAMP 9/20/2025
+20:49:04 (orcina) OUT: "Flex" bob@ws-bravo  
+20:50:04 (orcina) IN: "Flex" bob@ws-bravo  
+ 0:22:57 (orcina) TIMESTAMP 9/21/2025
+ 6:22:57 (orcina) TIMESTAMP 9/21/2025
+11:23:06 (orcina) OUT: "Flex" dan@dell-02  
+11:24:06 (orcina) IN: "Flex" dan@dell-02  
+12:22:57 (orcina) TIMESTAMP 9/21/2025
+12:32:55 (orcina) OUT: "Flex" bob@ws-bravo  
+13:51:55 (orcina) IN: "Flex" bob@ws-bravo  
+14:54:11 (orcina) OUT: "Flex" alice@ws-alpha  
+14:54:11 (orcina) IN: "Flex" alice@ws-alpha  
+15:21:59 (orcina) OUT: "Flex" dan@dell-02  
+15:36:03 (orcina) OUT: "Flex" bob@ws-bravo  
+15:36:03 (orcina) IN: "Flex" bob@ws-bravo  
+15:52:20 (orcina) OUT: "Flex" dan@dell-02  
+16:18:59 (orcina) IN: "Flex" dan@dell-02  
+18:22:57 (orcina) TIMESTAMP 9/21/2025
+18:39:20 (orcina) IN: "Flex" dan@dell-02  
+ 0:22:57 (orcina) TIMESTAMP 9/22/2025
+ 4:41:03 (orcina) OUT: "Flex" dan@dell-02  
+ 4:52:03 (orcina) OUT: "Flex" erin@ws-echo  
+ 6:22:57 (orcina) TIMESTAMP 9/22/2025
+ 8:11:21 (orcina) IN: "Flex" alice@ws-alpha  

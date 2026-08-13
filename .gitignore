@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# Vendor daemon logs, and everything generated from them, contain the real
+# usernames and machine names of whoever used the licences. Do not commit them.
+# ---------------------------------------------------------------------------
+*.log
+usage_data.json
+licence_capacity_report.html
+
+# The synthetic demo log is the one exception: every name in it is invented.
+!sample/sample_vendor.log
+
+# Regenerable from sample/sample_vendor.log, so not worth versioning.
+sample/sample_data.json
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini

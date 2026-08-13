@@ -1,0 +1,35 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # The README claims Python 3.8, so test that claim.
+          - { os: ubuntu-22.04, python-version: "3.8" }
+          - { os: ubuntu-latest, python-version: "3.12" }
+          # Licence servers are Windows, and their logs are CRLF.
+          - { os: windows-latest, python-version: "3.12" }
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Check the committed sample report is reproducible from its log
+        run: |
+          python analyse_flexnet.py sample/sample_vendor.log -o /tmp/s.json
+          python build_report.py -d /tmp/s.json -o /tmp/s.html
+        if: runner.os != 'Windows'
